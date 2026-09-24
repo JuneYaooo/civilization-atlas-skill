@@ -15,6 +15,8 @@ description: 运用比较历史、复杂系统和制度分析研究社会变化�
 - [复杂系统](references/complex-systems.md)：状态、反馈、主导约束、结构变化与观察过程。
 - [预测与决策](references/forecast-and-decision.md)：基线、信息截止、干预识别、自适应策略与复盘。
 - [周易转译](references/yijing.md)：文本、启发、规范目标与经验假设的区别。
+- [数据契约](references/data-contract.md)：采集设计、风险分母、动态单位与时点数据。
+- [系统设计](references/system-design.md)：持续研究架构、任务边界与升级验收。
 - [原始文献](references/sources.md)：方法来源及适用范围。
 
 普通事实查询按需检索即可。研究深度由问题、证据和决策后果决定，不按固定变量、历史对象或情景数量凑齐。
