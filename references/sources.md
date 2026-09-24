@@ -33,5 +33,8 @@
 | Salganik 等, Measuring predictability of life outcomes with scientific mass collaboration (2020) | 共同任务与简单基线 | [大学公开论文](https://www.pure.ed.ac.uk/ws/portalfiles/portal/142847984/1915006117.full.pdf)；单一研究总体的跨对象验证不能代表所有社会任务 |
 | Lundberg 等, The origins of unpredictability in life trajectory prediction tasks | 误差诊断与采集设计 | [工作论文](https://arxiv.org/abs/2310.12871)；不可约误差相对给定任务，保留版本；访谈不唯一识别机制 |
 | Hegre, Nygård, Landsverk, Can We Predict Armed Conflict? (2021) | 长期预测的后续检验 | [作者机构论文与复现入口](https://www.prio.org/publications/12592)；预测指标、单位、期限及发表时点须分别核对 |
+| ForecastBench 与后续方法更新 | 真正事前评价、任务难度与版本差异 | [会议论文](https://proceedings.iclr.cc/paper_files/paper/2025/file/ea74e45a229dac70b5b63b28d8934db6-Paper-Conference.pdf)、[方法更新](https://www.forecastbench.org/assets/pdfs/forecastbench_updated_methodology.pdf)、[当前变更记录](https://github.com/forecastingresearch/forecastbench/wiki/Changelog)；短期排名不证明长期、跨域或历史方法的增益 |
+| Collier, Understanding Process Tracing (2011), 2019 Addendum | 过程证据与竞争解释 | [作者大学版本](https://polisci.berkeley.edu/sites/default/files/people/u3827/2011%20Collier-Understanding%20Process%20Tracing%20with%20Addendum.pdf)；检验类别是启发式，诊断力依赖假设和证据形成过程 |
+| Pearl, Bareinboim, External Validity (2014) | 迁移的机制假设与测量需求 | [作者技术报告](https://ftp.cs.ucla.edu/pub/stat_ser/r400.pdf)；条件于结构及不变性假设，不能直接授权跨时代推断 |
 
 数据提供方的代码本也属于方法材料，接入前另行核对版本与许可：[Seshat](https://www.seshat-db.com/variable-hierarchy/)、[UCDP](https://ucdp.uu.se/downloads/)、[V-Dem 方法说明](https://www.v-dem.net/about/faq/)、[ALFRED 实时期间](https://fred.stlouisfed.org/docs/api/fred/realtime_period.html)、[EM-DAT 覆盖偏差](https://doc.emdat.be/docs/known-issues-and-limitations/specific-biases/)。这些入口不是已经接入的数据服务。
