@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+dist/
+.env
+.env.*
+*.pem
+*.key
+research/
+data/
+outputs/
+cases/

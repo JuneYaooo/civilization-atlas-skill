@@ -1,0 +1,4 @@
+interface:
+  display_name: "历史与复杂社会研究"
+  short_description: "结合历史机制、复杂系统与周易关系思维，研究趋势和决策条件"
+  default_prompt: "使用 $civilization-atlas，依据可核验历史与现实证据分析变化机制、未来路径及适用边界。"

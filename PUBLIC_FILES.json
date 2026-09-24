@@ -1,0 +1,22 @@
+{
+  "purpose": "Explicit pure-method release boundary; no research records or conversation artifacts",
+  "files": [
+    ".github/workflows/validate.yml",
+    ".gitignore",
+    "LICENSE",
+    "PUBLIC_FILES.json",
+    "README.md",
+    "SKILL.md",
+    "agents/openai.yaml",
+    "references/complex-systems.md",
+    "references/forecast-and-decision.md",
+    "references/history-and-evidence.md",
+    "references/kernel.md",
+    "references/recording.md",
+    "references/sources.md",
+    "references/yijing.md",
+    "scripts/casebook.py",
+    "scripts/check_distribution.py",
+    "scripts/install_skill.py"
+  ]
+}
