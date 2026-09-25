@@ -64,6 +64,11 @@ def check():
                 elif path.suffix == '.xlsx':
                     with zipfile.ZipFile(path) as archive:
                         text = '\n'.join(archive.read(n).decode('utf-8') for n in archive.namelist() if n.endswith('.xml'))
+                elif path.suffix == '.mp4':
+                    # Video content is manually reviewed; bind approval to exact bytes.
+                    if path.read_bytes()[4:8] != b'ftyp':
+                        problems.append(f'Invalid MP4 signature: {rel}')
+                    continue
                 elif path.suffix in ('.png', '.jpg', '.gif'):
                     # Screenshots require visual review; hashes bind that review to exact bytes.
                     signatures = {'.jpg': (b'\xff\xd8\xff',), '.png': (b'\x89PNG\r\n\x1a\n',), '.gif': (b'GIF87a', b'GIF89a')}

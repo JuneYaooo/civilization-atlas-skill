@@ -91,6 +91,8 @@ flowchart LR
 
 ![WorkBuddy 使用步骤](assets/workbuddy/walkthrough.gif)
 
+[观看约 15 秒的 WorkBuddy 结果浏览视频](assets/workbuddy/results-browsing.mp4)（真实窗口采样录制，无音频，展示运行完成后的指标与失败案例）。
+
 三条史料的记录 ID 与来源行号可复核；全量数值回放也与公开脚本结果一致。实测同时发现了参数调用和人口区间表述问题，详见[截图、复核记录与运行结果](demos/workbuddy/README.md)。
 
 ## 历史回放：能预测多准？
