@@ -1,0 +1,498 @@
+[
+  {
+    "id": "seal",
+    "title": "Late Uruk cylinder seal: ritual scene before a temple facade",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/art/collection/search/326721",
+    "accessed": "2026-09-22",
+    "access_method": "page_text",
+    "type": "primary_document_or_object"
+  },
+  {
+    "id": "uruk",
+    "title": "Uruk: The First City",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/it/essays/uruk-the-first-city",
+    "accessed": "2026-09-22",
+    "access_method": "page_text",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "writing",
+    "title": "The Origins of Writing",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/pt/essays/the-origins-of-writing",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "liangzhu",
+    "title": "Archaeological Ruins of Liangzhu City",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/1592",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "caral",
+    "title": "Sacred City of Caral-Supe: retrospective statement",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/document/152221",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "memphis",
+    "title": "Memphis and its Necropolis",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/86",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "mohenjo",
+    "title": "Archaeological Ruins of Mohenjo Daro",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/fr/list/138",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "mesopotamia",
+    "title": "Mesopotamia: Civilization Begins",
+    "publisher": "J. Paul Getty Museum",
+    "url": "https://www.getty.edu/art/exhibitions/mesopotamia/explore.html",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "china",
+    "title": "Explore by Dynasty",
+    "publisher": "Smithsonian National Museum of Asian Art",
+    "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "persia",
+    "title": "The Achaemenid Persian Empire (550–330 B.C.)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/de/essays/the-achaemenid-persian-empire-550-330-b-c",
+    "accessed": "2026-09-22",
+    "access_method": "page_text",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "lapita",
+    "title": "World Heritage Papers 34",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/documents/publi_paper_series_34_en.pdf",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "sanchi",
+    "title": "Buddhist Monuments at Sanchi",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/524",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "han",
+    "title": "Han Dynasty (206 B.C.–220 A.D.)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/TOAH/hd/hand/hd_hand.htm",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "augustus",
+    "title": "The Year One: Art of the Ancient World, East and West",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Year_One_Art_of_the_Ancient_World_East_and_West.pdf",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "aksum",
+    "title": "Aksum",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/15",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "teotihuacan",
+    "title": "Pre-Hispanic City of Teotihuacan",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/414",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "tang",
+    "title": "Tang Dynasty (618–907)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/it/essays/tang-dynasty-618-906",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "islam",
+    "title": "Islamic Jewelry in the Metropolitan Museum of Art",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Islamic_Jewelry_in_The_Metropolitan_Museum_of_Art.pdf",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "angkor",
+    "title": "Angkor",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/668",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "diamond",
+    "title": "Printed copy of the Diamond Sutra, Or.8210/P.2",
+    "publisher": "British Library / International Dunhuang Programme",
+    "url": "https://idp.bl.uk/collection/51FDAEAFB4A24E2E9981692A98130BC8/",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "primary_document_or_object"
+  },
+  {
+    "id": "song",
+    "title": "China, 1000–1400 A.D.",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/07/eac.html",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "zimbabwe",
+    "title": "Great Zimbabwe National Monument",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/fr/list/364",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "magna",
+    "title": "Magna Carta",
+    "publisher": "UK Parliament",
+    "url": "https://www.parliament.uk/magnacarta/",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "kilwa",
+    "title": "Ruins of Kilwa Kisiwani and Ruins of Songo Mnara",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/144",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "gutenberg",
+    "title": "The Gutenberg Bible: A Resource Guide",
+    "publisher": "Library of Congress",
+    "url": "https://guides.loc.gov/gutenberg",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "navigation",
+    "title": "Research guide Q1: Exploration and discovery",
+    "publisher": "Royal Museums Greenwich",
+    "url": "https://www.rmg.co.uk/collections/research-guides/research-guide-q1-exploration-discovery",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "royalsociety",
+    "title": "History of the Royal Society",
+    "publisher": "The Royal Society",
+    "url": "https://royalsociety.org/about-us/who-we-are/history/",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "newton",
+    "title": "Principia",
+    "publisher": "The Royal Society",
+    "url": "https://royalsociety.org/blog/2014/07/principia/",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "steam",
+    "title": "Steaming Through The Centuries",
+    "publisher": "Science Museum",
+    "url": "https://blog.sciencemuseum.org.uk/steaming-through-the-centuries/",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "watt",
+    "title": "James Watt and the separate condenser",
+    "publisher": "Science Museum",
+    "url": "https://blog.sciencemuseum.org.uk/james-watt-and-the-separate-condenser/",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "independence",
+    "title": "Declaration of Independence: Primary Documents",
+    "publisher": "Library of Congress",
+    "url": "https://guides.loc.gov/declaration-of-independence",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "australia",
+    "title": "Australia’s Defining Moments Digital Classroom",
+    "publisher": "National Museum of Australia",
+    "url": "https://digital-classroom.nma.gov.au/",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "darwin",
+    "title": "On the Origin of Species",
+    "publisher": "University of Cambridge / Darwin Correspondence Project",
+    "url": "https://www.darwinproject.ac.uk/people/about-darwin/origin-species",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "federation",
+    "title": "Federation",
+    "publisher": "National Museum of Australia",
+    "url": "https://www.nma.gov.au/defining-moments/resources/federation",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "ww1",
+    "title": "First World War",
+    "publisher": "National Army Museum",
+    "url": "https://www.nam.ac.uk/explore/first-world-war",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "penicillin",
+    "title": "Alexander Fleming: Nobel Lecture",
+    "publisher": "Nobel Foundation",
+    "url": "https://www.nobelprize.org/uploads/2018/06/fleming-lecture.pdf",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "primary_document_or_object"
+  },
+  {
+    "id": "poland",
+    "title": "Government evacuation scheme",
+    "publisher": "The National Archives (UK)",
+    "url": "https://www.nationalarchives.gov.uk/education/resources/home-front-1939-1945-part-one/government-evacuation-scheme/",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "ww2",
+    "title": "Women, War and Peace: timeline",
+    "publisher": "Imperial War Museums",
+    "url": "https://www.iwm.org.uk/sites/default/files/fies/2021-07/timeline_women_war_peace.pdf",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "bretton",
+    "title": "Money Matters: Conflict and Cooperation",
+    "publisher": "International Monetary Fund",
+    "url": "https://www.imf.org/external/np/exr/center/mm/eng/cc_sub_4.htm",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "un",
+    "title": "History of the United Nations",
+    "publisher": "United Nations",
+    "url": "https://www.un.org/en/about-us/history-of-the-un",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference",
+    "access_note": "搜索摘录可读；2026-09-22尝试读取全文返回403，需后续复核。"
+  },
+  {
+    "id": "partition",
+    "title": "Independence and Partition, 1947",
+    "publisher": "National Army Museum",
+    "url": "https://www.nam.ac.uk/explore/independence-and-partition-1947",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "udhr",
+    "title": "History of the Declaration",
+    "publisher": "United Nations",
+    "url": "https://www.un.org/en/about-us/udhr/history-of-the-declaration",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "prc",
+    "title": "新中国70年教育事业的辉煌历程",
+    "publisher": "中华人民共和国教育部",
+    "url": "https://www.moe.gov.cn/jyb_xwfb/moe_2082/zl_2019n/2019_zl69/201909/t20190916_399327.html",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "sputnik",
+    "title": "Dawn of the Space Age",
+    "publisher": "NASA",
+    "url": "https://www.nasa.gov/history/dawn-of-the-space-age/",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "moon",
+    "title": "History of Lunar Exploration",
+    "publisher": "NASA",
+    "url": "https://science.nasa.gov/solar-system/moon/history-of-lunar-exploration/",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "smallpox",
+    "title": "History of smallpox vaccination",
+    "publisher": "World Health Organization",
+    "url": "https://www.who.int/news-room/spotlight/history-of-vaccination/history-of-smallpox-vaccination",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "web",
+    "title": "The birth of the Web",
+    "publisher": "CERN",
+    "url": "https://home.cern/science/computing/the-birth-of-the-web/",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "wto",
+    "title": "The history of the multilateral trading system",
+    "publisher": "World Trade Organization",
+    "url": "https://www.wto.org/english/thewto_e/history_e/history_e.htm",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "paris",
+    "title": "The Paris Agreement",
+    "publisher": "UNFCCC",
+    "url": "https://www.unfccc.int/process-and-meetings/the-paris-agreement",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "covid",
+    "title": "Coronavirus disease 2019: Situation Report 51",
+    "publisher": "World Health Organization",
+    "url": "https://www.who.int/docs/default-source/coronaviruse/situation-REPORTS/20200311-SITREP-51-COVID-19.PDF",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "primary_document_or_object"
+  },
+  {
+    "id": "pandemic",
+    "title": "World Health Assembly adopts historic Pandemic Agreement",
+    "publisher": "World Health Organization",
+    "url": "https://www.who.int/news/item/20-05-2025-world-health-assembly-adopts-historic-pandemic-agreement-to-make-the-world-more-equitable-and-safer-from-future-pandemics",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "nato-founding",
+    "title": "Founding treaty",
+    "publisher": "NATO",
+    "url": "https://www.nato.int/en/about-us/organization/founding-treaty",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "asean-founding",
+    "title": "The founding of ASEAN",
+    "publisher": "ASEAN",
+    "url": "https://asean.org/the-founding-of-asean/",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "eu-maastricht",
+    "title": "How EU treaties shaped the Council",
+    "publisher": "Council of the European Union",
+    "url": "https://www.consilium.europa.eu/en/policies/how-eu-treaties-shaped-the-council-of-the-eu-and-the-european-council/",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  },
+  {
+    "id": "au-launch",
+    "title": "About the African Union",
+    "publisher": "African Union",
+    "url": "https://www.au.int/en/overview",
+    "accessed": "2026-09-22",
+    "access_method": "web_search_excerpt",
+    "type": "institutional_reference"
+  }
+]

@@ -12,7 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 NAME = 'civilization-atlas'
 PAYLOAD = ('SKILL.md', 'agents/openai.yaml', 'references', 'scripts/casebook.py',
-           'scripts/forecast_registry.py', 'LICENSE')
+           'scripts/forecast_registry.py', 'knowledge-base', 'LICENSE')
 
 
 def copy_payload(source, target):
@@ -21,6 +21,8 @@ def copy_payload(source, target):
         candidate = source / relative
         entries = [candidate] + (list(candidate.rglob('*')) if candidate.is_dir() else [])
         for entry in entries:
+            if "__pycache__" in entry.relative_to(source).parts or entry.name == ".DS_Store":
+                continue
             if entry.is_symlink():
                 raise ValueError('Refusing symlink in payload')
             if entry.is_file() and entry.relative_to(source).as_posix() not in allowed:

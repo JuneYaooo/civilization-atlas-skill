@@ -1,0 +1,3563 @@
+[
+  {
+    "id": "uruk-seal",
+    "title": "晚期乌鲁克滚筒印章实物",
+    "date": {
+      "start": -3500,
+      "end": -3100,
+      "kind": "uncertain_window",
+      "precision": "range",
+      "note": "这是实物的断代范围，不是印章发明或该仪式持续的年份。"
+    },
+    "categories": [
+      "culture",
+      "economy"
+    ],
+    "regions": [
+      "west_asia"
+    ],
+    "summary": "馆藏滚筒印章呈现神庙前的仪式场景，年代被归于晚期乌鲁克。",
+    "significance": "为早期图像表达与印章实践提供实物证据。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "seal",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "馆藏滚筒印章呈现神庙前的仪式场景，年代被归于晚期乌鲁克。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "uruk",
+        "role": "context",
+        "source_id": "seal",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "IQ"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "liangzhu-state",
+    "title": "良渚区域性早期国家与水利体系",
+    "date": {
+      "start": -3300,
+      "end": -2300,
+      "kind": "duration",
+      "precision": "range",
+      "note": "遗址总体年代，不表示全部工程同时开工。"
+    },
+    "categories": [
+      "cities",
+      "government",
+      "religion"
+    ],
+    "regions": [
+      "east_asia"
+    ],
+    "summary": "良渚遗址反映以稻作农业为基础、具有社会分层和共同信仰的早期区域国家。",
+    "significance": "展示长江下游早期国家、城市规划与大型水利组织能力。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "liangzhu",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "良渚遗址反映以稻作农业为基础、具有社会分层和共同信仰的早期区域国家。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "liangzhu",
+        "role": "context",
+        "source_id": "liangzhu",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "CN"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "proto-writing",
+    "title": "美索不达米亚早期楔形文字材料",
+    "date": {
+      "start": -3200,
+      "end": -3000,
+      "kind": "uncertain_window",
+      "precision": "range",
+      "note": "早期材料的年代窗口，不代表某一年由某个人发明。"
+    },
+    "categories": [
+      "science",
+      "culture",
+      "economy"
+    ],
+    "regions": [
+      "west_asia"
+    ],
+    "summary": "这一时期的早期文字材料与记账、物资管理有关。",
+    "significance": "文字使跨时间的信息保存和复杂组织管理成为可能。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "writing",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "这一时期的早期文字材料与记账、物资管理有关。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "mesopotamian-cities",
+        "role": "context",
+        "source_id": "writing",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "IQ"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "uruk-city",
+    "title": "乌鲁克成为大型城市中心",
+    "date": {
+      "start": -3200,
+      "end": -3200,
+      "kind": "point",
+      "precision": "approximate",
+      "note": "采用来源的约数，不能当作建城的确切年份。"
+    },
+    "categories": [
+      "cities",
+      "government",
+      "economy"
+    ],
+    "regions": [
+      "west_asia"
+    ],
+    "summary": "约公元前3200年，乌鲁克已是拥有大型泥砖建筑的城市中心。",
+    "significance": "为城市化与复杂行政组织提供重要案例。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "uruk",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "约公元前3200年，乌鲁克已是拥有大型泥砖建筑的城市中心。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "uruk",
+        "role": "context",
+        "source_id": "uruk",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "IQ"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "caral-city",
+    "title": "卡拉尔—苏佩城市文明发展",
+    "date": {
+      "start": -3000,
+      "end": -1800,
+      "kind": "duration",
+      "precision": "range",
+      "note": "采用UNESCO陈述中的遗址发展期；其他研究可能使用更窄区间。"
+    },
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "regions": [
+      "south_america"
+    ],
+    "summary": "遗址测年把卡拉尔的发展置于公元前3000至1800年。",
+    "significance": "说明安第斯地区也形成了早期城市与公共建筑传统。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "caral",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "遗址测年把卡拉尔的发展置于公元前3000至1800年。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "caral",
+        "role": "context",
+        "source_id": "caral",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "PE"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "memphis-tradition",
+    "title": "孟斐斯传统建城年代",
+    "date": {
+      "start": -3000,
+      "end": -3000,
+      "kind": "point",
+      "precision": "approximate",
+      "note": "来源明确称传统说法，不视为已由考古确定的建城年。"
+    },
+    "categories": [
+      "cities",
+      "government"
+    ],
+    "regions": [
+      "africa"
+    ],
+    "summary": "传统叙述把孟斐斯作为统一埃及都城的建立置于约公元前3000年。",
+    "significance": "连接尼罗河流域国家形成与城市行政中心的研究。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "memphis",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "传统叙述把孟斐斯作为统一埃及都城的建立置于约公元前3000年。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "ancient-egypt",
+        "role": "context",
+        "source_id": "memphis",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "EG"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "mohenjo-city",
+    "title": "摩亨佐—达罗的早期城市建设",
+    "date": {
+      "start": -3000,
+      "end": -2001,
+      "kind": "duration",
+      "precision": "century",
+      "note": "只采用来源给出的第三千纪范围，不推定精确开工年或延续满一千年。"
+    },
+    "categories": [
+      "cities",
+      "science"
+    ],
+    "regions": [
+      "south_asia"
+    ],
+    "summary": "印度河流域的摩亨佐—达罗保存公元前第三千纪的大型砖构城市遗址。",
+    "significance": "展示南亚早期城市规划和建设能力。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "mohenjo",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "印度河流域的摩亨佐—达罗保存公元前第三千纪的大型砖构城市遗址。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "indus",
+        "role": "context",
+        "source_id": "mohenjo",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "PK"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "akkad",
+    "title": "萨尔贡建立阿卡德帝国",
+    "date": {
+      "start": -2340,
+      "end": -2340,
+      "kind": "point",
+      "precision": "approximate",
+      "note": "古代近东纪年方案存在差异，此处采用Getty的约数。"
+    },
+    "categories": [
+      "government",
+      "war"
+    ],
+    "regions": [
+      "west_asia"
+    ],
+    "summary": "约公元前2340年，萨尔贡建立统合多个城邦的阿卡德帝国。",
+    "significance": "提供从城邦格局向更大政治统合转变的案例。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "mesopotamia",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "约公元前2340年，萨尔贡建立统合多个城邦的阿卡德帝国。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "akkad",
+        "role": "context",
+        "source_id": "mesopotamia",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "IQ"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "ur-third",
+    "title": "乌尔第三王朝",
+    "date": {
+      "start": -2112,
+      "end": -2004,
+      "kind": "duration",
+      "precision": "range",
+      "note": "采用来源列出的王朝区间，不转换为逐年独立事件。"
+    },
+    "categories": [
+      "government",
+      "economy"
+    ],
+    "regions": [
+      "west_asia"
+    ],
+    "summary": "乌尔第三王朝是美索不达米亚再度形成强大统治的阶段。",
+    "significance": "为研究早期国家的组织与周期性重组提供时间框架。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "mesopotamia",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "乌尔第三王朝是美索不达米亚再度形成强大统治的阶段。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "ur-iii",
+        "role": "context",
+        "source_id": "mesopotamia",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "IQ"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "hammurabi-reign",
+    "title": "汉谟拉比统治巴比伦",
+    "date": {
+      "start": -1792,
+      "end": -1750,
+      "kind": "duration",
+      "precision": "range",
+      "note": "此记录是统治期，不把法典制作强行定在其中某一年。"
+    },
+    "categories": [
+      "government"
+    ],
+    "regions": [
+      "west_asia"
+    ],
+    "summary": "来源将汉谟拉比统治期列为公元前1792至1750年。",
+    "significance": "是研究巴比伦国家发展及其制度传统的重要时段。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "mesopotamia",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "来源将汉谟拉比统治期列为公元前1792至1750年。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "old-babylon",
+        "role": "context",
+        "source_id": "mesopotamia",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "IQ"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "shang",
+    "title": "商代的约定起始年代",
+    "date": {
+      "start": -1600,
+      "end": -1600,
+      "kind": "point",
+      "precision": "approximate",
+      "note": "属于分期约数；不把王朝起点等同于全部文化特征同时出现。"
+    },
+    "categories": [
+      "government",
+      "culture"
+    ],
+    "regions": [
+      "east_asia"
+    ],
+    "summary": "史密森尼朝代索引把商代起点列为约公元前1600年。",
+    "significance": "为东亚青铜时代国家与礼制研究建立时间锚点。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "china",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "史密森尼朝代索引把商代起点列为约公元前1600年。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "shang",
+        "role": "context",
+        "source_id": "china",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "CN"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "lapita-expansion",
+    "title": "拉皮塔文化相关的太平洋迁徙扩展",
+    "date": {
+      "start": -1000,
+      "end": -1000,
+      "kind": "point",
+      "precision": "approximate",
+      "note": "约三千年前仅粗略转写为约公元前1000年；不是按2026年精算，也不是考古BP测年值。"
+    },
+    "categories": [
+      "exploration",
+      "culture"
+    ],
+    "regions": [
+      "oceania"
+    ],
+    "summary": "UNESCO资料以约三千年前概括拉皮塔人群跨太平洋岛链的迁徙扩展。",
+    "significance": "纳入海洋航行与岛屿定居的历史进程。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "lapita",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "UNESCO资料以约三千年前概括拉皮塔人群跨太平洋岛链的迁徙扩展。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "lapita",
+        "role": "context",
+        "source_id": "lapita",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [],
+      "scope": "not_mapped",
+      "note": "跨区域、太空或暂未细化地点；空数组不表示事件没有地理位置。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "persian-rise",
+    "title": "居鲁士击败米底，波斯帝国扩张",
+    "date": {
+      "start": -550,
+      "end": -550,
+      "kind": "point",
+      "precision": "year",
+      "note": "事件年份，不是居鲁士开始统治波斯的年份。"
+    },
+    "categories": [
+      "government",
+      "war"
+    ],
+    "regions": [
+      "west_asia"
+    ],
+    "summary": "居鲁士在公元前550年击败米底王，改变西亚政治格局。",
+    "significance": "成为阿契美尼德帝国形成的关键节点。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "persia",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "居鲁士在公元前550年击败米底王，改变西亚政治格局。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "achaemenid",
+        "role": "context",
+        "source_id": "persia",
+        "attribution": "editorial_mapping"
+      },
+      {
+        "entity_id": "media",
+        "role": "context",
+        "source_id": "persia",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "IR"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "babylon-captured",
+    "title": "居鲁士征服巴比伦",
+    "date": {
+      "start": -539,
+      "end": -539,
+      "kind": "point",
+      "precision": "year",
+      "note": "来源明确列出公元前539年。"
+    },
+    "categories": [
+      "war",
+      "government"
+    ],
+    "regions": [
+      "west_asia"
+    ],
+    "summary": "波斯军队击败巴比伦军队，居鲁士进入巴比伦。",
+    "significance": "美索不达米亚被纳入波斯统治。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "persia",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "波斯军队击败巴比伦军队，居鲁士进入巴比伦。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "achaemenid",
+        "role": "context",
+        "source_id": "persia",
+        "attribution": "editorial_mapping"
+      },
+      {
+        "entity_id": "neo-babylon",
+        "role": "context",
+        "source_id": "persia",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "IQ"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "egypt-persian",
+    "title": "波斯征服埃及",
+    "date": {
+      "start": -525,
+      "end": -525,
+      "kind": "point",
+      "precision": "year",
+      "note": "采用来源年份。"
+    },
+    "categories": [
+      "war",
+      "government"
+    ],
+    "regions": [
+      "africa",
+      "west_asia"
+    ],
+    "summary": "冈比西斯击败埃及军队并攻下孟斐斯。",
+    "significance": "扩大了波斯帝国在东北非的统治。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "persia",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "冈比西斯击败埃及军队并攻下孟斐斯。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "achaemenid",
+        "role": "context",
+        "source_id": "persia",
+        "attribution": "editorial_mapping"
+      },
+      {
+        "entity_id": "ancient-egypt",
+        "role": "context",
+        "source_id": "persia",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "EG"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "marathon",
+    "title": "马拉松战役",
+    "date": {
+      "start": -490,
+      "end": -490,
+      "kind": "point",
+      "precision": "year",
+      "note": "采用来源年份。"
+    },
+    "categories": [
+      "war"
+    ],
+    "regions": [
+      "europe",
+      "west_asia"
+    ],
+    "summary": "波斯对希腊本土的进攻在马拉松被击退。",
+    "significance": "成为希波战争的重要节点。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "persia",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "波斯对希腊本土的进攻在马拉松被击退。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "achaemenid",
+        "role": "context",
+        "source_id": "persia",
+        "attribution": "editorial_mapping"
+      },
+      {
+        "entity_id": "athens",
+        "role": "context",
+        "source_id": "persia",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "GR"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "achaemenid-end",
+    "title": "阿契美尼德王朝覆灭",
+    "date": {
+      "start": -330,
+      "end": -330,
+      "kind": "point",
+      "precision": "year",
+      "note": "采用来源王朝终点；不表示此年所有地方抵抗结束。"
+    },
+    "categories": [
+      "war",
+      "government"
+    ],
+    "regions": [
+      "west_asia",
+      "europe"
+    ],
+    "summary": "大流士三世身亡，亚历山大取得波斯帝国的统治主张。",
+    "significance": "改变西亚与东地中海的政治联系。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "persia",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "大流士三世身亡，亚历山大取得波斯帝国的统治主张。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "achaemenid",
+        "role": "context",
+        "source_id": "persia",
+        "attribution": "editorial_mapping"
+      },
+      {
+        "entity_id": "macedon",
+        "role": "context",
+        "source_id": "persia",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [],
+      "scope": "not_mapped",
+      "note": "跨区域、太空或暂未细化地点；空数组不表示事件没有地理位置。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "sanchi-early",
+    "title": "桑奇早期佛教纪念建筑",
+    "date": {
+      "start": -300,
+      "end": -201,
+      "kind": "uncertain_window",
+      "precision": "century",
+      "note": "来源精度为公元前3世纪，不指定某一年。"
+    },
+    "categories": [
+      "religion",
+      "cities",
+      "culture"
+    ],
+    "regions": [
+      "south_asia"
+    ],
+    "summary": "桑奇最早的纪念建筑与阿育王时代的佛教赞助有关。",
+    "significance": "提供佛教传播与纪念性建筑传统的重要实物线索。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "sanchi",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "桑奇最早的纪念建筑与阿育王时代的佛教赞助有关。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "maurya",
+        "role": "context",
+        "source_id": "sanchi",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "IN"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "qin",
+    "title": "秦朝时间框架开始",
+    "date": {
+      "start": -221,
+      "end": -221,
+      "kind": "point",
+      "precision": "year",
+      "note": "本条只由朝代索引支撑，不附加未单独核实的制度细节。"
+    },
+    "categories": [
+      "government"
+    ],
+    "regions": [
+      "east_asia"
+    ],
+    "summary": "史密森尼朝代索引以公元前221年作为秦朝起点。",
+    "significance": "为统一帝国时期的中国历史建立核心时间锚点。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "china",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "史密森尼朝代索引以公元前221年作为秦朝起点。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "qin",
+        "role": "context",
+        "source_id": "china",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "CN"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "han-start",
+    "title": "汉代的通行分期起点",
+    "date": {
+      "start": -206,
+      "end": -206,
+      "kind": "point",
+      "precision": "year",
+      "note": "公元前206年是分期起点，不能与刘邦公元前202年称帝混同。"
+    },
+    "categories": [
+      "government"
+    ],
+    "regions": [
+      "east_asia"
+    ],
+    "summary": "大都会博物馆把西汉分期列为公元前206年至公元9年。",
+    "significance": "为汉代制度与文化发展提供时间框架。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "han",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "大都会博物馆把西汉分期列为公元前206年至公元9年。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "han",
+        "role": "context",
+        "source_id": "han",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "CN"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "augustus-title",
+    "title": "屋大维获奥古斯都称号",
+    "date": {
+      "start": -27,
+      "end": -27,
+      "kind": "point",
+      "precision": "year",
+      "note": "来源正文明确列出公元前27年。"
+    },
+    "categories": [
+      "government"
+    ],
+    "regions": [
+      "europe"
+    ],
+    "summary": "罗马元老院授予屋大维奥古斯都称号。",
+    "significance": "成为罗马元首制形成的重要标志。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "augustus",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "罗马元老院授予屋大维奥古斯都称号。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "rome",
+        "role": "context",
+        "source_id": "augustus",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "IT"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "aksum-period",
+    "title": "阿克苏姆王国的发展时期",
+    "date": {
+      "start": 1,
+      "end": 800,
+      "kind": "duration",
+      "precision": "century",
+      "note": "世纪边界只用于检索，不是确切建国与灭亡日期。"
+    },
+    "categories": [
+      "government",
+      "cities"
+    ],
+    "regions": [
+      "africa"
+    ],
+    "summary": "UNESCO将古代阿克苏姆王国的重要时期概括为公元1至8世纪。",
+    "significance": "补入非洲之角的国家与城市发展。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "aksum",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "UNESCO将古代阿克苏姆王国的重要时期概括为公元1至8世纪。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "aksum",
+        "role": "context",
+        "source_id": "aksum",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "ET"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "teotihuacan-growth",
+    "title": "特奥蒂瓦坎发展为美洲大城市",
+    "date": {
+      "start": 1,
+      "end": 700,
+      "kind": "duration",
+      "precision": "century",
+      "note": "世纪级过程，不把公元1年当作建城年。"
+    },
+    "categories": [
+      "cities",
+      "culture"
+    ],
+    "regions": [
+      "north_america"
+    ],
+    "summary": "公元1至7世纪，特奥蒂瓦坎发展为美洲重要大型城市。",
+    "significance": "展示中美洲城市组织和区域文化影响。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "teotihuacan",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "公元1至7世纪，特奥蒂瓦坎发展为美洲重要大型城市。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "teotihuacan",
+        "role": "context",
+        "source_id": "teotihuacan",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "MX"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "eastern-han",
+    "title": "东汉分期开始",
+    "date": {
+      "start": 25,
+      "end": 25,
+      "kind": "point",
+      "precision": "year",
+      "note": "采用来源分期。"
+    },
+    "categories": [
+      "government"
+    ],
+    "regions": [
+      "east_asia"
+    ],
+    "summary": "大都会博物馆把东汉的起始年份列为公元25年。",
+    "significance": "标示汉代政治格局重新建立的阶段。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "han",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "大都会博物馆把东汉的起始年份列为公元25年。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "han",
+        "role": "context",
+        "source_id": "han",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "CN"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "han-end",
+    "title": "汉代结束",
+    "date": {
+      "start": 220,
+      "end": 220,
+      "kind": "point",
+      "precision": "year",
+      "note": "不将后续各政权建立合并到这一年。"
+    },
+    "categories": [
+      "government"
+    ],
+    "regions": [
+      "east_asia"
+    ],
+    "summary": "大都会博物馆把汉代终点列为公元220年。",
+    "significance": "为帝国分裂时期的研究提供分界。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "han",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "大都会博物馆把汉代终点列为公元220年。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "han",
+        "role": "context",
+        "source_id": "han",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "CN"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "tang-start",
+    "title": "唐朝建立",
+    "date": {
+      "start": 618,
+      "end": 618,
+      "kind": "point",
+      "precision": "year",
+      "note": "采用文章标题及分期。"
+    },
+    "categories": [
+      "government",
+      "culture"
+    ],
+    "regions": [
+      "east_asia"
+    ],
+    "summary": "唐代的通行起始年份为618年。",
+    "significance": "为东亚政治与文化交流的重要时期建立锚点。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "tang",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "唐代的通行起始年份为618年。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "tang",
+        "role": "context",
+        "source_id": "tang",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "CN"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "hijra",
+    "title": "穆罕默德迁徙",
+    "date": {
+      "start": 622,
+      "end": 622,
+      "kind": "point",
+      "precision": "year",
+      "note": "采用来源年表；不将宗教起源简化为单一日期。"
+    },
+    "categories": [
+      "religion",
+      "government"
+    ],
+    "regions": [
+      "west_asia"
+    ],
+    "summary": "穆罕默德离开麦加的迁徙事件发生于622年。",
+    "significance": "是伊斯兰历史与纪年的核心时间节点。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "islam",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "穆罕默德离开麦加的迁徙事件发生于622年。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "early-muslims",
+        "role": "context",
+        "source_id": "islam",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "SA"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "umayyad-start",
+    "title": "倭马亚王朝开始",
+    "date": {
+      "start": 661,
+      "end": 661,
+      "kind": "point",
+      "precision": "year",
+      "note": "采用来源年表。"
+    },
+    "categories": [
+      "government",
+      "religion"
+    ],
+    "regions": [
+      "west_asia"
+    ],
+    "summary": "来源年表将倭马亚哈里发统治期起点列为661年。",
+    "significance": "标示早期伊斯兰政治秩序的一次转变。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "islam",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "来源年表将倭马亚哈里发统治期起点列为661年。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "umayyad",
+        "role": "context",
+        "source_id": "islam",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "SY"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "umayyad-end",
+    "title": "大马士革倭马亚统治结束",
+    "date": {
+      "start": 750,
+      "end": 750,
+      "kind": "point",
+      "precision": "year",
+      "note": "不表示伊比利亚后来的倭马亚政权也在此年结束。"
+    },
+    "categories": [
+      "government",
+      "religion"
+    ],
+    "regions": [
+      "west_asia"
+    ],
+    "summary": "来源列出的倭马亚哈里发阶段止于750年。",
+    "significance": "为西亚伊斯兰王朝更替提供节点。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "islam",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "来源列出的倭马亚哈里发阶段止于750年。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "umayyad",
+        "role": "context",
+        "source_id": "islam",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "SY"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "angkor-period",
+    "title": "吴哥都城群与高棉建筑发展",
+    "date": {
+      "start": 801,
+      "end": 1500,
+      "kind": "duration",
+      "precision": "century",
+      "note": "整个遗址群的世纪范围，不等同于吴哥窟单体建设期。"
+    },
+    "categories": [
+      "cities",
+      "religion",
+      "culture"
+    ],
+    "regions": [
+      "southeast_asia"
+    ],
+    "summary": "吴哥遗址保存9至15世纪高棉帝国不同都城的遗迹。",
+    "significance": "展示东南亚城市、宗教建筑与工程传统。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "angkor",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "吴哥遗址保存9至15世纪高棉帝国不同都城的遗迹。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "khmer",
+        "role": "context",
+        "source_id": "angkor",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "KH"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "diamond-sutra",
+    "title": "现存868年雕版《金刚经》",
+    "date": {
+      "start": 868,
+      "end": 868,
+      "kind": "point",
+      "precision": "year",
+      "note": "这是现存印本的纪年，不是印刷术发明年。"
+    },
+    "categories": [
+      "culture",
+      "science",
+      "religion"
+    ],
+    "regions": [
+      "east_asia"
+    ],
+    "summary": "大英图书馆藏《金刚经》印本带有868年纪年。",
+    "significance": "为中国雕版印刷与知识传播提供明确年代的实物。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "diamond",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "大英图书馆藏《金刚经》印本带有868年纪年。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "tang",
+        "role": "context",
+        "source_id": "diamond",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "CN"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "song-start",
+    "title": "北宋建立",
+    "date": {
+      "start": 960,
+      "end": 960,
+      "kind": "point",
+      "precision": "year",
+      "note": "具体技术与商业成就需要另立事件，不能全部归入960年。"
+    },
+    "categories": [
+      "government",
+      "culture"
+    ],
+    "regions": [
+      "east_asia"
+    ],
+    "summary": "大都会博物馆的时间轴将北宋起点列为960年。",
+    "significance": "为宋代城市、知识与经济发展建立时间框架。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "song",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "大都会博物馆的时间轴将北宋起点列为960年。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "song",
+        "role": "context",
+        "source_id": "song",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "CN"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "great-zimbabwe",
+    "title": "大津巴布韦城市与石构建筑发展",
+    "date": {
+      "start": 1001,
+      "end": 1500,
+      "kind": "duration",
+      "precision": "century",
+      "note": "世纪级发展阶段，不是确切建城与弃城日期。"
+    },
+    "categories": [
+      "cities",
+      "culture",
+      "government"
+    ],
+    "regions": [
+      "africa"
+    ],
+    "summary": "大津巴布韦遗址反映11至15世纪绍纳社会的城市与建筑传统。",
+    "significance": "补入南部非洲自主的国家和工程发展。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "zimbabwe",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "大津巴布韦遗址反映11至15世纪绍纳社会的城市与建筑传统。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "zimbabwe",
+        "role": "context",
+        "source_id": "zimbabwe",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "ZW"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "kilwa-trade",
+    "title": "基尔瓦参与印度洋跨区域贸易",
+    "date": {
+      "start": 1201,
+      "end": 1600,
+      "kind": "duration",
+      "precision": "century",
+      "note": "来源同时把繁荣顶峰置于13至14世纪；此区间记录较广的贸易阶段。"
+    },
+    "categories": [
+      "economy",
+      "exploration"
+    ],
+    "regions": [
+      "africa"
+    ],
+    "summary": "13至16世纪，基尔瓦商人交易黄金、陶瓷等商品。",
+    "significance": "体现东非在印度洋贸易网络中的重要地位。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "kilwa",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "13至16世纪，基尔瓦商人交易黄金、陶瓷等商品。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "kilwa",
+        "role": "context",
+        "source_id": "kilwa",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "TZ"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "magna-carta",
+    "title": "英格兰颁布《大宪章》",
+    "date": {
+      "start": 1215,
+      "end": 1215,
+      "kind": "point",
+      "precision": "year",
+      "note": "不将它描述为当时已实现普遍民主或平等。"
+    },
+    "categories": [
+      "government"
+    ],
+    "regions": [
+      "europe"
+    ],
+    "summary": "约翰王在1215年颁布《大宪章》。",
+    "significance": "成为英格兰限制王权及后来宪政讨论的重要文本。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "magna",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "约翰王在1215年颁布《大宪章》。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "england",
+        "role": "context",
+        "source_id": "magna",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "GB"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "gutenberg-bible",
+    "title": "古腾堡《圣经》印制",
+    "date": {
+      "start": 1454,
+      "end": 1455,
+      "kind": "uncertain_window",
+      "precision": "range",
+      "note": "国会图书馆给出1454/1455；不是世界范围活字印刷的起源。"
+    },
+    "categories": [
+      "science",
+      "culture"
+    ],
+    "regions": [
+      "europe"
+    ],
+    "summary": "古腾堡与富斯特在美因茨印制大开本活字《圣经》。",
+    "significance": "是欧洲活字印刷与书籍生产的重要节点。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "gutenberg",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "古腾堡与富斯特在美因茨印制大开本活字《圣经》。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "hre",
+        "role": "context",
+        "source_id": "gutenberg",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "DE"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "da-gama",
+    "title": "达伽马海路抵达印度",
+    "date": {
+      "start": 1498,
+      "end": 1498,
+      "kind": "point",
+      "precision": "year",
+      "note": "不是欧洲人发现一个此前无人居住或没有贸易的地区。"
+    },
+    "categories": [
+      "exploration",
+      "economy"
+    ],
+    "regions": [
+      "europe",
+      "south_asia"
+    ],
+    "summary": "达伽马于1498年抵达印度。",
+    "significance": "连接欧洲绕非洲航线与已有的印度洋贸易体系。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "navigation",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "达伽马于1498年抵达印度。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "portugal-kingdom",
+        "role": "context",
+        "source_id": "navigation",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "IN"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "circumnavigation",
+    "title": "麦哲伦船队的环球航行",
+    "date": {
+      "start": 1519,
+      "end": 1522,
+      "kind": "duration",
+      "precision": "range",
+      "note": "以船队命名；不声称麦哲伦本人活着完成全程。"
+    },
+    "categories": [
+      "exploration",
+      "science"
+    ],
+    "regions": [
+      "global"
+    ],
+    "summary": "始于1519年的远航在1522年完成环球航行。",
+    "significance": "提供跨洋航线与全球空间认知的重要节点。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "navigation",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "始于1519年的远航在1522年完成环球航行。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "spanish-monarchy",
+        "role": "context",
+        "source_id": "navigation",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [],
+      "scope": "not_mapped",
+      "note": "跨区域、太空或暂未细化地点；空数组不表示事件没有地理位置。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "royal-society",
+    "title": "英国皇家学会首次集会",
+    "date": {
+      "start": 1660,
+      "end": 1660,
+      "kind": "point",
+      "precision": "year",
+      "note": "首次集会与后来获皇家特许不是同一事件。"
+    },
+    "categories": [
+      "science",
+      "culture"
+    ],
+    "regions": [
+      "europe"
+    ],
+    "summary": "皇家学会的首次集会发生于1660年11月28日。",
+    "significance": "反映科学交流与共同研究的制度化。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "royalsociety",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "皇家学会的首次集会发生于1660年11月28日。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "england",
+        "role": "context",
+        "source_id": "royalsociety",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "GB"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "principia",
+    "title": "牛顿《自然哲学的数学原理》出版",
+    "date": {
+      "start": 1687,
+      "end": 1687,
+      "kind": "point",
+      "precision": "year",
+      "note": "本条按出版年记录，不推定各项发现均发生于此年。"
+    },
+    "categories": [
+      "science",
+      "culture"
+    ],
+    "regions": [
+      "europe"
+    ],
+    "summary": "牛顿《原理》的第一版于1687年出版。",
+    "significance": "成为经典力学发展史的核心文献。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "newton",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "牛顿《原理》的第一版于1687年出版。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "england",
+        "role": "context",
+        "source_id": "newton",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "GB"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "industrialization",
+    "title": "英国早期工业化进程",
+    "date": {
+      "start": 1760,
+      "end": 1830,
+      "kind": "duration",
+      "precision": "range",
+      "note": "解释性分期，其他历史著作会使用不同边界。"
+    },
+    "categories": [
+      "science",
+      "economy",
+      "cities"
+    ],
+    "regions": [
+      "europe"
+    ],
+    "summary": "科学博物馆文章以1760至1830年概括英国早期工业革命阶段。",
+    "significance": "体现动力技术与工业生产组织的长期变化。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "steam",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "科学博物馆文章以1760至1830年概括英国早期工业革命阶段。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "great-britain",
+        "role": "context",
+        "source_id": "steam",
+        "attribution": "editorial_mapping"
+      },
+      {
+        "entity_id": "uk",
+        "role": "context",
+        "source_id": "steam",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "GB"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "watt-patent",
+    "title": "瓦特分离式冷凝器专利",
+    "date": {
+      "start": 1769,
+      "end": 1769,
+      "kind": "point",
+      "precision": "year",
+      "note": "是关键改进与专利，不是蒸汽机首次发明。"
+    },
+    "categories": [
+      "science",
+      "economy"
+    ],
+    "regions": [
+      "europe"
+    ],
+    "summary": "瓦特的分离式冷凝器获得专利。",
+    "significance": "改进蒸汽机效率，推动其工业应用。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "watt",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "瓦特的分离式冷凝器获得专利。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "great-britain",
+        "role": "context",
+        "source_id": "watt",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "GB"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "us-declaration",
+    "title": "美国《独立宣言》获通过",
+    "date": {
+      "start": 1776,
+      "end": 1776,
+      "kind": "point",
+      "precision": "year",
+      "note": "通过宣言、签署和战争结束是不同事件。"
+    },
+    "categories": [
+      "government",
+      "diplomacy"
+    ],
+    "regions": [
+      "north_america"
+    ],
+    "summary": "大陆会议于1776年7月4日通过《独立宣言》。",
+    "significance": "是美国独立与现代政治宣言的重要节点。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "independence",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "大陆会议于1776年7月4日通过《独立宣言》。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "us",
+        "role": "context",
+        "source_id": "independence",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "US"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "first-fleet",
+    "title": "英国第一舰队抵达悉尼湾",
+    "date": {
+      "start": 1788,
+      "end": 1788,
+      "kind": "point",
+      "precision": "year",
+      "note": "不称为澳大利亚历史或人类定居的开始。"
+    },
+    "categories": [
+      "exploration",
+      "government"
+    ],
+    "regions": [
+      "oceania"
+    ],
+    "summary": "第一舰队于1788年抵达悉尼湾并开启当地英国殖民定居阶段。",
+    "significance": "是澳大利亚殖民史与原住民处境变化的重要节点。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "australia",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "第一舰队于1788年抵达悉尼湾并开启当地英国殖民定居阶段。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "great-britain",
+        "role": "context",
+        "source_id": "australia",
+        "attribution": "editorial_mapping"
+      },
+      {
+        "entity_id": "aboriginal-australians",
+        "role": "context",
+        "source_id": "australia",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "AU"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "origin-species",
+    "title": "达尔文《物种起源》出版",
+    "date": {
+      "start": 1859,
+      "end": 1859,
+      "kind": "point",
+      "precision": "year",
+      "note": "1858年达尔文与华莱士理论的共同发表另有时间节点。"
+    },
+    "categories": [
+      "science",
+      "culture"
+    ],
+    "regions": [
+      "europe"
+    ],
+    "summary": "《物种起源》于1859年11月出版。",
+    "significance": "推动以自然选择解释生物演化的讨论。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "darwin",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "《物种起源》于1859年11月出版。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "uk",
+        "role": "context",
+        "source_id": "darwin",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "GB"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "australia-federation",
+    "title": "澳大利亚联邦成立",
+    "date": {
+      "start": 1901,
+      "end": 1901,
+      "kind": "point",
+      "precision": "year",
+      "note": "不等同于所有与英国的法律联系立即终止。"
+    },
+    "categories": [
+      "government"
+    ],
+    "regions": [
+      "oceania"
+    ],
+    "summary": "澳大利亚殖民地在1901年组成联邦。",
+    "significance": "形成新的联邦国家制度。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "federation",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "澳大利亚殖民地在1901年组成联邦。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "australia",
+        "role": "context",
+        "source_id": "federation",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "AU"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "ww1",
+    "title": "第一次世界大战",
+    "date": {
+      "start": 1914,
+      "end": 1918,
+      "kind": "duration",
+      "precision": "range",
+      "note": "记录战争时段；停战和各项和约另行区分。"
+    },
+    "categories": [
+      "war",
+      "diplomacy"
+    ],
+    "regions": [
+      "global"
+    ],
+    "summary": "1914至1918年的战争波及多个大陆和海域。",
+    "significance": "重塑国际秩序并造成广泛人员伤亡。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "ww1",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "1914至1918年的战争波及多个大陆和海域。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "entente",
+        "role": "context",
+        "source_id": "ww1",
+        "attribution": "editorial_mapping"
+      },
+      {
+        "entity_id": "central-powers",
+        "role": "context",
+        "source_id": "ww1",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [],
+      "scope": "not_mapped",
+      "note": "跨区域、太空或暂未细化地点；空数组不表示事件没有地理位置。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "penicillin",
+    "title": "弗莱明发现青霉素抗菌现象",
+    "date": {
+      "start": 1928,
+      "end": 1928,
+      "kind": "point",
+      "precision": "year",
+      "note": "发现不等于已完成临床应用或工业量产。"
+    },
+    "categories": [
+      "health",
+      "science"
+    ],
+    "regions": [
+      "europe"
+    ],
+    "summary": "弗莱明在诺贝尔演讲中追述1928年的青霉素发现。",
+    "significance": "成为后来抗生素发展的一项关键起点。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "penicillin",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "弗莱明在诺贝尔演讲中追述1928年的青霉素发现。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "uk",
+        "role": "context",
+        "source_id": "penicillin",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "GB"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "poland-invasion",
+    "title": "德国入侵波兰",
+    "date": {
+      "start": 1939,
+      "end": 1939,
+      "kind": "point",
+      "precision": "year",
+      "note": "不抹去此前亚洲已经发生的大规模战争。"
+    },
+    "categories": [
+      "war"
+    ],
+    "regions": [
+      "europe"
+    ],
+    "summary": "德国于1939年9月1日入侵波兰。",
+    "significance": "是欧洲第二次世界大战爆发的关键节点。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "poland",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "德国于1939年9月1日入侵波兰。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "germany-1933",
+        "role": "context",
+        "source_id": "poland",
+        "attribution": "editorial_mapping"
+      },
+      {
+        "entity_id": "poland-second",
+        "role": "context",
+        "source_id": "poland",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "PL"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "ww2",
+    "title": "第二次世界大战的通行全球分期",
+    "date": {
+      "start": 1939,
+      "end": 1945,
+      "kind": "duration",
+      "precision": "range",
+      "note": "此为常用分期；亚洲战争前史需另外从更早年份记录。"
+    },
+    "categories": [
+      "war",
+      "diplomacy"
+    ],
+    "regions": [
+      "global"
+    ],
+    "summary": "帝国战争博物馆年表采用1939至1945年作为二战分期。",
+    "significance": "用于关联战争动员、全球冲突和战后秩序研究。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "ww2",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "帝国战争博物馆年表采用1939至1945年作为二战分期。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [],
+    "geography": {
+      "country_codes": [],
+      "scope": "not_mapped",
+      "note": "跨区域、太空或暂未细化地点；空数组不表示事件没有地理位置。"
+    },
+    "actor_note": "未建立足够具体的参与方标签；空数组不表示没有参与者。",
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "bretton-woods",
+    "title": "布雷顿森林会议",
+    "date": {
+      "start": 1944,
+      "end": 1944,
+      "kind": "point",
+      "precision": "year",
+      "note": "会议与机构正式成立、生效、开始营业不是同一天。"
+    },
+    "categories": [
+      "economy",
+      "diplomacy"
+    ],
+    "regions": [
+      "global"
+    ],
+    "summary": "1944年7月的会议设计战后国际金融合作安排。",
+    "significance": "为国际货币基金组织和世界银行体系奠定基础。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "bretton",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "1944年7月的会议设计战后国际金融合作安排。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [],
+    "geography": {
+      "country_codes": [
+        "US"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_note": "未建立足够具体的参与方标签；空数组不表示没有参与者。",
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "atomic-bombs",
+    "title": "广岛与长崎遭原子弹轰炸",
+    "date": {
+      "start": 1945,
+      "end": 1945,
+      "kind": "point",
+      "precision": "year",
+      "note": "两次轰炸在年度记录中合列；后续可拆成日级事件。"
+    },
+    "categories": [
+      "war",
+      "science"
+    ],
+    "regions": [
+      "east_asia",
+      "north_america"
+    ],
+    "summary": "美国在1945年8月向广岛和长崎投下原子弹。",
+    "significance": "标志核武器在战争中的使用及其灾难性人道后果。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "ww2",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "美国在1945年8月向广岛和长崎投下原子弹。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "us",
+        "role": "context",
+        "source_id": "ww2",
+        "attribution": "editorial_mapping"
+      },
+      {
+        "entity_id": "japan-empire",
+        "role": "context",
+        "source_id": "ww2",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "JP"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "un-founded",
+    "title": "联合国成立",
+    "date": {
+      "start": 1945,
+      "end": 1945,
+      "kind": "point",
+      "precision": "year",
+      "note": "不把成立视为实现世界和平的结果。"
+    },
+    "categories": [
+      "diplomacy",
+      "government"
+    ],
+    "regions": [
+      "global"
+    ],
+    "summary": "联合国在1945年建立。",
+    "significance": "形成战后国际合作的重要制度框架。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "un",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "联合国在1945年建立。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "un",
+        "role": "context",
+        "source_id": "un",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [],
+      "scope": "not_mapped",
+      "note": "已核查摘录未建立足够具体的地理映射，暂留空。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "india-partition",
+    "title": "印度与巴基斯坦独立及印巴分治",
+    "date": {
+      "start": 1947,
+      "end": 1947,
+      "kind": "point",
+      "precision": "year",
+      "note": "分治暴力、边界划定和两国独立日可在后续拆分。"
+    },
+    "categories": [
+      "government",
+      "exploration"
+    ],
+    "regions": [
+      "south_asia"
+    ],
+    "summary": "英属印度于1947年结束统治，印度与巴基斯坦独立。",
+    "significance": "是去殖民化和大规模人口迁移的重要节点。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "partition",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "英属印度于1947年结束统治，印度与巴基斯坦独立。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "uk",
+        "role": "context",
+        "source_id": "partition",
+        "attribution": "editorial_mapping"
+      },
+      {
+        "entity_id": "india",
+        "role": "context",
+        "source_id": "partition",
+        "attribution": "editorial_mapping"
+      },
+      {
+        "entity_id": "pakistan",
+        "role": "context",
+        "source_id": "partition",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "IN",
+        "PK"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "udhr",
+    "title": "《世界人权宣言》获通过",
+    "date": {
+      "start": 1948,
+      "end": 1948,
+      "kind": "point",
+      "precision": "year",
+      "note": "宣言通过不表示各国已落实所有权利。"
+    },
+    "categories": [
+      "government",
+      "diplomacy"
+    ],
+    "regions": [
+      "global"
+    ],
+    "summary": "联合国大会于1948年12月10日通过《世界人权宣言》。",
+    "significance": "确立战后人权讨论的重要共同文本。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "udhr",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "联合国大会于1948年12月10日通过《世界人权宣言》。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "un",
+        "role": "context",
+        "source_id": "udhr",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [],
+      "scope": "not_mapped",
+      "note": "已核查摘录未建立足够具体的地理映射，暂留空。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "nato-founded",
+    "title": "《北大西洋公约》签署",
+    "date": {
+      "start": 1949,
+      "end": 1949,
+      "kind": "point",
+      "precision": "year",
+      "note": "本条记录创始签约，不将今天的成员名单反推到1949年。"
+    },
+    "categories": [
+      "diplomacy",
+      "war"
+    ],
+    "regions": [
+      "europe",
+      "north_america"
+    ],
+    "summary": "12个创始成员于1949年4月4日在华盛顿签署《北大西洋公约》。",
+    "significance": "标志北大西洋集体防御联盟的建立。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "nato-founding",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "12个创始成员于1949年4月4日在华盛顿签署《北大西洋公约》。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "依据组织官方资料初核，尚待独立复核。",
+    "actors": [
+      {
+        "entity_id": "nato",
+        "role": "context",
+        "source_id": "nato-founding",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "US"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "prc-founded",
+    "title": "中华人民共和国成立",
+    "date": {
+      "start": 1949,
+      "end": 1949,
+      "kind": "point",
+      "precision": "year",
+      "note": "来源为教育部历史回顾，本条仅使用成立日期这一事实。"
+    },
+    "categories": [
+      "government"
+    ],
+    "regions": [
+      "east_asia"
+    ],
+    "summary": "中华人民共和国于1949年10月1日成立。",
+    "significance": "是现代中国政治史的核心节点。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "prc",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "中华人民共和国于1949年10月1日成立。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "prc",
+        "role": "context",
+        "source_id": "prc",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "CN"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "sputnik",
+    "title": "人造卫星一号发射",
+    "date": {
+      "start": 1957,
+      "end": 1957,
+      "kind": "point",
+      "precision": "year",
+      "note": "采用NASA记载的发射日期；全球标签表示航天史影响范围。"
+    },
+    "categories": [
+      "science",
+      "exploration"
+    ],
+    "regions": [
+      "global"
+    ],
+    "summary": "苏联于1957年10月4日成功发射人造卫星一号。",
+    "significance": "开启人造地球卫星时代。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "sputnik",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "苏联于1957年10月4日成功发射人造卫星一号。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "ussr",
+        "role": "context",
+        "source_id": "sputnik",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "KZ"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "gagarin",
+    "title": "加加林首次载人航天飞行",
+    "date": {
+      "start": 1961,
+      "end": 1961,
+      "kind": "point",
+      "precision": "year",
+      "note": "按来源提及的年份记录。"
+    },
+    "categories": [
+      "science",
+      "exploration"
+    ],
+    "regions": [
+      "global"
+    ],
+    "summary": "苏联宇航员加加林于1961年进入太空。",
+    "significance": "成为人类载人航天的重要起点。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "moon",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "苏联宇航员加加林于1961年进入太空。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "ussr",
+        "role": "context",
+        "source_id": "moon",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [],
+      "scope": "not_mapped",
+      "note": "已核查摘录未建立足够具体的地理映射，暂留空。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "asean-founded",
+    "title": "东南亚国家联盟成立",
+    "date": {
+      "start": 1967,
+      "end": 1967,
+      "kind": "point",
+      "precision": "year",
+      "note": "成员只列创始五国；不把之后加入的国家算作创始成员。"
+    },
+    "categories": [
+      "diplomacy",
+      "economy"
+    ],
+    "regions": [
+      "southeast_asia"
+    ],
+    "summary": "印度尼西亚、马来西亚、菲律宾、新加坡和泰国于1967年8月8日签署《曼谷宣言》。",
+    "significance": "为东南亚区域合作建立组织框架。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "asean-founding",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "印度尼西亚、马来西亚、菲律宾、新加坡和泰国于1967年8月8日签署《曼谷宣言》。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "依据组织官方资料初核，尚待独立复核。",
+    "actors": [
+      {
+        "entity_id": "asean",
+        "role": "context",
+        "source_id": "asean-founding",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "TH"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "apollo11",
+    "title": "阿波罗11号首次载人登月",
+    "date": {
+      "start": 1969,
+      "end": 1969,
+      "kind": "point",
+      "precision": "year",
+      "note": "着陆与宇航员踏上月面的UTC日期有差异，此处只做年度索引。"
+    },
+    "categories": [
+      "science",
+      "exploration"
+    ],
+    "regions": [
+      "global"
+    ],
+    "summary": "阿波罗11号于1969年7月20日在月球着陆。",
+    "significance": "实现人类首次载人月面着陆。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "moon",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "阿波罗11号于1969年7月20日在月球着陆。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "us",
+        "role": "context",
+        "source_id": "moon",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [],
+      "scope": "not_mapped",
+      "note": "跨区域、太空或暂未细化地点；空数组不表示事件没有地理位置。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "smallpox-eradication",
+    "title": "世界卫生组织宣布天花被消灭",
+    "date": {
+      "start": 1980,
+      "end": 1980,
+      "kind": "point",
+      "precision": "year",
+      "note": "不是最后一例病例发生年。"
+    },
+    "categories": [
+      "health",
+      "diplomacy"
+    ],
+    "regions": [
+      "global"
+    ],
+    "summary": "世界卫生组织于1980年正式宣布天花被消灭。",
+    "significance": "体现疫苗接种与跨国公共卫生合作的历史成果。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "smallpox",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "世界卫生组织于1980年正式宣布天花被消灭。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "who",
+        "role": "context",
+        "source_id": "smallpox",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [],
+      "scope": "not_mapped",
+      "note": "跨区域、太空或暂未细化地点；空数组不表示事件没有地理位置。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "web-proposal",
+    "title": "蒂姆·伯纳斯-李提出万维网",
+    "date": {
+      "start": 1989,
+      "end": 1989,
+      "kind": "point",
+      "precision": "year",
+      "note": "万维网与互联网不是同一发明。"
+    },
+    "categories": [
+      "science",
+      "culture"
+    ],
+    "regions": [
+      "europe"
+    ],
+    "summary": "伯纳斯-李在CERN工作期间于1989年提出万维网。",
+    "significance": "为网络信息链接与传播提供新体系。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "web",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "伯纳斯-李在CERN工作期间于1989年提出万维网。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "cern",
+        "role": "context",
+        "source_id": "web",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "CH"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "eu-established",
+    "title": "《马斯特里赫特条约》生效，欧盟成立",
+    "date": {
+      "start": 1993,
+      "end": 1993,
+      "kind": "point",
+      "precision": "year",
+      "note": "1992年签署、1993年生效；不能把更早的欧洲共同体直接称为当时的欧盟。"
+    },
+    "categories": [
+      "diplomacy",
+      "government",
+      "economy"
+    ],
+    "regions": [
+      "europe"
+    ],
+    "summary": "《马斯特里赫特条约》于1993年11月1日生效。",
+    "significance": "成为欧洲联盟形成和制度整合的关键节点。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "eu-maastricht",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "《马斯特里赫特条约》于1993年11月1日生效。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "依据组织官方资料初核，尚待独立复核。",
+    "actors": [
+      {
+        "entity_id": "eu",
+        "role": "context",
+        "source_id": "eu-maastricht",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [],
+      "scope": "not_mapped",
+      "note": "跨区域、太空或暂未细化地点；空数组不表示事件没有地理位置。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "web-public-domain",
+    "title": "CERN将万维网软件置于公有领域",
+    "date": {
+      "start": 1993,
+      "end": 1993,
+      "kind": "point",
+      "precision": "year",
+      "note": "是软件开放节点，不是互联网诞生年。"
+    },
+    "categories": [
+      "science",
+      "culture",
+      "economy"
+    ],
+    "regions": [
+      "global"
+    ],
+    "summary": "CERN于1993年4月30日将万维网软件置于公有领域。",
+    "significance": "有助于万维网开放传播和采用。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "web",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "CERN于1993年4月30日将万维网软件置于公有领域。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "cern",
+        "role": "context",
+        "source_id": "web",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "CH"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "wto-founded",
+    "title": "世界贸易组织成立",
+    "date": {
+      "start": 1995,
+      "end": 1995,
+      "kind": "point",
+      "precision": "year",
+      "note": "与此前GATT体系及各国加入时间区分。"
+    },
+    "categories": [
+      "economy",
+      "diplomacy"
+    ],
+    "regions": [
+      "global"
+    ],
+    "summary": "世界贸易组织于1995年1月1日成立。",
+    "significance": "扩展战后多边贸易的制度框架。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "wto",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "世界贸易组织于1995年1月1日成立。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "wto",
+        "role": "context",
+        "source_id": "wto",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [],
+      "scope": "not_mapped",
+      "note": "跨区域、太空或暂未细化地点；空数组不表示事件没有地理位置。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "au-launched",
+    "title": "非洲联盟正式启动",
+    "date": {
+      "start": 2002,
+      "end": 2002,
+      "kind": "point",
+      "precision": "year",
+      "note": "非洲统一组织是前身；不将前身和新组织的成立日期混同。"
+    },
+    "categories": [
+      "diplomacy",
+      "government"
+    ],
+    "regions": [
+      "africa"
+    ],
+    "summary": "非洲联盟于2002年7月在南非德班正式启动。",
+    "significance": "推动非洲大陆区域合作与一体化的新组织安排。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "au-launch",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "非洲联盟于2002年7月在南非德班正式启动。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "依据组织官方资料初核，尚待独立复核。",
+    "actors": [
+      {
+        "entity_id": "au",
+        "role": "context",
+        "source_id": "au-launch",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "ZA"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "tobacco-convention",
+    "title": "《世界卫生组织烟草控制框架公约》获通过",
+    "date": {
+      "start": 2003,
+      "end": 2003,
+      "kind": "point",
+      "precision": "year",
+      "note": "通过年份；生效时间为2005年，不能混同。"
+    },
+    "categories": [
+      "health",
+      "diplomacy"
+    ],
+    "regions": [
+      "global"
+    ],
+    "summary": "WHO回顾说明烟草控制框架公约于2003年通过。",
+    "significance": "为跨国公共卫生问题建立条约合作路径。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "pandemic",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "WHO回顾说明烟草控制框架公约于2003年通过。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "who",
+        "role": "context",
+        "source_id": "pandemic",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [],
+      "scope": "not_mapped",
+      "note": "跨区域、太空或暂未细化地点；空数组不表示事件没有地理位置。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "paris-adopted",
+    "title": "《巴黎协定》获通过",
+    "date": {
+      "start": 2015,
+      "end": 2015,
+      "kind": "point",
+      "precision": "year",
+      "note": "通过与签署、生效区分；不推断各国减排目标已经实现。"
+    },
+    "categories": [
+      "environment",
+      "diplomacy"
+    ],
+    "regions": [
+      "global"
+    ],
+    "summary": "2015年12月12日，巴黎气候大会通过《巴黎协定》。",
+    "significance": "形成全球气候治理的重要合作框架。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "paris",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "2015年12月12日，巴黎气候大会通过《巴黎协定》。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "unfccc",
+        "role": "context",
+        "source_id": "paris",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [
+        "FR"
+      ],
+      "scope": "selected_sites",
+      "note": "现代地名检索标签，由编者补充主要地点；不代表事件涉及的全部领土、受益者或当时主权归属。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "paris-in-force",
+    "title": "《巴黎协定》生效",
+    "date": {
+      "start": 2016,
+      "end": 2016,
+      "kind": "point",
+      "precision": "year",
+      "note": "是条约生效节点。"
+    },
+    "categories": [
+      "environment",
+      "diplomacy"
+    ],
+    "regions": [
+      "global"
+    ],
+    "summary": "《巴黎协定》于2016年11月4日生效。",
+    "significance": "使2015年通过的气候合作文本进入生效阶段。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "paris",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "《巴黎协定》于2016年11月4日生效。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "unfccc",
+        "role": "context",
+        "source_id": "paris",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [],
+      "scope": "not_mapped",
+      "note": "跨区域、太空或暂未细化地点；空数组不表示事件没有地理位置。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "covid-pandemic",
+    "title": "WHO将COVID-19形容为大流行",
+    "date": {
+      "start": 2020,
+      "end": 2020,
+      "kind": "point",
+      "precision": "year",
+      "note": "不是病毒首次出现、疫情开始或首次发布国际关注突发公共卫生事件的日期。"
+    },
+    "categories": [
+      "health"
+    ],
+    "regions": [
+      "global"
+    ],
+    "summary": "2020年3月11日，WHO表示COVID-19可被描述为大流行。",
+    "significance": "标示全球疫情风险认识与应对的重要节点。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "covid",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "2020年3月11日，WHO表示COVID-19可被描述为大流行。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "who",
+        "role": "context",
+        "source_id": "covid",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [],
+      "scope": "not_mapped",
+      "note": "跨区域、太空或暂未细化地点；空数组不表示事件没有地理位置。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  },
+  {
+    "id": "pandemic-agreement",
+    "title": "世界卫生大会通过《大流行协定》",
+    "date": {
+      "start": 2025,
+      "end": 2025,
+      "kind": "point",
+      "precision": "year",
+      "note": "仅记录通过，不把通过等同于生效；长期影响仍待观察。"
+    },
+    "categories": [
+      "health",
+      "diplomacy"
+    ],
+    "regions": [
+      "global"
+    ],
+    "summary": "世界卫生大会于2025年5月20日通过《大流行协定》。",
+    "significance": "是疫情之后跨国公共卫生合作的一项制度进展。",
+    "significance_status": "editorial_interpretation",
+    "citations": [
+      {
+        "source_id": "pandemic",
+        "supports": [
+          "date",
+          "summary"
+        ],
+        "evidence_note": "世界卫生大会于2025年5月20日通过《大流行协定》。"
+      }
+    ],
+    "review_status": "source_checked",
+    "review_note": "已依据所列机构资料的网页正文或搜索摘录初核；尚未经独立第二位编者复核。",
+    "actors": [
+      {
+        "entity_id": "who",
+        "role": "context",
+        "source_id": "pandemic",
+        "attribution": "editorial_mapping"
+      }
+    ],
+    "geography": {
+      "country_codes": [],
+      "scope": "not_mapped",
+      "note": "跨区域、太空或暂未细化地点；空数组不表示事件没有地理位置。"
+    },
+    "actor_mapping_note": "标签用于历史语境检索，不声称列全所有参与者；包含编者归类，尚待独立核对。"
+  }
+]

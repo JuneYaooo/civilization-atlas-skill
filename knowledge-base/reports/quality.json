@@ -1,0 +1,84 @@
+{
+  "observation_status": [
+    {
+      "status": "disputed",
+      "n": 390
+    },
+    {
+      "status": "missing",
+      "n": 15988
+    },
+    {
+      "status": "source_categorical_bundle",
+      "n": 166
+    },
+    {
+      "status": "source_code_or_value",
+      "n": 54756
+    },
+    {
+      "status": "source_value",
+      "n": 73481
+    },
+    {
+      "status": "uncertain",
+      "n": 447
+    }
+  ],
+  "undated_by_collection": [
+    {
+      "source_id": "seshat-polaris",
+      "collection": "General",
+      "n": 7150
+    },
+    {
+      "source_id": "seshat-polaris",
+      "collection": "Luxury goods",
+      "n": 1055
+    },
+    {
+      "source_id": "seshat-polaris",
+      "collection": "Religion",
+      "n": 4984
+    },
+    {
+      "source_id": "seshat-polaris",
+      "collection": "Social complexity",
+      "n": 24401
+    },
+    {
+      "source_id": "seshat-polaris",
+      "collection": "Variables",
+      "n": 173
+    },
+    {
+      "source_id": "seshat-polaris",
+      "collection": "Warfare",
+      "n": 17236
+    }
+  ],
+  "dated_assertions_reversed": 0,
+  "zero_year_records": 5,
+  "seshat_polities": 626,
+  "seshat_regions": 42,
+  "wb_observed_entity_kinds": [
+    {
+      "kind": "aggregate",
+      "n": 48
+    },
+    {
+      "kind": "country_or_economy",
+      "n": 217
+    }
+  ],
+  "seshat_blank_values": 1872,
+  "seshat_special_codes": {
+    "IA": 3267,
+    "IP": 5098,
+    "SU": 6359,
+    "suspected unknown": 18,
+    "unknown": 998
+  },
+  "first_publication_dates": "Not recovered for acquired snapshots; retrieval dates must not be used as historical availability dates",
+  "review": "Structural import verified; no blanket independent verification of source facts"
+}

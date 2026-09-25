@@ -1,0 +1,484 @@
+{
+  "entities": [
+    {
+      "id": "uruk",
+      "name": "乌鲁克社会",
+      "type": "society",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "liangzhu",
+      "name": "良渚文化与区域社会",
+      "type": "society",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "mesopotamian-cities",
+      "name": "美索不达米亚城邦社会",
+      "type": "society",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "caral",
+      "name": "卡拉尔—苏佩社会",
+      "type": "society",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "ancient-egypt",
+      "name": "古埃及诸政权",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "indus",
+      "name": "印度河城市社会",
+      "type": "society",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "akkad",
+      "name": "阿卡德帝国",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "ur-iii",
+      "name": "乌尔第三王朝",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "old-babylon",
+      "name": "古巴比伦王国",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "shang",
+      "name": "商",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "lapita",
+      "name": "拉皮塔文化相关人群",
+      "type": "society",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "achaemenid",
+      "name": "阿契美尼德波斯帝国",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "media",
+      "name": "米底王国",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "neo-babylon",
+      "name": "新巴比伦王国",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "athens",
+      "name": "雅典城邦",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "macedon",
+      "name": "马其顿王国",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "maurya",
+      "name": "孔雀王朝",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "qin",
+      "name": "秦",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "han",
+      "name": "汉",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "rome",
+      "name": "罗马政权",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "aksum",
+      "name": "阿克苏姆王国",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "teotihuacan",
+      "name": "特奥蒂瓦坎社会",
+      "type": "society",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "tang",
+      "name": "唐",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "early-muslims",
+      "name": "早期穆斯林社群",
+      "type": "society",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "umayyad",
+      "name": "倭马亚王朝（大马士革）",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "khmer",
+      "name": "高棉帝国",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "song",
+      "name": "宋",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "zimbabwe",
+      "name": "大津巴布韦绍纳社会",
+      "type": "society",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "england",
+      "name": "英格兰王国",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "kilwa",
+      "name": "基尔瓦商贸社会",
+      "type": "society",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "hre",
+      "name": "神圣罗马帝国",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "portugal-kingdom",
+      "name": "葡萄牙王国",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "spanish-monarchy",
+      "name": "西班牙君主国",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "great-britain",
+      "name": "大不列颠王国",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "uk",
+      "name": "英国",
+      "type": "state",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "us",
+      "name": "美国",
+      "type": "state",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "aboriginal-australians",
+      "name": "澳大利亚原住民社会",
+      "type": "society",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "australia",
+      "name": "澳大利亚联邦",
+      "type": "state",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "entente",
+      "name": "协约国（一战）",
+      "type": "alliance",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "central-powers",
+      "name": "同盟国（一战）",
+      "type": "alliance",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "germany-1933",
+      "name": "1933—1945年德国政权",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "poland-second",
+      "name": "波兰第二共和国",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "japan-empire",
+      "name": "日本帝国",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "india",
+      "name": "印度",
+      "type": "state",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "pakistan",
+      "name": "巴基斯坦",
+      "type": "state",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "prc",
+      "name": "中华人民共和国",
+      "type": "state",
+      "valid_from": 1949,
+      "valid_to": null,
+      "boundary_source_id": "prc"
+    },
+    {
+      "id": "ussr",
+      "name": "苏联",
+      "type": "historical_polity",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "un",
+      "name": "联合国",
+      "type": "international_organization",
+      "valid_from": 1945,
+      "valid_to": null,
+      "boundary_source_id": "un"
+    },
+    {
+      "id": "who",
+      "name": "世界卫生组织",
+      "type": "international_organization",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "cern",
+      "name": "欧洲核子研究组织",
+      "type": "international_organization",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "wto",
+      "name": "世界贸易组织",
+      "type": "international_organization",
+      "valid_from": 1995,
+      "valid_to": null,
+      "boundary_source_id": "wto"
+    },
+    {
+      "id": "unfccc",
+      "name": "联合国气候变化框架公约机制",
+      "type": "treaty_framework",
+      "valid_from": null,
+      "valid_to": null,
+      "boundary_source_id": null
+    },
+    {
+      "id": "nato",
+      "name": "北大西洋公约组织",
+      "type": "alliance",
+      "valid_from": 1949,
+      "valid_to": null,
+      "boundary_source_id": "nato-founding"
+    },
+    {
+      "id": "asean",
+      "name": "东南亚国家联盟",
+      "type": "regional_organization",
+      "valid_from": 1967,
+      "valid_to": null,
+      "boundary_source_id": "asean-founding"
+    },
+    {
+      "id": "eu",
+      "name": "欧洲联盟",
+      "type": "supranational_union",
+      "valid_from": 1993,
+      "valid_to": null,
+      "boundary_source_id": "eu-maastricht"
+    },
+    {
+      "id": "au",
+      "name": "非洲联盟",
+      "type": "regional_organization",
+      "valid_from": 2002,
+      "valid_to": null,
+      "boundary_source_id": "au-launch"
+    }
+  ],
+  "countries": {
+    "CN": "中国",
+    "IQ": "伊拉克",
+    "PE": "秘鲁",
+    "EG": "埃及",
+    "PK": "巴基斯坦",
+    "IR": "伊朗",
+    "GR": "希腊",
+    "IN": "印度",
+    "IT": "意大利",
+    "ET": "埃塞俄比亚",
+    "MX": "墨西哥",
+    "SA": "沙特阿拉伯",
+    "SY": "叙利亚",
+    "KH": "柬埔寨",
+    "ZW": "津巴布韦",
+    "GB": "英国",
+    "TZ": "坦桑尼亚",
+    "DE": "德国",
+    "PT": "葡萄牙",
+    "ES": "西班牙",
+    "US": "美国",
+    "AU": "澳大利亚",
+    "PL": "波兰",
+    "JP": "日本",
+    "KZ": "哈萨克斯坦",
+    "CH": "瑞士",
+    "FR": "法国",
+    "TH": "泰国",
+    "ZA": "南非"
+  },
+  "notes": "国家代码仅为现代地理检索标签；actors记录历史行为体。仅统计事件显式标签，不沿现代成员关系自动扩张。"
+}

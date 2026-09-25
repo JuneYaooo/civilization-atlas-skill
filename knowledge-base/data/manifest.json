@@ -1,0 +1,50 @@
+[
+  {
+    "id": "seshat-polaris",
+    "title": "Seshat Polaris 2026",
+    "url": "https://raw.githubusercontent.com/Seshat-Global-History-Databank/build_polaris_dataset/main/Polaris2026.xlsx",
+    "landing_url": "https://seshatdatabank.info/data",
+    "version": "2026",
+    "rights": "see upstream license",
+    "first_public_at": null,
+    "retrieved_at": "2026-09-25T11:21:43.532336+00:00",
+    "status": "acquired",
+    "sha256": "cf60c9f76eeda6db545521831a9201e65c64d2b74d4aeb55445cd2b564456c41",
+    "bytes": 2899093,
+    "path": "data/raw/seshat-polaris-cf60c9f76eeda6db.xlsx",
+    "final_url": "https://api.github.com/repos/Seshat-Global-History-Databank/build_polaris_dataset/git/blobs/18b1116fa3322839d1366f967280d693f34af3be",
+    "git_blob_sha": "18b1116fa3322839d1366f967280d693f34af3be"
+  },
+  {
+    "id": "seshat-readme",
+    "title": "Seshat snapshot documentation",
+    "url": "https://raw.githubusercontent.com/Seshat-Global-History-Databank/build_polaris_dataset/main/README.md",
+    "landing_url": "https://seshatdatabank.info/data",
+    "version": "retrieved snapshot",
+    "rights": "see upstream license",
+    "first_public_at": null,
+    "retrieved_at": "2026-09-25T11:18:57.127792+00:00",
+    "final_url": "https://raw.githubusercontent.com/Seshat-Global-History-Databank/build_polaris_dataset/main/README.md",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "acquired",
+    "sha256": "8c6eede5eb68775c1ad2aaf22114b8a8f72ce03869072068d535191566475f15",
+    "bytes": 314,
+    "path": "data/raw/seshat-readme-8c6eede5eb68775c.md"
+  },
+  {
+    "id": "seshat-license",
+    "title": "Seshat repository license",
+    "url": "https://raw.githubusercontent.com/Seshat-Global-History-Databank/build_polaris_dataset/main/LICENSE",
+    "landing_url": "https://seshatdatabank.info/data",
+    "version": "retrieved snapshot",
+    "rights": "license text",
+    "first_public_at": null,
+    "retrieved_at": "2026-09-25T11:18:57.127972+00:00",
+    "final_url": "https://raw.githubusercontent.com/Seshat-Global-History-Databank/build_polaris_dataset/main/LICENSE",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "acquired",
+    "sha256": "6710ff7b332ab13b3eb00e6bec28af1ad34bd18ce6be5c798b6702edf76f0b0f",
+    "bytes": 1087,
+    "path": "data/raw/seshat-license-6710ff7b332ab13b.txt"
+  }
+]

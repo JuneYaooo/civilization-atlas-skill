@@ -1,0 +1,18 @@
+[
+  {
+    "id": "nasa-gistemp",
+    "title": "NASA GISTEMP global land-ocean temperature anomaly",
+    "url": "https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts%2BdSST.csv",
+    "landing_url": "https://data.giss.nasa.gov/gistemp/",
+    "version": "GISTEMP v4 retrieved snapshot",
+    "rights": "Cite GISTEMP Team 2026 and Lenssen et al. 2024 DOI 10.1029/2023JD040179; accessed 2026-09-25",
+    "first_public_at": null,
+    "retrieved_at": "2026-09-25T11:27:29.429805+00:00",
+    "final_url": "https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts%2BdSST.csv",
+    "content_type": "text/csv",
+    "status": "acquired",
+    "sha256": "c9ce0750ca93a8241c42fe86cd5bf54d07b28b21ae650b0ae49a206907018cd9",
+    "bytes": 12887,
+    "path": "data/raw/nasa-gistemp-c9ce0750ca93a824.csv"
+  }
+]

@@ -11,3 +11,8 @@ research/
 data/
 outputs/
 cases/
+
+!knowledge-base/data/
+!knowledge-base/data/**
+knowledge-base/data/history.sqlite
+knowledge-base/data/history.building.sqlite

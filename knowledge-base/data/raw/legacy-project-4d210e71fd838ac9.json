@@ -1,0 +1,12 @@
+{
+  "name": "Civilization Atlas / 文明大事年表",
+  "version": "0.9.1",
+  "start_year": -3500,
+  "end_year": 2025,
+  "year_numbering": "historical_signed_no_year_zero",
+  "compiled_at": "2026-09-22",
+  "status": "curated_seed",
+  "annual_collection_complete": false,
+  "skill_name": "civilization-atlas",
+  "research_status": "mechanism_first_protocol_with_historical_transfer_and_country_reanalysis"
+}

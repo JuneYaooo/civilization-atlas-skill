@@ -1,0 +1,29 @@
+{
+  "categories": {
+    "science": "科学与技术",
+    "culture": "文化与知识传播",
+    "government": "国家与制度",
+    "war": "战争与冲突",
+    "economy": "经济与贸易",
+    "religion": "宗教与思想",
+    "cities": "城市与重大工程",
+    "exploration": "探索与迁徙",
+    "health": "医学与公共卫生",
+    "environment": "环境与灾害",
+    "diplomacy": "外交与国际秩序"
+  },
+  "regions": {
+    "west_asia": "西亚",
+    "east_asia": "东亚",
+    "south_asia": "南亚",
+    "southeast_asia": "东南亚",
+    "europe": "欧洲",
+    "africa": "非洲",
+    "north_america": "北美洲",
+    "south_america": "南美洲",
+    "oceania": "大洋洲",
+    "global": "跨区域／全球"
+  },
+  "inspiration_url": "https://civilization.2k.com/en-GB/civ-vi/",
+  "note": "参考文明游戏的多维观察方式；不使用游戏数值作为历史结论，不把文明划分成统一进步等级。"
+}

@@ -5,6 +5,12 @@ This is a bounded release check, not proof that every conceivable secret is abse
 Manual semantic review remains necessary before expanding the manifest.
 """
 import json
+import gzip
+import hashlib
+import zipfile
+import tempfile
+import sqlite3
+import shutil
 from pathlib import Path
 import re
 import subprocess
@@ -41,12 +47,34 @@ def check():
     }
     for rel in sorted(actual & allowed):
         try:
-            text = (ROOT / rel).read_text()
+            path = ROOT / rel
+            if rel in manifest.get('binary_files', {}):
+                expected = manifest['binary_files'][rel]
+                if hashlib.sha256(path.read_bytes()).hexdigest() != expected:
+                    problems.append(f'Binary checksum mismatch: {rel}')
+                if path.suffix == '.gz':
+                    with tempfile.TemporaryDirectory() as temp:
+                        unpacked = Path(temp) / 'inspection.sqlite'
+                        with gzip.open(path, 'rb') as content, unpacked.open('wb') as out:
+                            shutil.copyfileobj(content, out)
+                        with sqlite3.connect(unpacked.as_uri() + '?mode=ro', uri=True) as db:
+                            if db.execute('PRAGMA integrity_check').fetchone()[0] != 'ok':
+                                problems.append(f'Invalid SQLite database: {rel}')
+                            text = '\n'.join(db.iterdump())
+                elif path.suffix == '.xlsx':
+                    with zipfile.ZipFile(path) as archive:
+                        text = '\n'.join(archive.read(n).decode('utf-8') for n in archive.namelist() if n.endswith('.xml'))
+                else:
+                    problems.append(f'Unsupported binary type: {rel}')
+                    continue
+            else:
+                text = path.read_text()
         except UnicodeError:
             problems.append(f'Unexpected binary file: {rel}')
             continue
         for label, pattern in checks.items():
-            if re.search(pattern, text):
+            inspected = re.sub(r'https?://[^\s\"<>]+', '', text) if label == 'personal absolute path' else text
+            if re.search(pattern, inspected):
                 problems.append(f'{label} pattern found in {rel}')
         if (ROOT / rel).suffix == '.md':
             for target in re.findall(r'\]\(([^)]+)\)', text):

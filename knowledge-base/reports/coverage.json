@@ -1,0 +1,120 @@
+{
+  "built_at": "2026-09-25T11:54:39.523400+00:00",
+  "counts": {
+    "sources": 20,
+    "entities": 1050,
+    "records": 146099,
+    "observations": 145228,
+    "relations": 82,
+    "variables": 179
+  },
+  "collections": [
+    {
+      "source_id": "legacy-events",
+      "collection": "curated_event",
+      "rows": 72,
+      "start": -3500,
+      "end": 2025
+    },
+    {
+      "source_id": "nasa-gistemp",
+      "collection": "global_temperature",
+      "rows": 147,
+      "start": 1880,
+      "end": 2026
+    },
+    {
+      "source_id": "seshat-polaris",
+      "collection": "CrisisDB - Crisis consequences",
+      "rows": 166,
+      "start": -2200,
+      "end": 1942
+    },
+    {
+      "source_id": "seshat-polaris",
+      "collection": "General",
+      "rows": 7239,
+      "start": -1200,
+      "end": 1991
+    },
+    {
+      "source_id": "seshat-polaris",
+      "collection": "Luxury goods",
+      "rows": 1191,
+      "start": -100,
+      "end": 1926
+    },
+    {
+      "source_id": "seshat-polaris",
+      "collection": "Polities",
+      "rows": 626,
+      "start": -13600,
+      "end": 2020
+    },
+    {
+      "source_id": "seshat-polaris",
+      "collection": "Religion",
+      "rows": 5466,
+      "start": -9600,
+      "end": 1942
+    },
+    {
+      "source_id": "seshat-polaris",
+      "collection": "Social complexity",
+      "rows": 26033,
+      "start": -7000,
+      "end": 1991
+    },
+    {
+      "source_id": "seshat-polaris",
+      "collection": "Variables",
+      "rows": 173,
+      "start": null,
+      "end": null
+    },
+    {
+      "source_id": "seshat-polaris",
+      "collection": "Warfare",
+      "rows": 17536,
+      "start": -6000,
+      "end": 1948
+    },
+    {
+      "source_id": "wb-IT.NET.USER.ZS",
+      "collection": "country_year_indicator",
+      "rows": 17490,
+      "start": 1960,
+      "end": 2025
+    },
+    {
+      "source_id": "wb-NY.GDP.PCAP.KD",
+      "collection": "country_year_indicator",
+      "rows": 17490,
+      "start": 1960,
+      "end": 2025
+    },
+    {
+      "source_id": "wb-SP.DYN.LE00.IN",
+      "collection": "country_year_indicator",
+      "rows": 17490,
+      "start": 1960,
+      "end": 2025
+    },
+    {
+      "source_id": "wb-SP.POP.TOTL",
+      "collection": "country_year_indicator",
+      "rows": 17490,
+      "start": 1960,
+      "end": 2025
+    },
+    {
+      "source_id": "wb-SP.URB.TOTL.IN.ZS",
+      "collection": "country_year_indicator",
+      "rows": 17490,
+      "start": 1960,
+      "end": 2025
+    }
+  ],
+  "scope": "Imported source claims; counts do not establish historical completeness",
+  "source_failures": []
+}
