@@ -11,4 +11,6 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/check_distribution.py
+      - run: python -m py_compile scripts/forecast_registry.py
+      - run: python scripts/forecast_registry.py --help
       - run: python scripts/install_skill.py --zip dist/civilization-atlas.zip

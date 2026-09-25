@@ -8,6 +8,7 @@
     "README.md",
     "SKILL.md",
     "agents/openai.yaml",
+    "references/binary-registry.md",
     "references/complex-systems.md",
     "references/data-contract.md",
     "references/forecast-and-decision.md",
@@ -19,6 +20,7 @@
     "references/yijing.md",
     "scripts/casebook.py",
     "scripts/check_distribution.py",
+    "scripts/forecast_registry.py",
     "scripts/install_skill.py"
   ]
 }

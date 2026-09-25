@@ -17,3 +17,5 @@
 复盘输入为数组，每条记录包含`prediction_id`、`observed_outcome`、`condition_assessment`、`model_diagnosis`、`evidence_locators`和`verdict`。判定可为`supported`、`contradicted`、`unresolved`、`not_yet_due`或`unscorable`。程序另写复盘，保留原预测及未评估ID。
 
 校验不证明内容真实，也不自动去重共同上游、估计因果或裁判结果。v1不支持数值概率登记。没有证据时保留未知，不为通过校验而制造资料。
+
+固定期限的二元概率另用[数值登记协议](binary-registry.md)。两个工具的记录类型和职责不同，不将旧研究笔记直接视为已冻结的数值预测。

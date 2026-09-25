@@ -11,7 +11,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 NAME = 'civilization-atlas'
-PAYLOAD = ('SKILL.md', 'agents/openai.yaml', 'references', 'scripts/casebook.py', 'LICENSE')
+PAYLOAD = ('SKILL.md', 'agents/openai.yaml', 'references', 'scripts/casebook.py',
+           'scripts/forecast_registry.py', 'LICENSE')
 
 
 def copy_payload(source, target):
