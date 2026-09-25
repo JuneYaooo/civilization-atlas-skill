@@ -36,13 +36,17 @@ python3 scripts/install_skill.py
 
 在支持 Skill 的会话中调用 `$civilization-atlas`。安装程序默认使用 Codex 技能目录；`--dest` 可指定其他技能父目录，已有同名安装时停止覆盖。
 
-### 生成通用 Skill 安装包
+### 下载或生成 Skill 安装包
+
+[下载含知识库的 ZIP 安装包](https://github.com/JuneYaooo/civilization-atlas-skill/releases/download/knowledge-2026-09-25/civilization-atlas-knowledge-20260925.zip) · [查看发布版本](https://github.com/JuneYaooo/civilization-atlas-skill/releases/tag/knowledge-2026-09-25)
+
+也可在本地生成：
 
 ```sh
 python3 scripts/install_skill.py --zip dist/civilization-atlas.zip
 ```
 
-ZIP 包含 Skill、知识库和查询工具。WorkBuddy 提供本地技能包导入入口，操作见[官方技能安装说明](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market)。宿主实测结果应以实际演示记录为准。
+ZIP 包含 Skill、知识库和查询工具。WorkBuddy 提供本地技能包导入入口，操作见[官方技能安装说明](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market)。
 
 ### 直接查看知识库
 
@@ -80,6 +84,12 @@ flowchart LR
 | 决策与复盘 | 有哪些可行选项？什么信号会使判断需要修改？ |
 
 周易的时位、关系与变通思维用于提出研究问题；经验结论仍由史料、观测和检验支持。预测工具可以冻结二元任务、概率和结果，并比较同题 Brier 评分。
+
+## 历史回放：能预测多准？
+
+先用可复现的数值基线检查，而不是只展示命中的故事。对 5,425 个国家—指标—截点组合做五年外推，4,766 题可结算。线性趋势在部分指标上优于保持不变，但在实际人均 GDP 上整体 MAE 更高。
+
+固定展示题中，中国城市化的方向相符；日本人口与巴西实际人均 GDP 的方向判断均失败。**这些是数值基线回放，不是 Skill 或 WorkBuddy 的预测准确率。** [查看完整结果、失败题目与复现脚本](demos/historical-replay/README.md)。
 
 ## 能力的边界
 
