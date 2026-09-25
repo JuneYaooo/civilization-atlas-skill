@@ -1,7 +1,6 @@
 {
   "purpose": "Skill distribution file manifest",
   "files": [
-    ".github/workflows/validate.yml",
     ".gitignore",
     "LICENSE",
     "PUBLIC_FILES.json",
