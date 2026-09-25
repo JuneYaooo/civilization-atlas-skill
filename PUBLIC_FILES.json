@@ -1,5 +1,5 @@
 {
-  "purpose": "Explicit pure-method release boundary; no research records or conversation artifacts",
+  "purpose": "Skill distribution file manifest",
   "files": [
     ".github/workflows/validate.yml",
     ".gitignore",
