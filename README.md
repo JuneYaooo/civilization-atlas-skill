@@ -87,7 +87,7 @@ flowchart LR
 
 ## 在 WorkBuddy 中实际使用
 
-已在 WorkBuddy 5.6.2（GLM-5.3-Flash）验证技能识别、内嵌史料查询和数值回放程序执行。下面是安装与返回史料的真实截图步骤演示；GIF 为截图序列，非连续录屏。
+已在 WorkBuddy 5.6.2（GLM-5.3-Flash）验证技能识别、内嵌史料查询和数值回放程序执行。下面是安装、史料检索、回放指标与失败案例的真实截图步骤演示；GIF 为截图序列，非连续录屏。
 
 ![WorkBuddy 使用步骤](assets/workbuddy/walkthrough.gif)
 
