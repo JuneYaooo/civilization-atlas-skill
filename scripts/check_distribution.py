@@ -64,6 +64,12 @@ def check():
                 elif path.suffix == '.xlsx':
                     with zipfile.ZipFile(path) as archive:
                         text = '\n'.join(archive.read(n).decode('utf-8') for n in archive.namelist() if n.endswith('.xml'))
+                elif path.suffix in ('.png', '.jpg', '.gif'):
+                    # Screenshots require visual review; hashes bind that review to exact bytes.
+                    signatures = {'.jpg': (b'\xff\xd8\xff',), '.png': (b'\x89PNG\r\n\x1a\n',), '.gif': (b'GIF87a', b'GIF89a')}
+                    if not path.read_bytes().startswith(signatures[path.suffix]):
+                        problems.append(f'Invalid image signature: {rel}')
+                    continue
                 else:
                     problems.append(f'Unsupported binary type: {rel}')
                     continue

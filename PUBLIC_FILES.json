@@ -9,9 +9,14 @@
     "SKILL.md",
     "agents/openai.yaml",
     "assets/banner.svg",
+    "assets/workbuddy/01-installed.jpg",
+    "assets/workbuddy/03-evidence.jpg",
+    "assets/workbuddy/walkthrough.gif",
     "demos/historical-replay/README.md",
     "demos/historical-replay/replay.py",
     "demos/historical-replay/results.json",
+    "demos/workbuddy/README.md",
+    "demos/workbuddy/run-receipt.json",
     "knowledge-base/ATTRIBUTION.md",
     "knowledge-base/README.md",
     "knowledge-base/data/bundle.json",
@@ -72,6 +77,9 @@
   ],
   "binary_files": {
     "knowledge-base/data/history.sqlite.gz": "e77284bcae791c4158dd8b44f8e55b5c322713b4c8021723dd2804a7a77bf9bc",
-    "knowledge-base/data/raw/seshat-polaris-cf60c9f76eeda6db.xlsx": "cf60c9f76eeda6db545521831a9201e65c64d2b74d4aeb55445cd2b564456c41"
+    "knowledge-base/data/raw/seshat-polaris-cf60c9f76eeda6db.xlsx": "cf60c9f76eeda6db545521831a9201e65c64d2b74d4aeb55445cd2b564456c41",
+    "assets/workbuddy/03-evidence.jpg": "cdaa0a4a7b7ddbfddd621f7aae73863a6fa05eaba17821f101266025b6a54346",
+    "assets/workbuddy/walkthrough.gif": "9623b39ac376e4e0c5b8b172166eb613e75d9b542344b7151778283d9dc92c34",
+    "assets/workbuddy/01-installed.jpg": "7d5bd5e4ae582dcb257f72ecad9e4f193c0a2b1d49fd48a29c4ad019fc6f081f"
   }
 }

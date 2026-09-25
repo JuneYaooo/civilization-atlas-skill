@@ -1,0 +1,174 @@
+{
+  "generated_at": "2026-09-25T13:14:20.460128+00:00",
+  "script_sha256": "218da8df39e3bba3775ad2101341d841ed23a689973a32939dcd3276f6f40a78",
+  "database_bundle": {
+    "archive": "history.sqlite.gz",
+    "archive_sha256": "e77284bcae791c4158dd8b44f8e55b5c322713b4c8021723dd2804a7a77bf9bc",
+    "database_sha256": "f65781349d8d2d67420defbe5ec58526ea4d6f33b2e4be92c94838c073308618",
+    "database_bytes": 200736768,
+    "record_count": 146099
+  },
+  "registered_tasks": 5425,
+  "resolved_tasks": 4766,
+  "excluded_tasks": 659,
+  "metrics": [
+    {
+      "variable": "wb:IT.NET.USER.ZS",
+      "unit": "percent",
+      "n": 738,
+      "linear_mae": 8.56385410597252,
+      "persistence_mae": 14.360117726354359,
+      "linear_wins": 637,
+      "ties": 1,
+      "linear_losses": 100
+    },
+    {
+      "variable": "wb:NY.GDP.PCAP.KD",
+      "unit": "constant 2015 US$",
+      "n": 990,
+      "linear_mae": 1656.2765574724028,
+      "persistence_mae": 1577.308152686975,
+      "linear_wins": 555,
+      "ties": 0,
+      "linear_losses": 435
+    },
+    {
+      "variable": "wb:SP.DYN.LE00.IN",
+      "unit": "years",
+      "n": 868,
+      "linear_mae": 1.266052878217374,
+      "persistence_mae": 1.5731536107676742,
+      "linear_wins": 586,
+      "ties": 0,
+      "linear_losses": 282
+    },
+    {
+      "variable": "wb:SP.POP.TOTL",
+      "unit": "persons",
+      "n": 1085,
+      "linear_mae": 425836.7477419361,
+      "persistence_mae": 1986608.662672811,
+      "linear_wins": 906,
+      "ties": 0,
+      "linear_losses": 179
+    },
+    {
+      "variable": "wb:SP.URB.TOTL.IN.ZS",
+      "unit": "percent",
+      "n": 1085,
+      "linear_mae": 0.8576178779229835,
+      "persistence_mae": 1.6708321283801937,
+      "linear_wins": 798,
+      "ties": 59,
+      "linear_losses": 228
+    }
+  ],
+  "selected": [
+    {
+      "entity": "wb:CHN",
+      "name": "China",
+      "variable": "wb:SP.URB.TOTL.IN.ZS",
+      "origin": 2010,
+      "target": 2015,
+      "training": [
+        [
+          2006,
+          44.3430099487305
+        ],
+        [
+          2007,
+          45.8892440795898
+        ],
+        [
+          2008,
+          46.9895057678223
+        ],
+        [
+          2009,
+          48.3417053222656
+        ],
+        [
+          2010,
+          49.2340270628041
+        ]
+      ],
+      "linear": 55.523645265818566,
+      "persistence": 49.2340270628041,
+      "actual": 57.3297843933105,
+      "linear_absolute_error": 1.8061391274919316,
+      "persistence_absolute_error": 8.095757330506395
+    },
+    {
+      "entity": "wb:JPN",
+      "name": "Japan",
+      "variable": "wb:SP.POP.TOTL",
+      "origin": 2010,
+      "target": 2015,
+      "training": [
+        [
+          2006,
+          127854000.0
+        ],
+        [
+          2007,
+          128001000.0
+        ],
+        [
+          2008,
+          128063000.0
+        ],
+        [
+          2009,
+          128047000.0
+        ],
+        [
+          2010,
+          128070000.0
+        ]
+      ],
+      "linear": 128341600.0,
+      "persistence": 128070000.0,
+      "actual": 127141000.0,
+      "linear_absolute_error": 1200600.0,
+      "persistence_absolute_error": 929000.0
+    },
+    {
+      "entity": "wb:BRA",
+      "name": "Brazil",
+      "variable": "wb:NY.GDP.PCAP.KD",
+      "origin": 2015,
+      "target": 2020,
+      "training": [
+        [
+          2011,
+          9067.99316348047
+        ],
+        [
+          2012,
+          9167.49923929815
+        ],
+        [
+          2013,
+          9366.73932434359
+        ],
+        [
+          2014,
+          9338.34278278114
+        ],
+        [
+          2015,
+          8936.19661712113
+        ]
+      ],
+      "linear": 9110.429540939911,
+      "persistence": 8936.19661712113,
+      "actual": 8435.01143254978,
+      "linear_absolute_error": 675.4181083901312,
+      "persistence_absolute_error": 501.18518457134996
+    }
+  ],
+  "output_sha256": "0352e0bfcc3725b55f612c3de02ad969beaa2ff6dfa385b7af7097e37f800761",
+  "comparison": "All fields except generated_at match historical-replay/results.json",
+  "client": "WorkBuddy 5.6.2",
+  "displayed_model": "GLM-5.3-Flash"
+}
