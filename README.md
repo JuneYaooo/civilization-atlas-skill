@@ -7,7 +7,21 @@
 
 **博古通今，是这个 Skill 的立场。** 从历史留下的制度、技术、人口、资源和社会关系中理解变化，把过去的经验转化为审视当下、研判未来的证据与问题。
 
-Civilization Atlas 将可检索的历史知识库、比较研究方法和预测评估工具装进同一个 Skill。研究从具体资料出发：核对发生了什么，比较形成条件，再判断哪些机制可能延续、哪些条件已经改变。
+Civilization Atlas 将历史知识库、动态研究流程和预测评估工具装进同一个 Skill。近期事件先核实当前事实，历史问题从可追溯资料出发，再比较哪些机制可能延续、哪些条件已经改变。
+
+## 从近期事件到个人决策
+
+| 层 | 提供什么 | 如何使用 |
+|---|---|---|
+| 本地证据与索引 | 可离线查询的历史快照、原始出处、外部来源入口 | 查历史与长期背景，保留版本 |
+| 动态研究 | 事实核查、机制研究、历史比较、提交前更新核对 | 宿主 agent 使用可用搜索与浏览工具查最新材料 |
+| 推断与决策 | 传导链、竞争解释、时代差异、可逆行动与复盘 | 从有证据的条件出发，不把类比当预测 |
+
+遇到近期大事，沿“核实事件 → 暴露与传导 → 历史对照 → 条件判断 → 行动与修订”展开。个人困境则先厘清目标、底线和选项，再找历史中的具体决策片段，提取思路而非照搬行为。
+
+[事件响应](references/event-response-protocol.md) · [动态检索](references/online-search-strategy.md) · [个人决策镜鉴](references/personal-decision-historical-mirror.md) · [三层架构](references/knowledge-base-philosophy.md)
+
+`search_plan.py` 生成供宿主执行的检索计划；两个候选匹配工具按有出处的结构标签安排阅读，并报告冲突、未知及无匹配。它们不自带搜索服务，也不输出成功概率。[工具接口](references/analogue-matching.md)。
 
 ## 知识版图
 
@@ -38,7 +52,7 @@ python3 scripts/install_skill.py
 
 ### 下载或生成 Skill 安装包
 
-[下载含知识库的 ZIP 安装包](https://github.com/JuneYaooo/civilization-atlas-skill/releases/download/knowledge-2026-09-25/civilization-atlas-knowledge-20260925.zip) · [查看发布版本](https://github.com/JuneYaooo/civilization-atlas-skill/releases/tag/knowledge-2026-09-25)
+[下载含知识库的 ZIP 安装包](https://github.com/JuneYaooo/civilization-atlas-skill/releases/download/engine-2026-10-09/civilization-atlas-engine-20261009.zip) · [查看发布版本](https://github.com/JuneYaooo/civilization-atlas-skill/releases/tag/engine-2026-10-09)
 
 也可在本地生成：
 
@@ -67,9 +81,9 @@ Python 3.9+，仅使用标准库。外文数据优先按原文名称检索，中
 
 ```mermaid
 flowchart LR
-    A[提出当下问题] --> B[检索历史证据]
-    B --> C[比较条件与竞争解释]
-    C --> D[核对今天的变化]
+    A[提出当下问题] --> B[核实当前事实与约束]
+    B --> C[检索历史证据与对照]
+    C --> D[比较条件与竞争解释]
     D --> E[形成情景与行动判断]
     E --> F[登记预测并跟踪结果]
     F --> C
@@ -104,6 +118,8 @@ flowchart LR
 ## 能力的边界
 
 历史可以约束判断，但不能保证未来重复过去。本项目尚未证明通用预测准确性；历史回溯也不能自动证明事前预测能力，尤其要警惕模型已知后续事件与后来修订的数据。
+
+动态研究依赖宿主的联网能力与可访问资料，不承诺任意问题在固定分钟数内得到准确答案。匹配工具的合成测试只检验工程行为，未证明历史研究能提升预测或决策收益。
 
 当前资料在前现代经济人口、疾病灾害、科技突破及原文证据链方面仍有明显缺口。属性未注明年代时，不用政体持续期补成逐年观测。完整采集路线见[知识库建设计划](knowledge-base/docs/collection-program.md)。
 
