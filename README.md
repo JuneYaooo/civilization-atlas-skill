@@ -25,6 +25,8 @@ Civilization Atlas 将历史知识库、动态研究流程和预测评估工具�
 
 [开始一次研究](references/research-engine.md) · [历史索引与来源](catalog/README.md) · [端到端验证](demos/research-engine/README.md)
 
+[三题完整研究重跑：房地产、新冠与 AI](demos/three-question-rerun/README.md)：展开因素关联、多组历史对照和时代条件，分开截点判断与后续复核。
+
 ## 知识版图
 
 随 Skill 提供可离线检索的数据快照、原始资料定位与本地浏览器。首次查询自动校验并解压数据库到本机缓存，无需单独搭建数据库服务。

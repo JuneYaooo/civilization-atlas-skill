@@ -1,0 +1,819 @@
+{
+  "mode": "historical_reconstruction",
+  "outcomes_known_during_design": true,
+  "reconstructed_at": "2026-10-09T05:01:59.145705+00:00",
+  "accuracy_estimate_permitted": false,
+  "selection": "Known-outcome historical reconstruction by one host researcher; no holdout, model A/B, or preregistration.",
+  "sources": {
+    "reform": {
+      "title": "国发〔1998〕23号",
+      "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/201309/t20130924_776668.html",
+      "document_date": "1998-07-03",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "官方重刊；第四、五条：停止实物分房、货币化、公积金及个人住房贷款。未取得1998网页快照。"
+    },
+    "investment1998": {
+      "title": "统计年鉴：房地产开发主要指标",
+      "url": "https://www.stats.gov.cn/yearbook2001/2002/f0636c.htm",
+      "document_date": "2002-12-31",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "年鉴年份已知，日为保守年末界限；投资1998行3614.23亿元，仅作事后结果基点。"
+    },
+    "investment2003": {
+      "title": "2006年鉴6-27房地产开发",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2006/html/F0627C.HTM",
+      "document_date": "2006-12-31",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "年鉴年份已知，日为保守年末界限；2003投资10153.8亿元。"
+    },
+    "prices": {
+      "title": "2011年鉴5-38商品房平均销售价格",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2011/html/F0538C.HTM",
+      "document_date": "2011-12-31",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "年鉴年份已知，日为保守年末界限；住宅列1998=1854、1999=1857、2003=2197元/平方米。不是恒定质量价格指数。"
+    },
+    "concentration": {
+      "title": "房地产贷款集中度管理答记者问",
+      "url": "https://www.pbc.gov.cn/huobizhengceersi/214481/3868581/3868584/baf21ec2a2b24573a3d29c73e6a13c1b/index.html",
+      "document_date": "2020-12-31",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "央行：分类上限、过渡期；多数银行已符合要求。不能解释为全面立即断贷。"
+    },
+    "cycle": {
+      "title": "Characterising the financial cycle",
+      "url": "https://www.bis.org/publ/work380.htm",
+      "document_date": "2012-06-13",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "已读摘要：信贷与房地产价格的中期共同波动；非中国2021转折日期模型，未声称通读43页论文。"
+    },
+    "housing2021": {
+      "title": "2021年全国房地产开发投资增长4.4%",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901340.html",
+      "document_date": "2022-01-17",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "全国投资同比+4.4%，新开工面积-11.4%；网址迁移时间不是原始发布日期。"
+    },
+    "housing2024": {
+      "title": "2024年全国房地产市场基本情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202501/t20250117_1958328.html",
+      "document_date": "2025-01-17",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "投资同比-10.6%；采用官方可比口径同比，不将不同年度修订基数直接拼接。"
+    },
+    "who2020": {
+      "title": "WHO第二次紧急委员会声明",
+      "url": "https://www.who.int/news-room/detail/30-01-2020-statement-on-the-second-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov)",
+      "document_date": "2020-01-30",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "PHEIC、跨国人传人、重要未知；仍提出遏制可能，未建议旅行贸易限制。截点为当日结束。"
+    },
+    "sars": {
+      "title": "WHO SARS outbreak contained worldwide",
+      "url": "https://www.who.int/news-room/detail/05-07-2003-sars-outbreak-contained-worldwide",
+      "document_date": "2003-07-05",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "传播链得到控制但威胁仍存；不能推出任何新疫情都短暂。"
+    },
+    "h1n1": {
+      "title": "CDC H1N1 situation update",
+      "url": "https://archive.cdc.gov/www_cdc_gov/h1n1flu/updates/061909.htm",
+      "document_date": "2009-06-19",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "归档页说明WHO六月宣布大流行；分级涉及地理传播，不等同严重程度。"
+    },
+    "tourism2020": {
+      "title": "2020 worst year in tourism history",
+      "url": "https://www.untourism.int/news/2020-worst-year-in-tourism-history-with-1-billion-fewer-international-arrivals",
+      "document_date": "2021-01-28",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "当期发布2020国际游客到达数同比-74%；后来修订为-73%。"
+    },
+    "tourism2021": {
+      "title": "Tourism grows 4% in 2021",
+      "url": "https://www.untourism.int/news/tourism-grows-4-in-2021-but-remains-far-below-pre-pandemic-levels",
+      "document_date": "2022-01-18",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "2021国际游客到达数比2019低72%，按本次发布口径。"
+    },
+    "chatgpt": {
+      "title": "Introducing ChatGPT",
+      "url": "https://openai.com/index/chatgpt/",
+      "document_date": "2022-11-30",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "已读带原始日期正文：公开研究预览和可能生成似真错误答案的限制。页面有后来内容，未验证完整2022快照。"
+    },
+    "jcurve": {
+      "title": "The Productivity J-Curve",
+      "url": "https://www.nber.org/papers/w25148",
+      "document_date": "2018-10-01",
+      "known_revision_date": "2020-01-31",
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "已读索引摘要，未通读全文；通用技术需要流程、组织和无形资本配套。月份已知，日作月初标记；采用标明2020年1月修订版本。"
+    },
+    "writing": {
+      "title": "MIT介绍Noy与Zhang写作实验",
+      "url": "https://news.mit.edu/2023/study-finds-chatgpt-boosts-worker-productivity-writing-0714",
+      "document_date": "2023-07-14",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "研究机构报道，非已阅读全文：453名受过大学教育的专业人员；特定写作任务耗时-40%，质量+18%；任务不要求严格事实准确性或组织背景。"
+    },
+    "coding": {
+      "title": "METR early-2025 developer RCT",
+      "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+      "document_date": "2025-07-10",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "16位熟悉仓库的开发者、246项任务，早期2025工具下完成耗时+19%；当前页面含2026更新入口。本审计只用2025实验结果。"
+    },
+    "copilot": {
+      "title": "GitHub Copilot productivity study",
+      "url": "https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/",
+      "document_date": "2022-09-07",
+      "known_revision_date": "2024-05-21",
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "当前页面明示2024-05-21更新，不能当作已冻结的2022输入。"
+    },
+    "reform1994": {
+      "title": "1994住房制度改革决定及北京实施文件",
+      "url": "https://www.beijing.gov.cn/zhengce/zfwj/zfwj/szfwj/201905/t20190523_71836.html",
+      "document_date": "1994-12-23",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "已读相关正文。国务院决定1994-07-18；保守采用所载北京文件日期。公积金、信贷与市场安排；官方重刊。"
+    },
+    "boj1997": {
+      "title": "BOJ April 1997 outlook",
+      "url": "https://www.boj.or.jp/en/research/past_release/js97sp.htm",
+      "document_date": "1997-04-25",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "已读经济展望正文：消费税前后住房投资变动、贷款与土地价格分化。"
+    },
+    "bis2018": {
+      "title": "Mortgages developers and property prices",
+      "url": "https://www.bis.org/publications/qr-201803/mortgages-developers-and-property-prices",
+      "document_date": "2018-03-11",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "已读相关正文：开发商负债、盈利利息覆盖及利率汇率脆弱性；仅进入2021分析。"
+    },
+    "sequence": {
+      "title": "WHO January 12 outbreak update",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON233",
+      "document_date": "2020-01-12",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "已读正文：分享序列支持诊断工具开发，不代表检测部署完成。"
+    },
+    "control2004": {
+      "title": "Factors that make an infectious disease outbreak controllable",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15071187/",
+      "document_date": "2004-04-20",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "已读原始摘要；症状前或无症状传播与基本传染性影响可控性；未复现模型。"
+    },
+    "network2013": {
+      "title": "The hidden geometry of complex network-driven contagion",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24337289/",
+      "document_date": "2013-12-13",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "已读原始摘要；有效距离与网络传播；未取得目标客流矩阵。"
+    },
+    "jcurve2020": {
+      "title": "The Productivity J-Curve, revised January 2020",
+      "url": "https://conference.nber.org/confer/2020/YSAIf20/EB2.pdf",
+      "document_date": "2020-01-31",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "读PDF封面、摘要和引言；月份已知，日期采用保守月末；未复现估计。"
+    },
+    "robots2017": {
+      "title": "Robots and Jobs, March 2017 version",
+      "url": "https://conference.nber.org/confer/2017/PRs17/robots_and_jobs_march_3.17.2017_final.pdf",
+      "document_date": "2017-03-17",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "读PDF摘要、引言及设计说明；美国地方市场1990—2007经验，未重估系数。"
+    },
+    "he2020": {
+      "title": "Temporal dynamics in viral shedding and transmissibility of COVID-19",
+      "url": "https://www.nature.com/articles/s41591-020-0869-5",
+      "document_date": "2020-04-15",
+      "known_revision_date": "2020-08-07",
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "后续复核症状前传播研究；当前正文关联2020-08-07更正，未倒填1月输入。"
+    },
+    "hecorrection": {
+      "title": "Author Correction",
+      "url": "https://www.nature.com/articles/s41591-020-1016-z",
+      "document_date": "2020-08-07",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "读更正；报告不引用发生修订的具体区间。"
+    },
+    "metr2026": {
+      "title": "METR uplift update",
+      "url": "https://metr.org/blog/2026-02-24-uplift-update/",
+      "document_date": "2026-02-24",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "读正文：提速可能改善，但样本选择、报酬、并行时间测量限制效应量；仅作后续状态修订。"
+    }
+  },
+  "cases": [
+    {
+      "id": "housing1998",
+      "cutoff": "1998-07-31",
+      "inputs": [
+        "reform1994",
+        "reform",
+        "boj1997"
+      ],
+      "analysis": {
+        "verdict": "conditional",
+        "selected_analogues": [
+          "reform-path",
+          "japan-demand-timing"
+        ],
+        "mechanism_comparisons": [
+          {
+            "id": "H1",
+            "analogue_id": "reform-path",
+            "target_outcome": "住房交易和建设活动",
+            "mechanism": "制度许可经支付能力转化为实际订单",
+            "invariant_hypothesis": "支付与交付未接通则需求不自动成为订单",
+            "propagation_vs_response": "比较作用传递、实际部署与响应的时滞；本轮没有估计速度参数。",
+            "phase_switch": "由制度安排转为融资及交付约束，须观察确认",
+            "observation_process": "名义投资不是利润，均价受构成影响",
+            "falsifier": "收入和可得融资不能形成付费需求",
+            "conclusion": "保留条件机制；不迁移系数、日期或无条件结果。",
+            "decision": "conditional",
+            "modifiers": [
+              {
+                "variable": "制度执行与融资覆盖",
+                "source_state": "1994已有公积金信贷市场安排",
+                "target_state": "1998进一步推进货币化；地方执行覆盖未测量",
+                "effect_on_mechanism": "支付与交付未接通则需求不自动成为订单",
+                "status": "unknown",
+                "source_evidence_ids": [
+                  "reform1994"
+                ],
+                "target_evidence_ids": [
+                  "reform"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "H2",
+            "analogue_id": "japan-demand-timing",
+            "target_outcome": "建设活动与价格是否同步",
+            "mechanism": "政策改变需求时间，供给与金融条件影响结果",
+            "invariant_hypothesis": "成熟市场系数不可直接移植",
+            "propagation_vs_response": "比较作用传递、实际部署与响应的时滞；本轮没有估计速度参数。",
+            "phase_switch": "制度扩张与成熟调整不是同一阶段",
+            "observation_process": "投资价格分地区及指标口径",
+            "falsifier": "供给足够快时数量增而价格不必涨",
+            "conclusion": "保留条件机制；不迁移系数、日期或无条件结果。",
+            "decision": "conditional",
+            "modifiers": [
+              {
+                "variable": "供给弹性与需求前移",
+                "source_state": "日本税制前后住房投资波动",
+                "target_state": "中国市场形成期；供给和支付弹性未估计",
+                "effect_on_mechanism": "成熟市场系数不可直接移植",
+                "status": "unknown",
+                "source_evidence_ids": [
+                  "boj1997"
+                ],
+                "target_evidence_ids": [
+                  "reform"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "housing2021",
+      "cutoff": "2021-02-28",
+      "inputs": [
+        "bis2018",
+        "concentration"
+      ],
+      "analysis": {
+        "verdict": "conditional",
+        "selected_analogues": [
+          "developer-balance-sheets"
+        ],
+        "mechanism_comparisons": [
+          {
+            "id": "H3",
+            "analogue_id": "developer-balance-sheets",
+            "target_outcome": "新增开工与存量投资分化",
+            "mechanism": "融资与回款影响新承诺，存量工程产生滞后",
+            "invariant_hypothesis": "政策存在不等于资金立即全面中断",
+            "propagation_vs_response": "比较作用传递、实际部署与响应的时滞；本轮没有估计速度参数。",
+            "phase_switch": "新项目收缩可早于存量投资",
+            "observation_process": "官方可比同比；不可把新开工当总投资",
+            "falsifier": "若新增资金充足则撤回迫近收缩假说",
+            "conclusion": "保留条件机制；不迁移系数、日期或无条件结果。",
+            "decision": "conditional",
+            "modifiers": [
+              {
+                "variable": "实际资金缺口及期限结构",
+                "source_state": "BIS讨论开发商利息覆盖和融资脆弱性",
+                "target_state": "分类上限和过渡期已知；企业资金缺口未测量",
+                "effect_on_mechanism": "政策存在不等于资金立即全面中断",
+                "status": "unknown",
+                "source_evidence_ids": [
+                  "bis2018"
+                ],
+                "target_evidence_ids": [
+                  "concentration"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "covid",
+      "cutoff": "2020-01-30",
+      "inputs": [
+        "who2020",
+        "sequence",
+        "sars",
+        "h1n1",
+        "control2004",
+        "network2013"
+      ],
+      "analysis": {
+        "verdict": "conditional",
+        "selected_analogues": [
+          "sars-control",
+          "h1n1-spread",
+          "network-distance"
+        ],
+        "mechanism_comparisons": [
+          {
+            "id": "C1",
+            "analogue_id": "sars-control",
+            "target_outcome": "控制与跨境社会活动冲击",
+            "mechanism": "发现和响应覆盖感染链方能切断传播",
+            "invariant_hypothesis": "未知传染时间阻止直接迁移SARS结束日期",
+            "propagation_vs_response": "比较作用传递、实际部署与响应的时滞；本轮没有估计速度参数。",
+            "phase_switch": "病例负荷可能使检测追踪容量饱和",
+            "observation_process": "确诊不等于感染，检测扩张改变计数",
+            "falsifier": "若传播在发现前广泛发生则症状触发机制削弱",
+            "conclusion": "保留条件机制；不迁移系数、日期或无条件结果。",
+            "decision": "conditional",
+            "modifiers": [
+              {
+                "variable": "症状前传播与响应覆盖",
+                "source_state": "SARS已知传播链被控制",
+                "target_state": "新病原传播时间分布及各地响应覆盖未知",
+                "effect_on_mechanism": "未知传染时间阻止直接迁移SARS结束日期",
+                "status": "unknown",
+                "source_evidence_ids": [
+                  "sars"
+                ],
+                "target_evidence_ids": [
+                  "who2020"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "C2",
+            "analogue_id": "h1n1-spread",
+            "target_outcome": "国际扩散和严重程度分别判断",
+            "mechanism": "网络传播不等于相同致病性和社会后果",
+            "invariant_hypothesis": "不得从广度推出固定死亡率或经济损失",
+            "propagation_vs_response": "比较作用传递、实际部署与响应的时滞；本轮没有估计速度参数。",
+            "phase_switch": "输入与持续本地传播需要分别观察",
+            "observation_process": "住院病例的严重程度存在选择偏差",
+            "falsifier": "若输入未形成持续传播则不能外推地方同速增长",
+            "conclusion": "保留条件机制；不迁移系数、日期或无条件结果。",
+            "decision": "conditional",
+            "modifiers": [
+              {
+                "variable": "接触网络与严重程度",
+                "source_state": "H1N1阶段分级反映地理扩散",
+                "target_state": "跨境传播已知，感染分母及网络参数未知",
+                "effect_on_mechanism": "不得从广度推出固定死亡率或经济损失",
+                "status": "unknown",
+                "source_evidence_ids": [
+                  "h1n1"
+                ],
+                "target_evidence_ids": [
+                  "who2020"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "C3",
+            "analogue_id": "network-distance",
+            "target_outcome": "输入时间与发现响应",
+            "mechanism": "交通连接与有效响应延迟竞争",
+            "invariant_hypothesis": "测序速度不可替代全过程控制速度",
+            "propagation_vs_response": "比较作用传递、实际部署与响应的时滞；本轮没有估计速度参数。",
+            "phase_switch": "容量瓶颈可抵消技术改进",
+            "observation_process": "报告日期不同于感染或发病日期",
+            "falsifier": "若响应覆盖充分则不能仅由交通推断失控",
+            "conclusion": "保留条件机制；不迁移系数、日期或无条件结果。",
+            "decision": "conditional",
+            "modifiers": [
+              {
+                "variable": "目标交通矩阵和实际检测覆盖",
+                "source_state": "历史网络研究提出有效距离",
+                "target_state": "序列已共享但客流矩阵和实际检测可及性不足",
+                "effect_on_mechanism": "测序速度不可替代全过程控制速度",
+                "status": "unknown",
+                "source_evidence_ids": [
+                  "network2013"
+                ],
+                "target_evidence_ids": [
+                  "sequence"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai",
+      "cutoff": "2022-11-30",
+      "inputs": [
+        "chatgpt",
+        "jcurve2020",
+        "robots2017"
+      ],
+      "analysis": {
+        "verdict": "conditional",
+        "selected_analogues": [
+          "complementary-capital",
+          "robot-labor-markets"
+        ],
+        "mechanism_comparisons": [
+          {
+            "id": "A1",
+            "analogue_id": "complementary-capital",
+            "target_outcome": "任务能力到组织生产率",
+            "mechanism": "互补投入及核验成本影响技术收益",
+            "invariant_hypothesis": "生成节省可能被验证返工抵消",
+            "propagation_vs_response": "比较作用传递、实际部署与响应的时滞；本轮没有估计速度参数。",
+            "phase_switch": "瓶颈从生成转到核验或采用",
+            "observation_process": "统一质量和全流程耗时而非只计生成",
+            "falsifier": "净节省非正时撤回净提效判断",
+            "conclusion": "保留条件机制；不迁移系数、日期或无条件结果。",
+            "decision": "conditional",
+            "modifiers": [
+              {
+                "variable": "完整交付成本和组织采用",
+                "source_state": "软件硬件需配套无形资本",
+                "target_state": "生成能力与似真错误已知；实际组织成本未知",
+                "effect_on_mechanism": "生成节省可能被验证返工抵消",
+                "status": "unknown",
+                "source_evidence_ids": [
+                  "jcurve2020"
+                ],
+                "target_evidence_ids": [
+                  "chatgpt"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "A2",
+            "analogue_id": "robot-labor-markets",
+            "target_outcome": "局部替代与净就业",
+            "mechanism": "自动化替代与需求生产率路径竞争",
+            "invariant_hypothesis": "不能移植每台机器对应岗位系数",
+            "propagation_vs_response": "比较作用传递、实际部署与响应的时滞；本轮没有估计速度参数。",
+            "phase_switch": "价格下降和新任务可能改写净效应",
+            "observation_process": "局部任务实验不能代表全国就业",
+            "falsifier": "需求扩张抵消替代时不能推断总岗位必降",
+            "conclusion": "保留条件机制；不迁移系数、日期或无条件结果。",
+            "decision": "conditional",
+            "modifiers": [
+              {
+                "variable": "需求弹性与新任务",
+                "source_state": "工业机器人地方市场经验",
+                "target_state": "AI数字分发和覆盖任务不同，需求弹性未知",
+                "effect_on_mechanism": "不能移植每台机器对应岗位系数",
+                "status": "unknown",
+                "source_evidence_ids": [
+                  "robots2017"
+                ],
+                "target_evidence_ids": [
+                  "chatgpt"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "R1",
+      "case": "housing1998",
+      "hypothesis": "2003房地产开发投资高于1998",
+      "role": "bounded_hypothesis",
+      "operator": "gt",
+      "threshold": 0,
+      "unit": "percent",
+      "outcome_sources": [
+        "investment1998",
+        "investment2003"
+      ],
+      "reported_value": null,
+      "base": 3614.23,
+      "end": 10153.8,
+      "scope": "全国名义投资；亿元"
+    },
+    {
+      "id": "R2",
+      "case": "housing1998",
+      "hypothesis": "2003商品住宅平均销售价格高于1998",
+      "role": "bounded_hypothesis",
+      "operator": "gt",
+      "threshold": 0,
+      "unit": "percent",
+      "outcome_sources": [
+        "prices"
+      ],
+      "reported_value": null,
+      "base": 1854,
+      "end": 2197,
+      "scope": "全国名义销售均价；元/平方米；存在成交结构变化"
+    },
+    {
+      "id": "R3",
+      "case": "housing1998",
+      "hypothesis": "改革意味着1999住宅均价立即上涨超过10%",
+      "role": "overclaim_stress_test",
+      "operator": "gt",
+      "threshold": 10,
+      "unit": "percent",
+      "outcome_sources": [
+        "prices"
+      ],
+      "reported_value": null,
+      "base": 1854,
+      "end": 1857,
+      "scope": "10%阈值为事后选择，仅检查过强说法，不是历史登记预测"
+    },
+    {
+      "id": "R4",
+      "case": "housing2021",
+      "hypothesis": "贷款约束意味着2021全年房地产投资立即下降",
+      "role": "overclaim_stress_test",
+      "operator": "lt",
+      "threshold": 0,
+      "unit": "percent",
+      "outcome_sources": [
+        "housing2021"
+      ],
+      "reported_value": 4.4,
+      "base": null,
+      "end": null,
+      "scope": ""
+    },
+    {
+      "id": "R5",
+      "case": "housing2021",
+      "hypothesis": "2021新开工面积下降",
+      "role": "bounded_hypothesis",
+      "operator": "lt",
+      "threshold": 0,
+      "unit": "percent",
+      "outcome_sources": [
+        "housing2021"
+      ],
+      "reported_value": -11.4,
+      "base": null,
+      "end": null,
+      "scope": ""
+    },
+    {
+      "id": "R6",
+      "case": "housing2021",
+      "hypothesis": "2024房地产投资同比下降",
+      "role": "bounded_hypothesis",
+      "operator": "lt",
+      "threshold": 0,
+      "unit": "percent",
+      "outcome_sources": [
+        "housing2024"
+      ],
+      "reported_value": -10.6,
+      "base": null,
+      "end": null,
+      "scope": "期限在已知结果后选择，不能证明提前三年预警能力"
+    },
+    {
+      "id": "C1",
+      "case": "covid",
+      "hypothesis": "2020国际旅游到达数低于2019",
+      "role": "bounded_hypothesis",
+      "operator": "lt",
+      "threshold": 0,
+      "unit": "percent",
+      "outcome_sources": [
+        "tourism2020"
+      ],
+      "reported_value": -74,
+      "base": null,
+      "end": null,
+      "scope": "2021-01发布口径；年度国际到达数，不代表全经济"
+    },
+    {
+      "id": "C2",
+      "case": "covid",
+      "hypothesis": "依照短期控制类比，2021国际旅游恢复至2019水平",
+      "role": "overclaim_stress_test",
+      "operator": "ge",
+      "threshold": 0,
+      "unit": "percent",
+      "outcome_sources": [
+        "tourism2021"
+      ],
+      "reported_value": -72,
+      "base": null,
+      "end": null,
+      "scope": ""
+    },
+    {
+      "id": "A1",
+      "case": "ai",
+      "hypothesis": "后续特定写作实验出现任务耗时缩短",
+      "role": "bounded_hypothesis",
+      "operator": "lt",
+      "threshold": 0,
+      "unit": "percent",
+      "outcome_sources": [
+        "writing"
+      ],
+      "reported_value": -40,
+      "base": null,
+      "end": null,
+      "scope": "2023发表的特定实验，非所有写作或整体职业效率"
+    },
+    {
+      "id": "A2",
+      "case": "ai",
+      "hypothesis": "AI在所有成熟代码库工作中都能缩短耗时",
+      "role": "overclaim_stress_test",
+      "operator": "lt",
+      "threshold": 0,
+      "unit": "percent",
+      "outcome_sources": [
+        "coding"
+      ],
+      "reported_value": 19,
+      "base": null,
+      "end": null,
+      "scope": "一个受控场景提供反例，不推出所有开发者均变慢"
+    }
+  ],
+  "excluded_inputs": [
+    {
+      "source": "copilot",
+      "case": "ai",
+      "reason": "known_revision_after_cutoff"
+    },
+    {
+      "source": "he2020",
+      "case": "covid",
+      "reason": "after_cutoff"
+    },
+    {
+      "source": "metr2026",
+      "case": "ai",
+      "reason": "after_cutoff"
+    },
+    {
+      "source": "bis2018",
+      "case": "housing1998",
+      "reason": "after_cutoff"
+    }
+  ],
+  "unassessed": [
+    "转折日期与可交易回报",
+    "疫情结束日期",
+    "AI净就业、宏观生产率和基础科学突破速度",
+    "历史与周易模块相对普通分析的增量效力"
+  ],
+  "execution": "Host research with external primary-source reading; shared comparison validator. Local study controls are not built-in matcher entries; research_engine CLI was not replayed.",
+  "claims_origin": "Numeric hypotheses and stress thresholds are inherited from demos/mechanism-replay/audit.json; authored after outcomes were known.",
+  "study_controls": {
+    "reform-path": {
+      "source_ids": [
+        "reform1994"
+      ],
+      "scope": "Study-local historical control; not an installed catalogue entry"
+    },
+    "japan-demand-timing": {
+      "source_ids": [
+        "boj1997"
+      ],
+      "scope": "Study-local historical control; not an installed catalogue entry"
+    },
+    "developer-balance-sheets": {
+      "source_ids": [
+        "bis2018"
+      ],
+      "scope": "Study-local historical control; not an installed catalogue entry"
+    },
+    "sars-control": {
+      "source_ids": [
+        "sars"
+      ],
+      "scope": "Study-local historical control; not an installed catalogue entry"
+    },
+    "h1n1-spread": {
+      "source_ids": [
+        "h1n1"
+      ],
+      "scope": "Study-local historical control; not an installed catalogue entry"
+    },
+    "network-distance": {
+      "source_ids": [
+        "network2013"
+      ],
+      "scope": "Study-local historical control; not an installed catalogue entry"
+    },
+    "complementary-capital": {
+      "source_ids": [
+        "jcurve2020"
+      ],
+      "scope": "Study-local historical control; not an installed catalogue entry"
+    },
+    "robot-labor-markets": {
+      "source_ids": [
+        "robots2017"
+      ],
+      "scope": "Study-local historical control; not an installed catalogue entry"
+    }
+  },
+  "new_review_sources": [
+    "he2020",
+    "hecorrection",
+    "metr2026"
+  ],
+  "method_effectiveness": "Not estimated. Manual sensitivity review is in the reports; structural checks do not measure prediction accuracy."
+}
