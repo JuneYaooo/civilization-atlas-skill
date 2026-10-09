@@ -1,0 +1,65 @@
+{
+  "mode": "known_outcome_resolution_dry_run",
+  "accessed_on": "2026-10-09",
+  "source_url": "https://www.acea.auto/files/Press_release_car_registrations_March_2026.pdf",
+  "locator": "Page 4 of 6, YEAR TO DATE, Jan-Mar 2026 and 2025, BATTERY ELECTRIC and TOTAL",
+  "scope": "new_passenger_car_registrations_BEV",
+  "period": "Jan-Mar",
+  "selection": "Original four markets plus Netherlands and Belgium selected after seeing results to challenge universal-growth claims. Not a blind test or independent sample.",
+  "rows": [
+    {
+      "country": "Germany",
+      "old_year": 2025,
+      "new_year": 2026,
+      "old_bev": 112968,
+      "old_total": 664571,
+      "new_bev": 159630,
+      "new_total": 699404
+    },
+    {
+      "country": "France",
+      "old_year": 2025,
+      "new_year": 2026,
+      "old_bev": 74519,
+      "old_total": 410085,
+      "new_bev": 112083,
+      "new_total": 401555
+    },
+    {
+      "country": "United Kingdom",
+      "old_year": 2025,
+      "new_year": 2026,
+      "old_bev": 120191,
+      "old_total": 580512,
+      "new_bev": 137614,
+      "new_total": 614854
+    },
+    {
+      "country": "Norway",
+      "old_year": 2025,
+      "new_year": 2026,
+      "old_bev": 28623,
+      "old_total": 32156,
+      "new_bev": 26617,
+      "new_total": 27175
+    },
+    {
+      "country": "Netherlands",
+      "old_year": 2025,
+      "new_year": 2026,
+      "old_bev": 32413,
+      "old_total": 91383,
+      "new_bev": 24869,
+      "new_total": 81480
+    },
+    {
+      "country": "Belgium",
+      "old_year": 2025,
+      "new_year": 2026,
+      "old_bev": 40402,
+      "old_total": 120939,
+      "new_bev": 39469,
+      "new_total": 113805
+    }
+  ]
+}

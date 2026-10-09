@@ -1,0 +1,55 @@
+{
+  "mode": "known_outcome_resolution_dry_run",
+  "skill_accuracy": null,
+  "future_settlements": 0,
+  "rows": [
+    {
+      "country": "Germany",
+      "share2025": 16.9986,
+      "share2026": 22.8237,
+      "share_rise": 1,
+      "share_change_pp": 5.8251,
+      "volume_change": 46662
+    },
+    {
+      "country": "France",
+      "share2025": 18.1716,
+      "share2026": 27.9122,
+      "share_rise": 1,
+      "share_change_pp": 9.7406,
+      "volume_change": 37564
+    },
+    {
+      "country": "United Kingdom",
+      "share2025": 20.7043,
+      "share2026": 22.3816,
+      "share_rise": 1,
+      "share_change_pp": 1.6773,
+      "volume_change": 17423
+    },
+    {
+      "country": "Norway",
+      "share2025": 89.0129,
+      "share2026": 97.9466,
+      "share_rise": 1,
+      "share_change_pp": 8.9337,
+      "volume_change": -2006
+    },
+    {
+      "country": "Netherlands",
+      "share2025": 35.4694,
+      "share2026": 30.5216,
+      "share_rise": 0,
+      "share_change_pp": -4.9478,
+      "volume_change": -7544
+    },
+    {
+      "country": "Belgium",
+      "share2025": 33.4069,
+      "share2026": 34.6813,
+      "share_rise": 1,
+      "share_change_pp": 1.2743,
+      "volume_change": -933
+    }
+  ]
+}
