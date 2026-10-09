@@ -20,7 +20,7 @@ def plan(question, mode, topics, as_of):
     catalog = json.loads((ROOT / 'references/source-routes.json').read_text())['sources']
     selected = [s for s in catalog if set(s['topics']) & set(topics)]
     q = question.strip()
-    facts = [q + ' 原始公告 数据定义 发布时间 更正']
+    facts = [q + ' 原始公告 数据定义 发布时间 更正', q + ' 原创调查 地方报道 一线 受影响者 访谈', q + ' 从业者 行业数据 实际执行 社区记录']
     facts += [q + ' site:' + urlsplit(s['url']).hostname for s in selected]
     return {
         'mode': mode, 'as_of': as_of, 'execution_status': 'plan_only_not_searched',
@@ -30,10 +30,16 @@ def plan(question, mode, topics, as_of):
             'record': 'Save a concise factor map with inclusion/exclusion reasons in the external research workspace before selecting analogues; revise with evidence.'
         },
         'source_routes': selected,
+        'source_coverage': {
+            'status': 'host_review_required_not_coverage_verified',
+            'reference': 'references/source-diversity.md',
+            'dimensions': ['decision_sensitive_question', 'actor_position', 'channel_and_language', 'independent_upstream', 'access_scope', 'missing_evidence_and_decision_effect'],
+            'instruction': 'Record actual coverage outside the Skill; follow institutional, research, reporting, firsthand, industry and community routes as relevant. Do not infer coverage from this plan or domain counts.'
+        },
         'stages': [
             {'stage': 'facts', 'queries': facts, 'deliverable': 'Dated evidence with original upstream, locator and access scope'},
             {'stage': 'mechanisms', 'queries': [q + ' 机制 研究 反证 替代解释', q + ' 条件变化 网络结构 扩散速度 响应延迟 实际覆盖 容量', q + ' 观测变化 阶段转换 竞争机制'], 'deliverable': 'Evidence per causal link, not consensus counts'},
-            {'stage': 'historical_comparison', 'queries': [q + (' 历史 决策 书信 传记 约束' if mode == 'personal' else ' 历史 对照 相同冲击 不同结果'), q + ' 失败案例 幸存者偏差 不适用条件'], 'deliverable': 'Candidate episodes plus disanalogies or no analogue'},
+            {'stage': 'historical_comparison', 'queries': [q + (' 历史 决策 书信 传记 约束' if mode == 'personal' else ' 历史 对照 相同冲击 不同结果'), q + ' 历史 纪实 回忆录 日记 口述史 同期记录', q + ' 失败案例 幸存者偏差 不适用条件'], 'deliverable': 'Candidate episodes plus disanalogies or no analogue'},
             {'stage': 'update_check', 'queries': [q + ' 最新 更正 修订'], 'deliverable': 'Recheck decision-sensitive facts before answering; no background monitoring'},
         ],
         'execution': 'Use available host search/browse tools; open original pages. Queries and date filters do not enforce historical availability.',
