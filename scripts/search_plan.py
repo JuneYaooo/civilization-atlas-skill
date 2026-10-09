@@ -30,6 +30,12 @@ def plan(question, mode, topics, as_of):
             'record': 'Save a concise factor map with inclusion/exclusion reasons in the external research workspace before selecting analogues; revise with evidence.'
         },
         'source_routes': selected,
+        'turning_point_review': {
+            'when': 'Questions about breakthroughs, acceleration, opportunity windows or regime change',
+            'status': 'host_reasoning_required_not_turning_point_detected',
+            'reference': 'references/historical-turning-points.md',
+            'questions': ['What sustains the old state?', 'Which constraint changes and what counts as crossing?', 'Is this accumulation, an enabling change, a trigger or feedback?', 'Where did similar conditions fail to produce a transition?', 'Which observable behavior and reversal signal distinguish the target stage?']
+        },
         'source_coverage': {
             'status': 'host_review_required_not_coverage_verified',
             'reference': 'references/source-diversity.md',
@@ -39,7 +45,7 @@ def plan(question, mode, topics, as_of):
         'stages': [
             {'stage': 'facts', 'queries': facts, 'deliverable': 'Dated evidence with original upstream, locator and access scope'},
             {'stage': 'mechanisms', 'queries': [q + ' 机制 研究 反证 替代解释', q + ' 条件变化 网络结构 扩散速度 响应延迟 实际覆盖 容量', q + ' 观测变化 阶段转换 竞争机制'], 'deliverable': 'Evidence per causal link, not consensus counts'},
-            {'stage': 'historical_comparison', 'queries': [q + (' 历史 决策 书信 传记 约束' if mode == 'personal' else ' 历史 对照 相同冲击 不同结果'), q + ' 历史 纪实 回忆录 日记 口述史 同期记录', q + ' 失败案例 幸存者偏差 不适用条件'], 'deliverable': 'Candidate episodes plus disanalogies or no analogue'},
+            {'stage': 'historical_comparison', 'queries': [q + (' 历史 决策 书信 传记 约束' if mode == 'personal' else ' 历史 对照 相同冲击 不同结果'), q + ' 历史 纪实 回忆录 日记 口述史 同期记录', q + ' 失败案例 幸存者偏差 不适用条件', q + ' 突破 瓶颈 采用 阈值 未发生转折 回退 对照'], 'deliverable': 'Candidate episodes plus disanalogies or no analogue'},
             {'stage': 'update_check', 'queries': [q + ' 最新 更正 修订'], 'deliverable': 'Recheck decision-sensitive facts before answering; no background monitoring'},
         ],
         'execution': 'Use available host search/browse tools; open original pages. Queries and date filters do not enforce historical availability.',

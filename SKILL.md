@@ -26,6 +26,7 @@ description: 运用比较历史、复杂系统和制度分析研究社会变化�
 - [多渠道取证](references/source-diversity.md)：社会变化与重要决策按问题覆盖制度、研究、调查、亲历和行业资料，检查角色缺席与来源独立性。
 - [机制与时代条件迁移](references/mechanism-transfer.md)：趋势与历史借鉴先比较机制、条件变化、传播与响应、阶段切换及观测变化，再决定迁移或弃权。
 - [复杂系统](references/complex-systems.md)：状态、反馈、主导约束、结构变化与观察过程。
+- [历史转折与突破](references/historical-turning-points.md)：分析机会窗口、趋势加速及路径改变时，识别旧约束、阈值、触发与反馈，并用未转折对照检验。
 - [预测与决策](references/forecast-and-decision.md)：基线、信息截止、干预识别、自适应策略与复盘。
 - [周易与人性社会](references/yijing.md)：涉及行为动机、合作冲突、权力信任及社会秩序演进时按需使用；不要求其他分析附带周易解释。
 - [数据契约](references/data-contract.md)：采集设计、风险分母、动态单位与时点数据。
