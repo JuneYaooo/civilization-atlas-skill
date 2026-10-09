@@ -24,6 +24,11 @@ def plan(question, mode, topics, as_of):
     facts += [q + ' site:' + urlsplit(s['url']).hostname for s in selected]
     return {
         'mode': mode, 'as_of': as_of, 'execution_status': 'plan_only_not_searched',
+        'pre_search_reflection': {
+            'status': 'host_reasoning_required',
+            'questions': ['What outcome and scope are being judged?', 'Which factors, interactions and opposing pathways could change it?', 'Which current states and rates are unknown or decision-sensitive?', 'Which historical comparisons test each mechanism?', 'What omitted condition could reverse the conclusion?'],
+            'record': 'Save a concise factor map with inclusion/exclusion reasons in the external research workspace before selecting analogues; revise with evidence.'
+        },
         'source_routes': selected,
         'stages': [
             {'stage': 'facts', 'queries': facts, 'deliverable': 'Dated evidence with original upstream, locator and access scope'},

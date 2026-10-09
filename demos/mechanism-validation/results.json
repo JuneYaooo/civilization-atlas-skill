@@ -1,0 +1,241 @@
+{
+  "type": "synthetic_paired_validator_audit",
+  "versions": {
+    "before": "9069f71",
+    "after": "b8b7067"
+  },
+  "engine_sha256": {
+    "before": "f11c29d76eafa727e102ddfdda20a520a92f651d8d7002a023f471feb00bcf7a",
+    "after": "44303e689a5da9847868a968aba21614a3bde806e4029db1688f5151a7369f9e"
+  },
+  "shared_dependencies": "Current catalogue, matcher, search plan and mechanism validator; only research_engine.py loaded from fixed Git revisions.",
+  "forecast_accuracy_established": false,
+  "independent_llm_ab_test_performed": false,
+  "results": [
+    {
+      "id": "valid-preserved",
+      "kind": "positive_control",
+      "expected": "accepted",
+      "before": {
+        "actual": "accepted",
+        "meets_expectation": true,
+        "reason": null
+      },
+      "after": {
+        "actual": "accepted",
+        "meets_expectation": true,
+        "reason": null
+      }
+    },
+    {
+      "id": "valid-unknown-conditional",
+      "kind": "positive_control",
+      "expected": "accepted",
+      "before": {
+        "actual": "accepted",
+        "meets_expectation": true,
+        "reason": null
+      },
+      "after": {
+        "actual": "accepted",
+        "meets_expectation": true,
+        "reason": null
+      }
+    },
+    {
+      "id": "valid-changed-reassessed",
+      "kind": "positive_control",
+      "expected": "accepted",
+      "before": {
+        "actual": "accepted",
+        "meets_expectation": true,
+        "reason": null
+      },
+      "after": {
+        "actual": "accepted",
+        "meets_expectation": true,
+        "reason": null
+      }
+    },
+    {
+      "id": "missing-comparison",
+      "kind": "structural_negative",
+      "expected": "rejected",
+      "before": {
+        "actual": "accepted",
+        "meets_expectation": false,
+        "reason": null
+      },
+      "after": {
+        "actual": "rejected",
+        "meets_expectation": true,
+        "reason": "mechanism_comparisons required for conditional judgments or selected analogues"
+      }
+    },
+    {
+      "id": "unknown-unconditional",
+      "kind": "structural_negative",
+      "expected": "rejected",
+      "before": {
+        "actual": "accepted",
+        "meets_expectation": false,
+        "reason": null
+      },
+      "after": {
+        "actual": "rejected",
+        "meets_expectation": true,
+        "reason": "unknown modifier prevents unconditional transfer"
+      }
+    },
+    {
+      "id": "broken-transferred",
+      "kind": "structural_negative",
+      "expected": "rejected",
+      "before": {
+        "actual": "accepted",
+        "meets_expectation": false,
+        "reason": null
+      },
+      "after": {
+        "actual": "rejected",
+        "meets_expectation": true,
+        "reason": "broken necessary condition requires rejecting this mechanism"
+      }
+    },
+    {
+      "id": "changed-not-reassessed",
+      "kind": "structural_negative",
+      "expected": "rejected",
+      "before": {
+        "actual": "accepted",
+        "meets_expectation": false,
+        "reason": null
+      },
+      "after": {
+        "actual": "rejected",
+        "meets_expectation": true,
+        "reason": "changed conditions require target reassessment must be nonempty"
+      }
+    },
+    {
+      "id": "missing-target-evidence",
+      "kind": "structural_negative",
+      "expected": "rejected",
+      "before": {
+        "actual": "accepted",
+        "meets_expectation": false,
+        "reason": null
+      },
+      "after": {
+        "actual": "rejected",
+        "meets_expectation": true,
+        "reason": "target state needs eligible evidence"
+      }
+    },
+    {
+      "id": "unknown-source-reference",
+      "kind": "structural_negative",
+      "expected": "rejected",
+      "before": {
+        "actual": "accepted",
+        "meets_expectation": false,
+        "reason": null
+      },
+      "after": {
+        "actual": "rejected",
+        "meets_expectation": true,
+        "reason": "source state needs eligible evidence"
+      }
+    },
+    {
+      "id": "empty-modifiers",
+      "kind": "structural_negative",
+      "expected": "rejected",
+      "before": {
+        "actual": "accepted",
+        "meets_expectation": false,
+        "reason": null
+      },
+      "after": {
+        "actual": "rejected",
+        "meets_expectation": true,
+        "reason": "identify decision-relevant modifiers"
+      }
+    },
+    {
+      "id": "missing-response-comparison",
+      "kind": "structural_negative",
+      "expected": "rejected",
+      "before": {
+        "actual": "accepted",
+        "meets_expectation": false,
+        "reason": null
+      },
+      "after": {
+        "actual": "rejected",
+        "meets_expectation": true,
+        "reason": "propagation_vs_response must be nonempty"
+      }
+    },
+    {
+      "id": "future-current-evidence",
+      "kind": "existing_guard",
+      "expected": "rejected",
+      "before": {
+        "actual": "rejected",
+        "meets_expectation": true,
+        "reason": "claim references absent or ineligible evidence"
+      },
+      "after": {
+        "actual": "rejected",
+        "meets_expectation": true,
+        "reason": "claim references absent or ineligible evidence"
+      }
+    },
+    {
+      "id": "semantic-contradiction-labelled-preserved",
+      "kind": "semantic_negative",
+      "expected": "rejected",
+      "before": {
+        "actual": "accepted",
+        "meets_expectation": false,
+        "reason": null
+      },
+      "after": {
+        "actual": "accepted",
+        "meets_expectation": false,
+        "reason": null
+      }
+    },
+    {
+      "id": "irrelevant-evidence-cited",
+      "kind": "semantic_negative",
+      "expected": "rejected",
+      "before": {
+        "actual": "accepted",
+        "meets_expectation": false,
+        "reason": null
+      },
+      "after": {
+        "actual": "accepted",
+        "meets_expectation": false,
+        "reason": null
+      }
+    },
+    {
+      "id": "critical-conditions-omitted",
+      "kind": "semantic_negative",
+      "expected": "rejected",
+      "before": {
+        "actual": "accepted",
+        "meets_expectation": false,
+        "reason": null
+      },
+      "after": {
+        "actual": "accepted",
+        "meets_expectation": false,
+        "reason": null
+      }
+    }
+  ]
+}

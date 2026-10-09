@@ -1,0 +1,34 @@
+{
+  "accessed_on": "2026-10-09",
+  "independent_data_reanalysis": false,
+  "sources": [
+    {
+      "id": "fraser2004",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15071187/",
+      "type": "original_research_abstract",
+      "access": "abstract_excerpt",
+      "claim": "可控性取决于传染性与症状前或无症状传播；理论机制，未复现。"
+    },
+    {
+      "id": "chinazzi2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32144116/",
+      "type": "original_modelling_research",
+      "access": "search_returned_abstract_excerpt; subsequent page fetch failed",
+      "claim": "旅行限制模型区分国内进程、国际输入与社区传播，非随机干预试验。"
+    },
+    {
+      "id": "fetzer2021",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2100814118",
+      "type": "quasi_experimental_research",
+      "access": "abstract_and_design_sections",
+      "claim": "地区层面研究追踪延迟与后续感染死亡；尚未复现估计，历史版本未验证。"
+    },
+    {
+      "id": "findlater2023",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10583033/",
+      "type": "individual_contact_observational_research",
+      "access": "abstract_design_results_limitations_data_availability",
+      "claim": "追踪启动6天对3天；次级非家庭接触者攻击率7.9%对5.9%；住院死亡差异未显著，存在漏追踪。"
+    }
+  ]
+}

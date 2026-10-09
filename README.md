@@ -55,7 +55,7 @@ python3 scripts/install_skill.py
 
 ### 下载或生成 Skill 安装包
 
-[下载含知识库的 ZIP 安装包](https://github.com/JuneYaooo/civilization-atlas-skill/releases/download/mechanism-transfer-2026-10-09/civilization-atlas-mechanism-20261009.zip) · [查看发布版本](https://github.com/JuneYaooo/civilization-atlas-skill/releases/tag/mechanism-transfer-2026-10-09)
+[下载含知识库的 ZIP 安装包](https://github.com/JuneYaooo/civilization-atlas-skill/releases/download/mechanism-validation-2026-10-09/civilization-atlas-validation-20261009.zip) · [查看发布版本](https://github.com/JuneYaooo/civilization-atlas-skill/releases/tag/mechanism-validation-2026-10-09)
 
 也可在本地生成：
 
@@ -121,6 +121,8 @@ flowchart LR
 固定展示题中，中国城市化的方向相符；日本人口与巴西实际人均 GDP 的方向判断均失败。**这些是数值基线回放，不是 Skill 或 WorkBuddy 的预测准确率。** [查看完整结果、失败题目与复现脚本](demos/historical-replay/README.md)。
 
 新增[房地产、疫情与 AI 的历史机制审计](demos/mechanism-replay/README.md)：拆解 10 个可复算命题，保留价格、持续时间与任务效率上的反例。报告区分有条件判断与过强推断；这是已知结果后的历史重建，不提供预测命中率。
+
+[新版机制验证](demos/mechanism-validation/README.md)对相同输入执行修改前后的校验器：8 类显式错误新增被拦截，3 类语义错误仍会放行。另核对疾病控制研究中的机制依据与效应分歧；未据此宣称推理或预测准确率提升。
 
 ## 能力的边界
 
