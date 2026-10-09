@@ -1,0 +1,179 @@
+{
+  "recorded_at": "2026-10-09T05:43:13.231720+00:00",
+  "mode": "supplement_after_known_outcomes",
+  "prediction_accuracy_claimed": false,
+  "historical_cutoffs": {
+    "covid": "2020-01-30",
+    "housing1998": "1998-07-31",
+    "housing2021": "2021-02-28",
+    "ai": "2022-11-30"
+  },
+  "sources": [
+    {
+      "id": "chai2013",
+      "case": "covid",
+      "title": "柴静：那个温热的跳动就是活着",
+      "url": "http://media.people.com.cn/n/2013/0425/c40606-21274853.html",
+      "published_on": "2013-04-25",
+      "accessed_on": "2026-10-09",
+      "access_scope": "第一页节选相关段落；未通读第二页或全书",
+      "upstream_id": "chai-kanjian",
+      "role": "historical_context_published_before_cutoff",
+      "observation": "作者回忆中的信息困惑与医护角色处境。",
+      "limitations": "web直接打开失败；HTTP正文读取成功。回忆的事实细节未独立复核，不能据此推算群体比例。",
+      "locator": "编者按及第一页面有关采访进入病区、隔离执行的段落",
+      "exact_historical_web_version_verified": false
+    },
+    {
+      "id": "mushan2020",
+      "case": "covid",
+      "title": "医护工作者：武汉封城后，我每天坐志愿者的车上下班",
+      "url": "https://www.thepaper.cn/newsDetail_forward_6069225",
+      "published_on": "2020-02-22",
+      "accessed_on": "2026-10-09",
+      "access_scope": "已读文章正文",
+      "upstream_id": "mushan-we-are-storytellers",
+      "role": "post_cutoff_review",
+      "observation": "署名作者叙述志愿车辆支持通勤及志愿者家庭顾虑。",
+      "limitations": "澎湃号平台文章，非平台记者独立调查；作者身份未另查；文中有亲历、自述与转述。",
+      "locator": "正文第1—5节及页面特别声明",
+      "exact_historical_web_version_verified": false
+    },
+    {
+      "id": "housing-discussion",
+      "case": "housing1998",
+      "title": "1998年关于住房制度改革的思考和讨论（二）",
+      "url": "https://www.50forum.org.cn/portal/article/index.html?id=731",
+      "published_on": "2004-06-23",
+      "accessed_on": "2026-10-09",
+      "access_scope": "已读通信、讨论及采访相关正文",
+      "upstream_id": "50forum-housing-discussion",
+      "role": "post_cutoff_review",
+      "observation": "住房存量与补偿分配涉及单位和职工差异。",
+      "limitations": "页面包含不同1998时段及标题2000日期；1998原版未核验，不能整页作为1998年7月可得输入；倡议不等于实际效果。",
+      "locator": "正文结构问题、住房改革困难及各节原文时间标注",
+      "exact_historical_web_version_verified": false
+    },
+    {
+      "id": "reuters-guilin",
+      "case": "housing2021",
+      "title": "In China, home buyers occupy their unfinished properties",
+      "url": "https://www.investing.com/news/economy/in-china-home-buyers-occupy-their-rotting-unfinished-properties-2898463",
+      "published_on": "2022-09-26",
+      "accessed_on": "2026-10-09",
+      "access_scope": "已读转载的Reuters正文",
+      "upstream_id": "reuters-baptista-yin-guilin",
+      "role": "post_cutoff_review",
+      "observation": "报道项目停工早于2021政策，买家面对实际交付困境。",
+      "limitations": "采用页面最新更新日；法院原件未读，记者称开发商未回应；单个项目不能解释全国，转载不增加独立性。",
+      "locator": "正文CRASHING FROM PARADISE及FENCING AND UNDERGROWTH；尾注更正",
+      "exact_historical_web_version_verified": false
+    },
+    {
+      "id": "willison-tests",
+      "case": "ai",
+      "title": "AI-assisted development needs automated tests",
+      "url": "https://simonwillison.net/2025/May/28/automated-tests/",
+      "published_on": "2025-05-28",
+      "accessed_on": "2026-10-09",
+      "access_scope": "已读短文正文",
+      "upstream_id": "simon-willison",
+      "role": "post_cutoff_review",
+      "observation": "作者将AI编程体验与已有测试条件联系。",
+      "limitations": "使用者自述而非因果识别；未执行其代码；测试无法保证未覆盖需求。",
+      "locator": "正文及原始日期，不使用后来的导航条内容",
+      "exact_historical_web_version_verified": false
+    },
+    {
+      "id": "curl2025",
+      "case": "ai",
+      "title": "Death by a thousand slops",
+      "url": "https://daniel.haxx.se/blog/2025/07/14/death-by-a-thousand-slops/",
+      "published_on": "2025-07-14",
+      "accessed_on": "2026-10-09",
+      "access_scope": "已读正文，未核对链接的全部报告",
+      "upstream_id": "daniel-stenberg-curl",
+      "role": "post_cutoff_review",
+      "observation": "维护者描述低质报告的审核负担。",
+      "limitations": "单一维护团队的记录；部分AI归因是作者推断，数量未独立复算。",
+      "locator": "正文至The AI slop list，不使用评论作为核实证据",
+      "exact_historical_web_version_verified": false
+    },
+    {
+      "id": "curl2026",
+      "case": "ai",
+      "title": "High-Quality Chaos",
+      "url": "https://daniel.haxx.se/blog/2026/04/22/high-quality-chaos/",
+      "published_on": "2026-04-22",
+      "accessed_on": "2026-10-09",
+      "access_scope": "已读正文，未重算图表底层数据",
+      "upstream_id": "daniel-stenberg-curl",
+      "role": "post_cutoff_review",
+      "observation": "同一作者报告质量改善，担忧真实报告增加后的维护容量。",
+      "limitations": "与2025记录同一上游；AI贡献、制度变更和样本变化未分离；不使用作者年终预期作为已实现结果。",
+      "locator": "Higher volume higher quality及Where does it end正文",
+      "exact_historical_web_version_verified": false
+    }
+  ],
+  "coverage": [
+    {
+      "case": "covid",
+      "roles_read": [
+        "记者回忆",
+        "署名医护叙述",
+        "叙述中志愿者自述"
+      ],
+      "gaps": [
+        "患者和家庭独立访谈",
+        "未参与互助者",
+        "基层执行者交叉材料"
+      ],
+      "effect": "不能估计群体比例及措施净效果"
+    },
+    {
+      "case": "housing",
+      "roles_read": [
+        "方案讨论者",
+        "现场采访记者",
+        "被采访买家"
+      ],
+      "gaps": [
+        "1998家庭原始记录",
+        "法院原件",
+        "开发商回应",
+        "未停工对照项目"
+      ],
+      "effect": "不能把个案归因为统一政策或推算全国机制权重"
+    },
+    {
+      "case": "ai",
+      "roles_read": [
+        "资深开发者",
+        "维护者"
+      ],
+      "gaps": [
+        "普通企业和初级从业者",
+        "客户与非使用者",
+        "跨组织成本序列"
+      ],
+      "effect": "不能由少数从业者经验推出全行业收益"
+    }
+  ],
+  "excluded_routes": [
+    {
+      "route": "AI模拟朗读视频",
+      "status": "仅阅读搜索返回说明，未观看",
+      "reason": "不是柴静原声或独立见证；已有授权文字入口"
+    },
+    {
+      "route": "书评与网络全文镜像",
+      "status": "搜索定位，未作为正文证据",
+      "reason": "以授权节选代替；书评不是书中原文"
+    },
+    {
+      "route": "Reuters转载和澎湃号移动版",
+      "status": "同上游去重",
+      "reason": "域名或页面不同不增加独立证言"
+    }
+  ]
+}
