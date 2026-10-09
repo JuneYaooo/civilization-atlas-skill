@@ -1,0 +1,381 @@
+{
+  "mode": "historical_reconstruction",
+  "outcomes_known_during_design": true,
+  "reconstructed_at": "2026-10-09T04:20:47.300843+00:00",
+  "accuracy_estimate_permitted": false,
+  "selection": "Purposefully selected cases and thresholds after viewing outcomes; no independent holdout.",
+  "sources": {
+    "reform": {
+      "title": "国发〔1998〕23号",
+      "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/201309/t20130924_776668.html",
+      "document_date": "1998-07-03",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "官方重刊；第四、五条：停止实物分房、货币化、公积金及个人住房贷款。未取得1998网页快照。"
+    },
+    "investment1998": {
+      "title": "统计年鉴：房地产开发主要指标",
+      "url": "https://www.stats.gov.cn/yearbook2001/2002/f0636c.htm",
+      "document_date": "2002-12-31",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "年鉴年份已知，日为保守年末界限；投资1998行3614.23亿元，仅作事后结果基点。"
+    },
+    "investment2003": {
+      "title": "2006年鉴6-27房地产开发",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2006/html/F0627C.HTM",
+      "document_date": "2006-12-31",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "年鉴年份已知，日为保守年末界限；2003投资10153.8亿元。"
+    },
+    "prices": {
+      "title": "2011年鉴5-38商品房平均销售价格",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2011/html/F0538C.HTM",
+      "document_date": "2011-12-31",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "年鉴年份已知，日为保守年末界限；住宅列1998=1854、1999=1857、2003=2197元/平方米。不是恒定质量价格指数。"
+    },
+    "concentration": {
+      "title": "房地产贷款集中度管理答记者问",
+      "url": "https://www.pbc.gov.cn/huobizhengceersi/214481/3868581/3868584/baf21ec2a2b24573a3d29c73e6a13c1b/index.html",
+      "document_date": "2020-12-31",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "央行：分类上限、过渡期；多数银行已符合要求。不能解释为全面立即断贷。"
+    },
+    "cycle": {
+      "title": "Characterising the financial cycle",
+      "url": "https://www.bis.org/publ/work380.htm",
+      "document_date": "2012-06-13",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "已读摘要：信贷与房地产价格的中期共同波动；非中国2021转折日期模型，未声称通读43页论文。"
+    },
+    "housing2021": {
+      "title": "2021年全国房地产开发投资增长4.4%",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901340.html",
+      "document_date": "2022-01-17",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "全国投资同比+4.4%，新开工面积-11.4%；网址迁移时间不是原始发布日期。"
+    },
+    "housing2024": {
+      "title": "2024年全国房地产市场基本情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202501/t20250117_1958328.html",
+      "document_date": "2025-01-17",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "投资同比-10.6%；采用官方可比口径同比，不将不同年度修订基数直接拼接。"
+    },
+    "who2020": {
+      "title": "WHO第二次紧急委员会声明",
+      "url": "https://www.who.int/news-room/detail/30-01-2020-statement-on-the-second-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov)",
+      "document_date": "2020-01-30",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "PHEIC、跨国人传人、重要未知；仍提出遏制可能，未建议旅行贸易限制。截点为当日结束。"
+    },
+    "sars": {
+      "title": "WHO SARS outbreak contained worldwide",
+      "url": "https://www.who.int/news-room/detail/05-07-2003-sars-outbreak-contained-worldwide",
+      "document_date": "2003-07-05",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "传播链得到控制但威胁仍存；不能推出任何新疫情都短暂。"
+    },
+    "h1n1": {
+      "title": "CDC H1N1 situation update",
+      "url": "https://archive.cdc.gov/www_cdc_gov/h1n1flu/updates/061909.htm",
+      "document_date": "2009-06-19",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "归档页说明WHO六月宣布大流行；分级涉及地理传播，不等同严重程度。"
+    },
+    "tourism2020": {
+      "title": "2020 worst year in tourism history",
+      "url": "https://www.untourism.int/news/2020-worst-year-in-tourism-history-with-1-billion-fewer-international-arrivals",
+      "document_date": "2021-01-28",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "当期发布2020国际游客到达数同比-74%；后来修订为-73%。"
+    },
+    "tourism2021": {
+      "title": "Tourism grows 4% in 2021",
+      "url": "https://www.untourism.int/news/tourism-grows-4-in-2021-but-remains-far-below-pre-pandemic-levels",
+      "document_date": "2022-01-18",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "2021国际游客到达数比2019低72%，按本次发布口径。"
+    },
+    "chatgpt": {
+      "title": "Introducing ChatGPT",
+      "url": "https://openai.com/index/chatgpt/",
+      "document_date": "2022-11-30",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "已读带原始日期正文：公开研究预览和可能生成似真错误答案的限制。页面有后来内容，未验证完整2022快照。"
+    },
+    "jcurve": {
+      "title": "The Productivity J-Curve",
+      "url": "https://www.nber.org/papers/w25148",
+      "document_date": "2018-10-01",
+      "known_revision_date": "2020-01-31",
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "已读索引摘要，未通读全文；通用技术需要流程、组织和无形资本配套。月份已知，日作月初标记；采用标明2020年1月修订版本。"
+    },
+    "writing": {
+      "title": "MIT介绍Noy与Zhang写作实验",
+      "url": "https://news.mit.edu/2023/study-finds-chatgpt-boosts-worker-productivity-writing-0714",
+      "document_date": "2023-07-14",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "研究机构报道，非已阅读全文：453名受过大学教育的专业人员；特定写作任务耗时-40%，质量+18%；任务不要求严格事实准确性或组织背景。"
+    },
+    "coding": {
+      "title": "METR early-2025 developer RCT",
+      "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+      "document_date": "2025-07-10",
+      "known_revision_date": null,
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "16位熟悉仓库的开发者、246项任务，早期2025工具下完成耗时+19%；当前页面含2026更新入口。本审计只用2025实验结果。"
+    },
+    "copilot": {
+      "title": "GitHub Copilot productivity study",
+      "url": "https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/",
+      "document_date": "2022-09-07",
+      "known_revision_date": "2024-05-21",
+      "exact_historical_version_verified": false,
+      "accessed_on": "2026-10-09",
+      "note": "当前页面明示2024-05-21更新，不能当作已冻结的2022输入。"
+    }
+  },
+  "cases": [
+    {
+      "id": "housing1998",
+      "cutoff": "1998-07-31",
+      "inputs": [
+        "reform"
+      ]
+    },
+    {
+      "id": "housing2021",
+      "cutoff": "2021-02-28",
+      "inputs": [
+        "concentration",
+        "cycle"
+      ]
+    },
+    {
+      "id": "covid",
+      "cutoff": "2020-01-30",
+      "inputs": [
+        "who2020",
+        "sars",
+        "h1n1"
+      ]
+    },
+    {
+      "id": "ai",
+      "cutoff": "2022-11-30",
+      "inputs": [
+        "chatgpt",
+        "jcurve"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "R1",
+      "case": "housing1998",
+      "hypothesis": "2003房地产开发投资高于1998",
+      "role": "bounded_hypothesis",
+      "operator": "gt",
+      "threshold": 0,
+      "unit": "percent",
+      "outcome_sources": [
+        "investment1998",
+        "investment2003"
+      ],
+      "reported_value": null,
+      "base": 3614.23,
+      "end": 10153.8,
+      "scope": "全国名义投资；亿元"
+    },
+    {
+      "id": "R2",
+      "case": "housing1998",
+      "hypothesis": "2003商品住宅平均销售价格高于1998",
+      "role": "bounded_hypothesis",
+      "operator": "gt",
+      "threshold": 0,
+      "unit": "percent",
+      "outcome_sources": [
+        "prices"
+      ],
+      "reported_value": null,
+      "base": 1854,
+      "end": 2197,
+      "scope": "全国名义销售均价；元/平方米；存在成交结构变化"
+    },
+    {
+      "id": "R3",
+      "case": "housing1998",
+      "hypothesis": "改革意味着1999住宅均价立即上涨超过10%",
+      "role": "overclaim_stress_test",
+      "operator": "gt",
+      "threshold": 10,
+      "unit": "percent",
+      "outcome_sources": [
+        "prices"
+      ],
+      "reported_value": null,
+      "base": 1854,
+      "end": 1857,
+      "scope": "10%阈值为事后选择，仅检查过强说法，不是历史登记预测"
+    },
+    {
+      "id": "R4",
+      "case": "housing2021",
+      "hypothesis": "贷款约束意味着2021全年房地产投资立即下降",
+      "role": "overclaim_stress_test",
+      "operator": "lt",
+      "threshold": 0,
+      "unit": "percent",
+      "outcome_sources": [
+        "housing2021"
+      ],
+      "reported_value": 4.4,
+      "base": null,
+      "end": null,
+      "scope": ""
+    },
+    {
+      "id": "R5",
+      "case": "housing2021",
+      "hypothesis": "2021新开工面积下降",
+      "role": "bounded_hypothesis",
+      "operator": "lt",
+      "threshold": 0,
+      "unit": "percent",
+      "outcome_sources": [
+        "housing2021"
+      ],
+      "reported_value": -11.4,
+      "base": null,
+      "end": null,
+      "scope": ""
+    },
+    {
+      "id": "R6",
+      "case": "housing2021",
+      "hypothesis": "2024房地产投资同比下降",
+      "role": "bounded_hypothesis",
+      "operator": "lt",
+      "threshold": 0,
+      "unit": "percent",
+      "outcome_sources": [
+        "housing2024"
+      ],
+      "reported_value": -10.6,
+      "base": null,
+      "end": null,
+      "scope": "期限在已知结果后选择，不能证明提前三年预警能力"
+    },
+    {
+      "id": "C1",
+      "case": "covid",
+      "hypothesis": "2020国际旅游到达数低于2019",
+      "role": "bounded_hypothesis",
+      "operator": "lt",
+      "threshold": 0,
+      "unit": "percent",
+      "outcome_sources": [
+        "tourism2020"
+      ],
+      "reported_value": -74,
+      "base": null,
+      "end": null,
+      "scope": "2021-01发布口径；年度国际到达数，不代表全经济"
+    },
+    {
+      "id": "C2",
+      "case": "covid",
+      "hypothesis": "依照短期控制类比，2021国际旅游恢复至2019水平",
+      "role": "overclaim_stress_test",
+      "operator": "ge",
+      "threshold": 0,
+      "unit": "percent",
+      "outcome_sources": [
+        "tourism2021"
+      ],
+      "reported_value": -72,
+      "base": null,
+      "end": null,
+      "scope": ""
+    },
+    {
+      "id": "A1",
+      "case": "ai",
+      "hypothesis": "后续特定写作实验出现任务耗时缩短",
+      "role": "bounded_hypothesis",
+      "operator": "lt",
+      "threshold": 0,
+      "unit": "percent",
+      "outcome_sources": [
+        "writing"
+      ],
+      "reported_value": -40,
+      "base": null,
+      "end": null,
+      "scope": "2023发表的特定实验，非所有写作或整体职业效率"
+    },
+    {
+      "id": "A2",
+      "case": "ai",
+      "hypothesis": "AI在所有成熟代码库工作中都能缩短耗时",
+      "role": "overclaim_stress_test",
+      "operator": "lt",
+      "threshold": 0,
+      "unit": "percent",
+      "outcome_sources": [
+        "coding"
+      ],
+      "reported_value": 19,
+      "base": null,
+      "end": null,
+      "scope": "一个受控场景提供反例，不推出所有开发者均变慢"
+    }
+  ],
+  "excluded_inputs": [
+    {
+      "source": "copilot",
+      "case": "ai",
+      "reason": "known_revision_after_cutoff"
+    }
+  ],
+  "unassessed": [
+    "转折日期与可交易回报",
+    "疫情结束日期",
+    "AI净就业、宏观生产率和基础科学突破速度",
+    "历史与周易模块相对普通分析的增量效力"
+  ]
+}

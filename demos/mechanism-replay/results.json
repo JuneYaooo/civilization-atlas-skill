@@ -1,0 +1,131 @@
+{
+  "mode": "historical_reconstruction",
+  "accuracy_estimate_permitted": false,
+  "input_checks": [
+    {
+      "case": "housing1998",
+      "source": "reform",
+      "status": "historical_version_unverified"
+    },
+    {
+      "case": "housing2021",
+      "source": "concentration",
+      "status": "historical_version_unverified"
+    },
+    {
+      "case": "housing2021",
+      "source": "cycle",
+      "status": "historical_version_unverified"
+    },
+    {
+      "case": "covid",
+      "source": "who2020",
+      "status": "historical_version_unverified"
+    },
+    {
+      "case": "covid",
+      "source": "sars",
+      "status": "historical_version_unverified"
+    },
+    {
+      "case": "covid",
+      "source": "h1n1",
+      "status": "historical_version_unverified"
+    },
+    {
+      "case": "ai",
+      "source": "chatgpt",
+      "status": "historical_version_unverified"
+    },
+    {
+      "case": "ai",
+      "source": "jcurve",
+      "status": "historical_version_unverified"
+    }
+  ],
+  "excluded_inputs": [
+    {
+      "source": "copilot",
+      "status": "reject_later_revision"
+    }
+  ],
+  "results": [
+    {
+      "id": "R1",
+      "role": "bounded_hypothesis",
+      "hypothesis": "2003房地产开发投资高于1998",
+      "status": "consistent",
+      "value_percent": 180.9395
+    },
+    {
+      "id": "R2",
+      "role": "bounded_hypothesis",
+      "hypothesis": "2003商品住宅平均销售价格高于1998",
+      "status": "consistent",
+      "value_percent": 18.5005
+    },
+    {
+      "id": "R3",
+      "role": "overclaim_stress_test",
+      "hypothesis": "改革意味着1999住宅均价立即上涨超过10%",
+      "status": "contradicted",
+      "value_percent": 0.1618
+    },
+    {
+      "id": "R4",
+      "role": "overclaim_stress_test",
+      "hypothesis": "贷款约束意味着2021全年房地产投资立即下降",
+      "status": "contradicted",
+      "value_percent": 4.4
+    },
+    {
+      "id": "R5",
+      "role": "bounded_hypothesis",
+      "hypothesis": "2021新开工面积下降",
+      "status": "consistent",
+      "value_percent": -11.4
+    },
+    {
+      "id": "R6",
+      "role": "bounded_hypothesis",
+      "hypothesis": "2024房地产投资同比下降",
+      "status": "consistent",
+      "value_percent": -10.6
+    },
+    {
+      "id": "C1",
+      "role": "bounded_hypothesis",
+      "hypothesis": "2020国际旅游到达数低于2019",
+      "status": "consistent",
+      "value_percent": -74
+    },
+    {
+      "id": "C2",
+      "role": "overclaim_stress_test",
+      "hypothesis": "依照短期控制类比，2021国际旅游恢复至2019水平",
+      "status": "contradicted",
+      "value_percent": -72
+    },
+    {
+      "id": "A1",
+      "role": "bounded_hypothesis",
+      "hypothesis": "后续特定写作实验出现任务耗时缩短",
+      "status": "consistent",
+      "value_percent": -40
+    },
+    {
+      "id": "A2",
+      "role": "overclaim_stress_test",
+      "hypothesis": "AI在所有成熟代码库工作中都能缩短耗时",
+      "status": "contradicted",
+      "value_percent": 19
+    }
+  ],
+  "unassessed": [
+    "转折日期与可交易回报",
+    "疫情结束日期",
+    "AI净就业、宏观生产率和基础科学突破速度",
+    "历史与周易模块相对普通分析的增量效力"
+  ],
+  "input_sha256": "c74186d4e0b45004082a27e8dee6d211f79df10409224b8e2b0711c19523de1c"
+}
