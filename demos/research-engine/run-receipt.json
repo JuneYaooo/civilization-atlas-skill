@@ -1,0 +1,23 @@
+{
+  "executed_at": "2026-10-09T02:00:33.337421+00:00",
+  "executor": "Codex host web tools + research_engine.py",
+  "scope": "Live retrieval and human-readable source annotation, followed by programmatic evidence gates and report freezing. Not an autonomous Python web search or a predictive accuracy test.",
+  "results": [
+    {
+      "name": "event",
+      "report_sha256": "985fa8eab6cd1f245d2a479c68377a530fab19ec2be26bc8499a31ff992753d3",
+      "verdict": "conditional",
+      "evidence_count": 3,
+      "search_stages": 4,
+      "matching_status": "candidates_found"
+    },
+    {
+      "name": "personal",
+      "report_sha256": "d24700afbfadd6315c76e38cde4e603dc105f495f84c3f564ae603b7ecebbffe",
+      "verdict": "conditional",
+      "evidence_count": 3,
+      "search_stages": 4,
+      "matching_status": "candidates_found"
+    }
+  ]
+}

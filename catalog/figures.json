@@ -1,0 +1,811 @@
+[
+  {
+    "id": "tao-405",
+    "title": "陶渊明：彭泽任职与离任",
+    "period": "405",
+    "geography": [
+      "东晋"
+    ],
+    "features": {
+      "decision_types": [
+        "exit",
+        "career-transition"
+      ],
+      "objectives": [
+        "livelihood",
+        "autonomy"
+      ],
+      "constraints": [
+        "income-needs",
+        "family-obligations"
+      ],
+      "reversibility": [
+        "costly"
+      ]
+    },
+    "required_conditions": {},
+    "transfer_limits": [
+      "自述与后世节操叙事不同；士族资源、田产和再入仕条件不能等同现代劳动市场。",
+      "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+    ],
+    "sources": [
+      {
+        "url": "https://zh.wikisource.org/zh-hans/歸去來辭",
+        "locator": "序：余家贫至乙巳岁十一月",
+        "basis": "序文自述因家贫入仕，任职后感到违己，原拟等一季收成，又因妹丧离任；这是作者的回顾性自述。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.710850+00:00",
+        "access_method": "search_returned_page_excerpt"
+      }
+    ],
+    "episode": {
+      "observation": "序文自述因家贫入仕，任职后感到违己，原拟等一季收成，又因妹丧离任；这是作者的回顾性自述。",
+      "decision_question": "把生计、价值冲突、家庭事件分开；离开前核算支持条件，而非只给坚持或辞职二选一。",
+      "question_status": "analyst_interpretation_not_historical_inner_motive",
+      "alternatives_status": "须在当前任务中重建可行选项，不能断言史中人物拥有相同选项"
+    },
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "补充同时代材料及不同结局的比较对象；不能只凭单篇传记确认因果。"
+    ]
+  },
+  {
+    "id": "sima-writing",
+    "title": "司马迁：受刑后继续著述",
+    "period": "西汉",
+    "geography": [
+      "汉"
+    ],
+    "features": {
+      "decision_types": [
+        "project-continuation"
+      ],
+      "objectives": [
+        "long-horizon-work"
+      ],
+      "constraints": [
+        "coercion",
+        "reputation-cost"
+      ],
+      "reversibility": [
+        "irreversible"
+      ]
+    },
+    "required_conditions": {},
+    "transfer_limits": [
+      "极端政治暴力情境不可类比成应忍受日常伤害；书信传本不等于独立心理记录。",
+      "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+    ],
+    "sources": [
+      {
+        "url": "https://zh.wikisource.org/zh/報任少卿書",
+        "locator": "著述未竟与受辱的自述",
+        "basis": "《报任少卿书》以书信形式解释受辱与著述未竟的关系；其自我辩护语境影响材料解读。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.710854+00:00",
+        "access_method": "opened_page_excerpt"
+      }
+    ],
+    "episode": {
+      "observation": "《报任少卿书》以书信形式解释受辱与著述未竟的关系；其自我辩护语境影响材料解读。",
+      "decision_question": "长期作品的价值是否足以支撑继续投入？先区分不可改变的损失与未来可选路径。",
+      "question_status": "analyst_interpretation_not_historical_inner_motive",
+      "alternatives_status": "须在当前任务中重建可行选项，不能断言史中人物拥有相同选项"
+    },
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "补充同时代材料及不同结局的比较对象；不能只凭单篇传记确认因果。"
+    ]
+  },
+  {
+    "id": "wang-exile",
+    "title": "王阳明：贬谪中的学习与后续复职",
+    "period": "1506–1510",
+    "geography": [
+      "明"
+    ],
+    "features": {
+      "decision_types": [
+        "career-transition",
+        "learning"
+      ],
+      "objectives": [
+        "learning",
+        "long-horizon-work"
+      ],
+      "constraints": [
+        "coercion",
+        "institutional-access"
+      ],
+      "reversibility": [
+        "partial"
+      ]
+    },
+    "required_conditions": {},
+    "transfer_limits": [
+      "官僚制度与政治保护关系具有特定性；复职不能由修养直接解释。",
+      "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+    ],
+    "sources": [
+      {
+        "url": "https://plato.stanford.edu/entries/wang-yangming/",
+        "locator": "1. Life",
+        "basis": "SEP 生平章节叙述其上疏后受刑贬谪、龙场期间的思想发展，以及政局改变后的复职。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.710855+00:00",
+        "access_method": "opened_page_excerpt"
+      }
+    ],
+    "episode": {
+      "observation": "SEP 生平章节叙述其上疏后受刑贬谪、龙场期间的思想发展，以及政局改变后的复职。",
+      "decision_question": "被迫中断时能积累哪些可迁移能力？同时追踪外部准入条件，而非把环境转机归功于个人悟道。",
+      "question_status": "analyst_interpretation_not_historical_inner_motive",
+      "alternatives_status": "须在当前任务中重建可行选项，不能断言史中人物拥有相同选项"
+    },
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "补充同时代材料及不同结局的比较对象；不能只凭单篇传记确认因果。"
+    ]
+  },
+  {
+    "id": "confucius-teaching",
+    "title": "孔子：政治服务与教学的传记叙事",
+    "period": "春秋末期",
+    "geography": [
+      "鲁及诸侯国"
+    ],
+    "features": {
+      "decision_types": [
+        "career-transition",
+        "institution-building"
+      ],
+      "objectives": [
+        "teaching",
+        "public-impact"
+      ],
+      "constraints": [
+        "institutional-access"
+      ],
+      "reversibility": [
+        "unknown"
+      ]
+    },
+    "required_conditions": {},
+    "transfer_limits": [
+      "生平由后世材料重建，任职细节有争议；不能用后世声望证明当时选择最优。",
+      "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+    ],
+    "sources": [
+      {
+        "url": "https://plato.stanford.edu/entries/confucius/",
+        "locator": "1. Confucius as Chinese Philosopher and Symbol of Traditional Culture",
+        "basis": "SEP 比较传世生平资料，指出司马迁叙事中的仕途、游历与教学，以及早期材料对官职记载的差异。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.710856+00:00",
+        "access_method": "opened_page_excerpt"
+      }
+    ],
+    "episode": {
+      "observation": "SEP 比较传世生平资料，指出司马迁叙事中的仕途、游历与教学，以及早期材料对官职记载的差异。",
+      "decision_question": "当直接政治渠道受限时，教育与知识传播是否是另一种影响渠道？",
+      "question_status": "analyst_interpretation_not_historical_inner_motive",
+      "alternatives_status": "须在当前任务中重建可行选项，不能断言史中人物拥有相同选项"
+    },
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "补充同时代材料及不同结局的比较对象；不能只凭单篇传记确认因果。"
+    ]
+  },
+  {
+    "id": "tu-extraction",
+    "title": "屠呦呦团队：从古籍线索到提取实验",
+    "period": "1971–1972",
+    "geography": [
+      "中国"
+    ],
+    "features": {
+      "decision_types": [
+        "experiment",
+        "learning"
+      ],
+      "objectives": [
+        "learning",
+        "problem-solving"
+      ],
+      "constraints": [
+        "uncertain-mechanism"
+      ],
+      "reversibility": [
+        "staged"
+      ]
+    },
+    "required_conditions": {},
+    "transfer_limits": [
+      "团队、项目组织和实验条件不可省略；古籍启发不等于疗效证据，历史实验不构成今天的操作建议。",
+      "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nobelprize.org/prizes/medicine/2015/tu/biographical/",
+        "locator": "Sample no. 191 与重新设计低温提取实验段落",
+        "basis": "屠呦呦自述由青蒿用法启发避免高温，重设计提取实验，报告 1971 年样品实验结果并继续分离验证。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.710857+00:00",
+        "access_method": "search_returned_page_excerpt"
+      }
+    ],
+    "episode": {
+      "observation": "屠呦呦自述由青蒿用法启发避免高温，重设计提取实验，报告 1971 年样品实验结果并继续分离验证。",
+      "decision_question": "旧知识能否提出可测试的新变量？把启发、实验、验证和实际应用分开。",
+      "question_status": "analyst_interpretation_not_historical_inner_motive",
+      "alternatives_status": "须在当前任务中重建可行选项，不能断言史中人物拥有相同选项"
+    },
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "补充同时代材料及不同结局的比较对象；不能只凭单篇传记确认因果。"
+    ]
+  },
+  {
+    "id": "curie-continuity",
+    "title": "玛丽·居里：丧偶后的研究延续",
+    "period": "1906–1908",
+    "geography": [
+      "法国"
+    ],
+    "features": {
+      "decision_types": [
+        "project-continuation",
+        "career-transition"
+      ],
+      "objectives": [
+        "long-horizon-work"
+      ],
+      "constraints": [
+        "family-obligations",
+        "institutional-access"
+      ],
+      "reversibility": [
+        "partial"
+      ]
+    },
+    "required_conditions": {},
+    "transfer_limits": [
+      "机构接续机会是关键条件；不可将结果仅归因于个人毅力，也不据此要求他人忽略哀伤。",
+      "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+    ],
+    "sources": [
+      {
+        "url": "https://musee.curie.fr/decouvrir/documentation/les-fiches-images-de-l-ecole-du-louvre/marie-curie-faisant-la-une-de-l-illustration",
+        "locator": "1906 年首次授课与 1908 年教授任命",
+        "basis": "居里博物馆记载其在皮埃尔去世后负责实验室，1906 年开始授课，1908 年成为索邦教授。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.710858+00:00",
+        "access_method": "search_returned_page_excerpt"
+      }
+    ],
+    "episode": {
+      "observation": "居里博物馆记载其在皮埃尔去世后负责实验室，1906 年开始授课，1908 年成为索邦教授。",
+      "decision_question": "个人变故后，研究延续需要哪些职位、团队和资源安排？",
+      "question_status": "analyst_interpretation_not_historical_inner_motive",
+      "alternatives_status": "须在当前任务中重建可行选项，不能断言史中人物拥有相同选项"
+    },
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "补充同时代材料及不同结局的比较对象；不能只凭单篇传记确认因果。"
+    ]
+  },
+  {
+    "id": "johnson-verification",
+    "title": "凯瑟琳·约翰逊：自动计算中的独立复核",
+    "period": "1962",
+    "geography": [
+      "美国"
+    ],
+    "features": {
+      "decision_types": [
+        "verification",
+        "technology-adoption"
+      ],
+      "objectives": [
+        "reliability"
+      ],
+      "constraints": [
+        "high-stakes-error"
+      ],
+      "reversibility": [
+        "staged"
+      ]
+    },
+    "required_conditions": {},
+    "transfer_limits": [
+      "这是特定航天任务，不能推导所有自动化都应人工逐项重复，也不能外推职业需求数量。",
+      "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+    ],
+    "sources": [
+      {
+        "url": "https://science.nasa.gov/people/katherine-johnson/",
+        "locator": "1962 年格伦任务与电子计算复核",
+        "basis": "NASA 记载格伦飞行前要求约翰逊独立核对电子计算的轨道结果。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.710859+00:00",
+        "access_method": "opened_page_excerpt"
+      }
+    ],
+    "episode": {
+      "observation": "NASA 记载格伦飞行前要求约翰逊独立核对电子计算的轨道结果。",
+      "decision_question": "新工具降低计算成本时，哪些错误代价仍需要独立检验？",
+      "question_status": "analyst_interpretation_not_historical_inner_motive",
+      "alternatives_status": "须在当前任务中重建可行选项，不能断言史中人物拥有相同选项"
+    },
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "补充同时代材料及不同结局的比较对象；不能只凭单篇传记确认因果。"
+    ]
+  },
+  {
+    "id": "hopper-standardization",
+    "title": "格蕾丝·霍珀：从计算工作到语言标准协作",
+    "period": "1940s–1960s",
+    "geography": [
+      "美国"
+    ],
+    "features": {
+      "decision_types": [
+        "career-transition",
+        "standardization"
+      ],
+      "objectives": [
+        "adoption",
+        "problem-solving"
+      ],
+      "constraints": [
+        "coordination",
+        "institutional-access"
+      ],
+      "reversibility": [
+        "partial"
+      ]
+    },
+    "required_conditions": {},
+    "transfer_limits": [
+      "军方采购、组织资源和多人协作不能被简化成单人发明；标准化也可能增加转换成本。",
+      "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.history.navy.mil/content/history/nhhc/browse-by-topic/people/namesakes/grace-hopper.html",
+        "locator": "计算工作、CODASYL 与标准委员会段落",
+        "basis": "美国海军资料记述其数学教育、战时计算工作、参与 CODASYL 会议及后续标准委员会工作。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.710860+00:00",
+        "access_method": "search_returned_page_excerpt"
+      }
+    ],
+    "episode": {
+      "observation": "美国海军资料记述其数学教育、战时计算工作、参与 CODASYL 会议及后续标准委员会工作。",
+      "decision_question": "单个技术成果要扩散，是否还缺用户语言、兼容性与协作标准？",
+      "question_status": "analyst_interpretation_not_historical_inner_motive",
+      "alternatives_status": "须在当前任务中重建可行选项，不能断言史中人物拥有相同选项"
+    },
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "补充同时代材料及不同结局的比较对象；不能只凭单篇传记确认因果。"
+    ]
+  },
+  {
+    "id": "darwin-publication",
+    "title": "达尔文与华莱士：并行发现后的发表协调",
+    "period": "1858–1859",
+    "geography": [
+      "英国及跨地域研究网络"
+    ],
+    "features": {
+      "decision_types": [
+        "publication",
+        "negotiation"
+      ],
+      "objectives": [
+        "recognition",
+        "long-horizon-work"
+      ],
+      "constraints": [
+        "priority-conflict",
+        "coordination"
+      ],
+      "reversibility": [
+        "costly"
+      ]
+    },
+    "required_conditions": {},
+    "transfer_limits": [
+      "学会和通信网络有权力差异；联合发表本身不证明每方协商权利相等。",
+      "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.darwinproject.ac.uk/letters/darwins-life-letters/darwin-letters-1858-1859-origin",
+        "locator": "Alfred Russel Wallace and the rush to publish",
+        "basis": "达尔文通信项目叙述华莱士来稿促使发表安排加速，莱尔与胡克协调共同呈递；收信的精确日期仍有研究争议。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.710861+00:00",
+        "access_method": "opened_page_excerpt"
+      }
+    ],
+    "episode": {
+      "observation": "达尔文通信项目叙述华莱士来稿促使发表安排加速，莱尔与胡克协调共同呈递；收信的精确日期仍有研究争议。",
+      "decision_question": "长期积累遇到并行竞争时，怎样兼顾及时公开、贡献归属与关系？",
+      "question_status": "analyst_interpretation_not_historical_inner_motive",
+      "alternatives_status": "须在当前任务中重建可行选项，不能断言史中人物拥有相同选项"
+    },
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "补充同时代材料及不同结局的比较对象；不能只凭单篇传记确认因果。"
+    ]
+  },
+  {
+    "id": "nightingale-reform",
+    "title": "南丁格尔：由救护工作转向制度改革",
+    "period": "1856–1860",
+    "geography": [
+      "英国"
+    ],
+    "features": {
+      "decision_types": [
+        "institution-building",
+        "measurement"
+      ],
+      "objectives": [
+        "public-impact",
+        "reliability"
+      ],
+      "constraints": [
+        "coordination",
+        "institutional-access"
+      ],
+      "reversibility": [
+        "staged"
+      ]
+    },
+    "required_conditions": {},
+    "transfer_limits": [
+      "统计表达并非唯一原因；政治关系、捐赠、团队工作和改革环境共同影响结果。",
+      "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.florence-nightingale.co.uk/about-florence-nightingale/",
+        "locator": "战后改革、统计与训练学校",
+        "basis": "博物馆资料记载其用统计图推动军队卫生改革，并依托募资创办护士训练学校。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.710862+00:00",
+        "access_method": "opened_page_excerpt"
+      }
+    ],
+    "episode": {
+      "observation": "博物馆资料记载其用统计图推动军队卫生改革，并依托募资创办护士训练学校。",
+      "decision_question": "局部救助经验怎样转化为可复制的训练、资源配置和问责制度？",
+      "question_status": "analyst_interpretation_not_historical_inner_motive",
+      "alternatives_status": "须在当前任务中重建可行选项，不能断言史中人物拥有相同选项"
+    },
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "补充同时代材料及不同结局的比较对象；不能只凭单篇传记确认因果。"
+    ]
+  },
+  {
+    "id": "carson-adjacency",
+    "title": "蕾切尔·卡森：家庭生计与科学写作的结合",
+    "period": "1930s–1950s",
+    "geography": [
+      "美国"
+    ],
+    "features": {
+      "decision_types": [
+        "career-transition",
+        "learning"
+      ],
+      "objectives": [
+        "livelihood",
+        "learning"
+      ],
+      "constraints": [
+        "income-needs",
+        "family-obligations"
+      ],
+      "reversibility": [
+        "partial"
+      ]
+    },
+    "required_conditions": {},
+    "transfer_limits": [
+      "政府岗位、出版机会和收入结构须单独核对；畅销者样本不能估算转型成功率。",
+      "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nps.gov/people/rachel-carson.htm",
+        "locator": "Early Life and Education / Early Career and Writing",
+        "basis": "NPS 记载家庭经济压力使其中止博士学习，随后在渔业局从事科学传播；早期与后来的著作销售表现不同。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.710863+00:00",
+        "access_method": "opened_page_excerpt"
+      }
+    ],
+    "episode": {
+      "observation": "NPS 记载家庭经济压力使其中止博士学习，随后在渔业局从事科学传播；早期与后来的著作销售表现不同。",
+      "decision_question": "能否先找到兼容生计与长期能力积累的相邻岗位，再验证独立发展的条件？",
+      "question_status": "analyst_interpretation_not_historical_inner_motive",
+      "alternatives_status": "须在当前任务中重建可行选项，不能断言史中人物拥有相同选项"
+    },
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "补充同时代材料及不同结局的比较对象；不能只凭单篇传记确认因果。"
+    ]
+  },
+  {
+    "id": "addams-hull-house",
+    "title": "简·亚当斯与同伴：社区服务的组织化",
+    "period": "1889–1909",
+    "geography": [
+      "美国·芝加哥"
+    ],
+    "features": {
+      "decision_types": [
+        "institution-building",
+        "experiment"
+      ],
+      "objectives": [
+        "public-impact",
+        "learning"
+      ],
+      "constraints": [
+        "funding",
+        "coordination"
+      ],
+      "reversibility": [
+        "staged"
+      ]
+    },
+    "required_conditions": {},
+    "transfer_limits": [
+      "这是机构募资语境的自述，不是独立效果评估；创始人的资源与社区成员的权力并不对称。",
+      "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+    ],
+    "sources": [
+      {
+        "url": "https://digital.janeaddams.ramapo.edu/items/show/4914",
+        "locator": "Hull-House 1889–1909，第 2–3 页转录",
+        "basis": "1909 年机构回顾描述从部分住宅起步，随需求和捐赠扩展建筑；同时坦承经常性资金不足。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.710863+00:00",
+        "access_method": "search_returned_page_excerpt"
+      }
+    ],
+    "episode": {
+      "observation": "1909 年机构回顾描述从部分住宅起步，随需求和捐赠扩展建筑；同时坦承经常性资金不足。",
+      "decision_question": "先验证实际需求再扩张时，如何防止固定设施增长快于持续收入？",
+      "question_status": "analyst_interpretation_not_historical_inner_motive",
+      "alternatives_status": "须在当前任务中重建可行选项，不能断言史中人物拥有相同选项"
+    },
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "补充同时代材料及不同结局的比较对象；不能只凭单篇传记确认因果。"
+    ]
+  },
+  {
+    "id": "mandela-talks",
+    "title": "曼德拉：接触对手与维系同盟信任",
+    "period": "1985–1994",
+    "geography": [
+      "南非"
+    ],
+    "features": {
+      "decision_types": [
+        "negotiation"
+      ],
+      "objectives": [
+        "public-impact",
+        "conflict-reduction"
+      ],
+      "constraints": [
+        "coercion",
+        "coordination",
+        "trust"
+      ],
+      "reversibility": [
+        "costly"
+      ]
+    },
+    "required_conditions": {},
+    "transfer_limits": [
+      "监禁、群众运动及国际压力构成背景；谈判不是制度变化的单一原因，不能机械用于日常雇佣关系。",
+      "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nelsonmandela.org/talking-to-the-enemy-1985-to-1994",
+        "locator": "1986 年 talks about talks 与盟友沟通",
+        "basis": "基金会材料叙述其先行探索谈判，再与外部领导层沟通；盟友曾担忧让步与背叛。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.710864+00:00",
+        "access_method": "opened_page_excerpt"
+      }
+    ],
+    "episode": {
+      "observation": "基金会材料叙述其先行探索谈判，再与外部领导层沟通；盟友曾担忧让步与背叛。",
+      "decision_question": "对手接触是否扩大可行选项？怎样同时建立授权、底线与对内沟通？",
+      "question_status": "analyst_interpretation_not_historical_inner_motive",
+      "alternatives_status": "须在当前任务中重建可行选项，不能断言史中人物拥有相同选项"
+    },
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "补充同时代材料及不同结局的比较对象；不能只凭单篇传记确认因果。"
+    ]
+  },
+  {
+    "id": "douglass-press",
+    "title": "弗雷德里克·道格拉斯：建设独立传播渠道",
+    "period": "1840s–1850s",
+    "geography": [
+      "美国"
+    ],
+    "features": {
+      "decision_types": [
+        "institution-building",
+        "publication"
+      ],
+      "objectives": [
+        "autonomy",
+        "public-impact"
+      ],
+      "constraints": [
+        "funding",
+        "coordination",
+        "coercion"
+      ],
+      "reversibility": [
+        "costly"
+      ]
+    },
+    "required_conditions": {},
+    "transfer_limits": [
+      "废奴斗争的暴力和法律环境不可淡化；有声音不等于拥有组织和财务独立。",
+      "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nps.gov/frdo/learn/historyculture/frederickdouglass.htm",
+        "locator": "罗切斯特、North Star 与新盟友段落",
+        "basis": "NPS 记载其在罗切斯特联结新盟友、购置印刷机并经营 North Star。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.710865+00:00",
+        "access_method": "opened_page_excerpt"
+      }
+    ],
+    "episode": {
+      "observation": "NPS 记载其在罗切斯特联结新盟友、购置印刷机并经营 North Star。",
+      "decision_question": "依赖既有平台之外，独立渠道是否值得其持续成本与联盟调整？",
+      "question_status": "analyst_interpretation_not_historical_inner_motive",
+      "alternatives_status": "须在当前任务中重建可行选项，不能断言史中人物拥有相同选项"
+    },
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "补充同时代材料及不同结局的比较对象；不能只凭单篇传记确认因果。"
+    ]
+  },
+  {
+    "id": "franklin-library",
+    "title": "富兰克林：通过订阅共享知识资源",
+    "period": "1730s；1789 年回顾",
+    "geography": [
+      "英属北美·费城"
+    ],
+    "features": {
+      "decision_types": [
+        "institution-building",
+        "resource-pooling"
+      ],
+      "objectives": [
+        "learning",
+        "public-impact"
+      ],
+      "constraints": [
+        "funding",
+        "coordination"
+      ],
+      "reversibility": [
+        "staged"
+      ]
+    },
+    "required_conditions": {},
+    "transfer_limits": [
+      "订阅资格和参与者社会地位影响受益范围；共享机构并不自动普惠。",
+      "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.loc.gov/exhibits/franklin/franklin-printer.html",
+        "locator": "Public Education for Our Youth",
+        "basis": "国会图书馆展览介绍其公共教育倡议与订阅图书馆，并收录 1789 年回顾该计划的手稿说明。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.710866+00:00",
+        "access_method": "opened_page_excerpt"
+      }
+    ],
+    "episode": {
+      "observation": "国会图书馆展览介绍其公共教育倡议与订阅图书馆，并收录 1789 年回顾该计划的手稿说明。",
+      "decision_question": "个体负担过高的资源能否以共享出资和明确使用规则获得？",
+      "question_status": "analyst_interpretation_not_historical_inner_motive",
+      "alternatives_status": "须在当前任务中重建可行选项，不能断言史中人物拥有相同选项"
+    },
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "补充同时代材料及不同结局的比较对象；不能只凭单篇传记确认因果。"
+    ]
+  },
+  {
+    "id": "dubois-organization",
+    "title": "杜波依斯：研究与公共组织相结合",
+    "period": "1905–1909",
+    "geography": [
+      "美国"
+    ],
+    "features": {
+      "decision_types": [
+        "institution-building",
+        "publication"
+      ],
+      "objectives": [
+        "public-impact"
+      ],
+      "constraints": [
+        "coercion",
+        "coordination"
+      ],
+      "reversibility": [
+        "partial"
+      ]
+    },
+    "required_conditions": {},
+    "transfer_limits": [
+      "种族压迫、集体运动和法制变化不能约化为个人职业策略；来源其他生平细节需另行核对。",
+      "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nps.gov/places/massachusetts-web-du-bois-boyhood-homesite-great-barrington.htm",
+        "locator": "尼亚加拉运动与 1909 年 NAACP 段落",
+        "basis": "NPS 生平介绍其参与尼亚加拉运动及 NAACP 的创建。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.710867+00:00",
+        "access_method": "opened_page_excerpt"
+      }
+    ],
+    "episode": {
+      "observation": "NPS 生平介绍其参与尼亚加拉运动及 NAACP 的创建。",
+      "decision_question": "知识生产何时需要组织渠道才可能改变规则？如何分别评价研究与动员的效果？",
+      "question_status": "analyst_interpretation_not_historical_inner_motive",
+      "alternatives_status": "须在当前任务中重建可行选项，不能断言史中人物拥有相同选项"
+    },
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "补充同时代材料及不同结局的比较对象；不能只凭单篇传记确认因果。"
+    ]
+  }
+]

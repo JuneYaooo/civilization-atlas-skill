@@ -1,0 +1,31 @@
+{
+  "series": [
+    {
+      "id": "population",
+      "indicator": "SP.POP.TOTL",
+      "source": "World Bank WDI",
+      "unit": "persons",
+      "query": "SP.POP.TOTL",
+      "snapshot": "knowledge-base/data/modern-manifest.json",
+      "limits": "国家与聚合组不可重复加总；现代边界不能直接回填古代政体。"
+    },
+    {
+      "id": "real-gdp-per-capita",
+      "indicator": "NY.GDP.PCAP.KD",
+      "source": "World Bank WDI",
+      "unit": "constant 2015 US dollars per person",
+      "query": "NY.GDP.PCAP.KD",
+      "snapshot": "knowledge-base/data/modern-manifest.json",
+      "limits": "实际人均 GDP 不是总 GDP、财富或个人可支配收入；修订快照不能重建当时可用数据。"
+    },
+    {
+      "id": "global-temperature",
+      "indicator": "NASA GISTEMP",
+      "source": "NASA GISS",
+      "unit": "degrees Celsius relative to 1951–1980",
+      "query": "全球地表年均温度距平",
+      "snapshot": "knowledge-base/data/climate-manifest.json",
+      "limits": "全球平均距平不是地区灾害概率；未完成年度和缺测不填零。"
+    }
+  ]
+}

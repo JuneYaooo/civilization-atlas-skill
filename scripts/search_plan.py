@@ -40,7 +40,7 @@ def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--question', required=True)
     p.add_argument('--mode', choices=('event', 'personal'), required=True)
-    p.add_argument('--topic', action='append', choices=('health', 'economy', 'history', 'personal'), default=[])
+    p.add_argument('--topic', action='append', choices=('health', 'economy', 'history', 'personal', 'technology', 'climate'), default=[])
     p.add_argument('--as-of', required=True)
     a = p.parse_args()
     try:

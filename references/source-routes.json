@@ -2,10 +2,114 @@
   "schema_version": 1,
   "meaning": "Discovery entry points; verification describes page access, not accuracy or completeness of future claims.",
   "sources": [
-    {"id":"who-don","topics":["health"],"title":"WHO Disease Outbreak News","url":"https://www.who.int/emergencies/disease-outbreak-news/","checked_on":"2026-10-09","access":"page_read","limits":"Selected confirmed and potential events, not exhaustive surveillance; open each relevant dated report."},
-    {"id":"imf-weo-vintages","topics":["economy"],"title":"IMF WEO Dataset Vintages","url":"https://data.imf.org/Datasets/WEO/Dataset-Vintages","checked_on":"2026-10-09","access":"search_result_only","limits":"Open and verify the actual dataset version; discovery result is not evidence of reading data."},
-    {"id":"imf-weo-faq","topics":["economy"],"title":"IMF WEO Frequently Asked Questions","url":"https://www.imf.org/en/Publications/WEO/frequently-asked-questions","checked_on":"2026-10-09","access":"fetch_failed_429","limits":"Retry through official navigation when needed; current attempt did not read this page."},
-    {"id":"fed-history","topics":["economy","history"],"title":"Federal Reserve History — Great Recession and Its Aftermath","url":"https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath","checked_on":"2026-10-09","access":"page_read","limits":"Retrospective institutional account, not a complete causal identification or contemporaneous forecast."},
-    {"id":"nara-research","topics":["history","personal"],"title":"US National Archives — Research Our Records","url":"https://www.archives.gov/research","checked_on":"2026-10-09","access":"page_read","limits":"US archival entry point, not global biography coverage. Find document-level references."}
+    {
+      "id": "who-don",
+      "topics": [
+        "health"
+      ],
+      "title": "WHO Disease Outbreak News",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/",
+      "checked_on": "2026-10-09",
+      "access": "page_read",
+      "limits": "Selected confirmed and potential events, not exhaustive surveillance; open each relevant dated report."
+    },
+    {
+      "id": "imf-weo-vintages",
+      "topics": [
+        "economy"
+      ],
+      "title": "IMF WEO Dataset Vintages",
+      "url": "https://data.imf.org/Datasets/WEO/Dataset-Vintages",
+      "checked_on": "2026-10-09",
+      "access": "search_result_only",
+      "limits": "Open and verify the actual dataset version; discovery result is not evidence of reading data."
+    },
+    {
+      "id": "imf-weo-faq",
+      "topics": [
+        "economy"
+      ],
+      "title": "IMF WEO Frequently Asked Questions",
+      "url": "https://www.imf.org/en/Publications/WEO/frequently-asked-questions",
+      "checked_on": "2026-10-09",
+      "access": "fetch_failed_429",
+      "limits": "Retry through official navigation when needed; current attempt did not read this page."
+    },
+    {
+      "id": "fed-history",
+      "topics": [
+        "economy",
+        "history"
+      ],
+      "title": "Federal Reserve History — Great Recession and Its Aftermath",
+      "url": "https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath",
+      "checked_on": "2026-10-09",
+      "access": "page_read",
+      "limits": "Retrospective institutional account, not a complete causal identification or contemporaneous forecast."
+    },
+    {
+      "id": "nara-research",
+      "topics": [
+        "history",
+        "personal"
+      ],
+      "title": "US National Archives — Research Our Records",
+      "url": "https://www.archives.gov/research",
+      "checked_on": "2026-10-09",
+      "access": "page_read",
+      "limits": "US archival entry point, not global biography coverage. Find document-level references."
+    },
+    {
+      "id": "iea-energy",
+      "topics": [
+        "economy",
+        "history",
+        "climate"
+      ],
+      "title": "IEA energy crisis transmission",
+      "url": "https://www.iea.org/topics/2022-energy-crisis",
+      "checked_on": "2026-10-09",
+      "access": "page_excerpt_read",
+      "limits": "Retrospective 2022 context; current claims require a new dated source."
+    },
+    {
+      "id": "nasa-johnson",
+      "topics": [
+        "technology",
+        "history",
+        "personal"
+      ],
+      "title": "NASA Katherine Johnson",
+      "url": "https://science.nasa.gov/people/katherine-johnson/",
+      "checked_on": "2026-10-09",
+      "access": "page_excerpt_read",
+      "limits": "Institutional biography; not evidence of present AI employment effects."
+    },
+    {
+      "id": "darwin-letters",
+      "topics": [
+        "technology",
+        "history",
+        "personal"
+      ],
+      "title": "Darwin Correspondence Project",
+      "url": "https://www.darwinproject.ac.uk/letters/darwins-life-letters/darwin-letters-1858-1859-origin",
+      "checked_on": "2026-10-09",
+      "access": "page_excerpt_read",
+      "limits": "Read linked letters and editorial qualifications before inferring motives."
+    },
+    {
+      "id": "worldbank-disaster",
+      "topics": [
+        "economy",
+        "history",
+        "climate"
+      ],
+      "title": "World Bank Great East Japan Earthquake lessons",
+      "url": "https://www.worldbank.org/en/news/feature/2021/03/11/learning-from-megadisasters-a-decade-of-lessons-from-the-great-east-japan-earthquake-drmhubtokyo",
+      "checked_on": "2026-10-09",
+      "access": "page_excerpt_read",
+      "limits": "Disaster resilience synthesis, not a current hazard probability model."
+    }
   ]
 }

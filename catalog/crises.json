@@ -1,0 +1,563 @@
+[
+  {
+    "id": "banking-1931",
+    "title": "美国银行恐慌与跨地区挤兑",
+    "period": "1931–1933",
+    "geography": [
+      "美国",
+      "英国"
+    ],
+    "features": {
+      "mechanisms": [
+        "bank-run",
+        "liquidity-feedback",
+        "contagion"
+      ],
+      "constraints": [
+        "limited-buffer",
+        "confidence"
+      ],
+      "stage": [
+        "propagation",
+        "response"
+      ]
+    },
+    "required_conditions": {
+      "financial_network": "connected"
+    },
+    "transfer_limits": [
+      "当时存款保险与最后贷款人安排不同；不能直接移植到现代银行体系。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.federalreservehistory.org/essays/banking-panics-1931-33",
+        "locator": "1931 金本位压力、RFC 与银行假日",
+        "basis": "联储历史文章叙述金本位压力、存款提款、救助借款污名和州级银行假日如何加重紧张。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.708839+00:00",
+        "access_method": "opened_page_excerpt"
+      }
+    ],
+    "observation": "联储历史文章叙述金本位压力、存款提款、救助借款污名和州级银行假日如何加重紧张。",
+    "causal_chain": [
+      {
+        "cause": "信心下降",
+        "effect": "存款提款",
+        "status": "source_interpretation",
+        "source_index": 0,
+        "qualification": "偿付能力与流动性问题须区分"
+      },
+      {
+        "cause": "银行假日",
+        "effect": "其他地区货币需求增加",
+        "status": "source_interpretation",
+        "source_index": 0,
+        "qualification": "为特定制度背景下的传播解释"
+      }
+    ],
+    "feedback_hypothesis": "提款耗尽流动性并进一步削弱信心。",
+    "monitoring_indicators": [
+      "存款流出",
+      "融资抵押品",
+      "救助使用及污名"
+    ],
+    "comparison_task": "寻找同类暴露但未发生同等损失的主体，检查政策、缓冲和观测差异；本条不是对照研究。",
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "现有来源主要是机构回顾，尚不能识别每条边的独立因果效应或估计事件发生概率。"
+    ]
+  },
+  {
+    "id": "oil-1973",
+    "title": "石油供给冲击与政策取舍",
+    "period": "1973–1974",
+    "geography": [
+      "美国",
+      "OAPEC成员"
+    ],
+    "features": {
+      "mechanisms": [
+        "supply-shock",
+        "cost-pass-through"
+      ],
+      "constraints": [
+        "limited-buffer",
+        "limited-substitution"
+      ],
+      "stage": [
+        "propagation",
+        "response"
+      ]
+    },
+    "required_conditions": {
+      "energy_exposure": "material"
+    },
+    "transfer_limits": [
+      "能源强度、定价机制及政策信誉与当代不同；禁运不是全部通胀的单因解释。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.federalreservehistory.org/essays/oil-shock-of-1973-74",
+        "locator": "背景与 The Role of the Federal Reserve",
+        "basis": "联储文章将禁运和减产置于已有通胀、产能紧张与汇率变化之中。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.709072+00:00",
+        "access_method": "opened_page_excerpt"
+      }
+    ],
+    "observation": "联储文章将禁运和减产置于已有通胀、产能紧张与汇率变化之中。",
+    "causal_chain": [
+      {
+        "cause": "减产与有限备用产能",
+        "effect": "油价上升",
+        "status": "source_interpretation",
+        "source_index": 0,
+        "qualification": "同时存在需求与货币背景"
+      },
+      {
+        "cause": "能源成本上升",
+        "effect": "通胀与增长压力",
+        "status": "source_interpretation",
+        "source_index": 0,
+        "qualification": "政策反应改变传导幅度"
+      }
+    ],
+    "feedback_hypothesis": "通胀应对可能加剧增长压力；其强度需另行估计。",
+    "monitoring_indicators": [
+      "备用产能",
+      "能源成本占比",
+      "通胀预期"
+    ],
+    "comparison_task": "寻找同类暴露但未发生同等损失的主体，检查政策、缓冲和观测差异；本条不是对照研究。",
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "现有来源主要是机构回顾，尚不能识别每条边的独立因果效应或估计事件发生概率。"
+    ]
+  },
+  {
+    "id": "asia-1997",
+    "title": "亚洲金融危机的期限与币种错配",
+    "period": "1997–1998",
+    "geography": [
+      "泰国",
+      "印度尼西亚",
+      "韩国及区域金融网络"
+    ],
+    "features": {
+      "mechanisms": [
+        "currency-mismatch",
+        "sudden-stop",
+        "credit-contraction"
+      ],
+      "constraints": [
+        "short-term-debt",
+        "weak-supervision"
+      ],
+      "stage": [
+        "propagation",
+        "response"
+      ]
+    },
+    "required_conditions": {
+      "fx_mismatch": "present"
+    },
+    "transfer_limits": [
+      "IMF 同时是危机应对参与者；其解释需与独立研究对照。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.imf.org/external/pubs/ft/fandd/1999/09/lane.htm",
+        "locator": "金融结构脆弱性与危机传导",
+        "basis": "IMF 回顾讨论外币风险敞口、短借长投和监管薄弱如何加重资本流出后的调整。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.709074+00:00",
+        "access_method": "search_returned_page_excerpt"
+      }
+    ],
+    "observation": "IMF 回顾讨论外币风险敞口、短借长投和监管薄弱如何加重资本流出后的调整。",
+    "causal_chain": [
+      {
+        "cause": "短期外债与资金撤出",
+        "effect": "再融资困难",
+        "status": "source_interpretation",
+        "source_index": 0,
+        "qualification": "各国结构不同"
+      },
+      {
+        "cause": "汇率贬值与未对冲外债",
+        "effect": "资产负债表压力",
+        "status": "source_interpretation",
+        "source_index": 0,
+        "qualification": "不能只用汇率变化预测全部损失"
+      }
+    ],
+    "feedback_hypothesis": "资产负债表恶化与融资收缩可能相互加强。",
+    "monitoring_indicators": [
+      "短债与储备",
+      "外币债务对冲",
+      "银行不良资产"
+    ],
+    "comparison_task": "寻找同类暴露但未发生同等损失的主体，检查政策、缓冲和观测差异；本条不是对照研究。",
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "现有来源主要是机构回顾，尚不能识别每条边的独立因果效应或估计事件发生概率。"
+    ]
+  },
+  {
+    "id": "finance-2008",
+    "title": "住房金融与融资网络压力",
+    "period": "2007–2009",
+    "geography": [
+      "美国",
+      "跨国金融体系"
+    ],
+    "features": {
+      "mechanisms": [
+        "balance-sheet",
+        "liquidity-feedback",
+        "credit-contraction"
+      ],
+      "constraints": [
+        "leverage",
+        "opaque-exposure"
+      ],
+      "stage": [
+        "propagation",
+        "response"
+      ]
+    },
+    "required_conditions": {
+      "financial_network": "connected"
+    },
+    "transfer_limits": [
+      "事后总结不能用于无信息冻结的精确预言；政策作用与危机起因存在争论。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath",
+        "locator": "住房金融、衰退与政策响应",
+        "basis": "联储历史文章讨论住房市场逆转、金融机构风险与衰退，以及货币政策和救助响应。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.709075+00:00",
+        "access_method": "opened_page_excerpt"
+      }
+    ],
+    "observation": "联储历史文章讨论住房市场逆转、金融机构风险与衰退，以及货币政策和救助响应。",
+    "causal_chain": [
+      {
+        "cause": "住房与抵押贷款损失",
+        "effect": "金融机构压力",
+        "status": "source_interpretation",
+        "source_index": 0,
+        "qualification": "暴露、杠杆和融资方式不同"
+      },
+      {
+        "cause": "金融压力",
+        "effect": "信贷与实体需求收缩",
+        "status": "source_interpretation",
+        "source_index": 0,
+        "qualification": "不能排除同时发生的其他冲击"
+      }
+    ],
+    "feedback_hypothesis": "资产价格、融资和实体需求可能形成相互强化的收缩。",
+    "monitoring_indicators": [
+      "抵押贷款违约",
+      "融资利差",
+      "信贷条件"
+    ],
+    "comparison_task": "寻找同类暴露但未发生同等损失的主体，检查政策、缓冲和观测差异；本条不是对照研究。",
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "现有来源主要是机构回顾，尚不能识别每条边的独立因果效应或估计事件发生概率。"
+    ]
+  },
+  {
+    "id": "japan-2011",
+    "title": "东日本大地震的级联中断",
+    "period": "2011",
+    "geography": [
+      "日本",
+      "跨国供应链"
+    ],
+    "features": {
+      "mechanisms": [
+        "supply-shock",
+        "network-cascade"
+      ],
+      "constraints": [
+        "infrastructure-dependency",
+        "limited-buffer"
+      ],
+      "stage": [
+        "propagation",
+        "response"
+      ]
+    },
+    "required_conditions": {
+      "supply_network": "connected"
+    },
+    "transfer_limits": [
+      "建筑标准、备援、保险及公共协调能力不同；不能将单次灾害损失率当普遍参数。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.worldbank.org/en/news/feature/2021/03/11/learning-from-megadisasters-a-decade-of-lessons-from-the-great-east-japan-earthquake-drmhubtokyo",
+        "locator": "Financial protection、交通恢复与间接影响",
+        "basis": "世行回顾道路及关键设施中断、供应链间接损失，以及预先协议对恢复工作的作用。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.709076+00:00",
+        "access_method": "opened_page_excerpt"
+      }
+    ],
+    "observation": "世行回顾道路及关键设施中断、供应链间接损失，以及预先协议对恢复工作的作用。",
+    "causal_chain": [
+      {
+        "cause": "交通和关键设施受损",
+        "effect": "生产与运输中断",
+        "status": "source_interpretation",
+        "source_index": 0,
+        "qualification": "震动、海啸及后续事故须分别分析"
+      },
+      {
+        "cause": "供应链中断",
+        "effect": "非灾区企业损失",
+        "status": "source_interpretation",
+        "source_index": 0,
+        "qualification": "间接暴露不能仅由地理距离判断"
+      }
+    ],
+    "feedback_hypothesis": "资金不足可能拖延修复，修复延迟又增加经营损失。",
+    "monitoring_indicators": [
+      "关键节点可用率",
+      "替代供应商",
+      "恢复时长"
+    ],
+    "comparison_task": "寻找同类暴露但未发生同等损失的主体，检查政策、缓冲和观测差异；本条不是对照研究。",
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "现有来源主要是机构回顾，尚不能识别每条边的独立因果效应或估计事件发生概率。"
+    ]
+  },
+  {
+    "id": "ebola-2014",
+    "title": "西非埃博拉的基础设施与信任约束",
+    "period": "2014–2016",
+    "geography": [
+      "几内亚",
+      "利比里亚",
+      "塞拉利昂"
+    ],
+    "features": {
+      "mechanisms": [
+        "cross-border-transmission",
+        "capacity-feedback",
+        "trust-feedback"
+      ],
+      "constraints": [
+        "weak-health-system",
+        "mobility",
+        "trust"
+      ],
+      "stage": [
+        "propagation",
+        "response"
+      ]
+    },
+    "required_conditions": {
+      "transmission_route": "contact"
+    },
+    "transfer_limits": [
+      "病毒种类、接触结构、医疗资源与区域局势须逐项核对；不能套用病例数或致死比例。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.who.int/news-room/spotlight/one-year-into-the-ebola-epidemic/factors-that-contributed-to-undetected-spread-of-the-ebola-virus-and-impeded-rapid-containment",
+        "locator": "Damaged infrastructures / mobility / community resistance",
+        "basis": "WHO 回顾交通和医疗资源不足、跨境流动及服务失灵对早期控制的妨碍。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.709077+00:00",
+        "access_method": "opened_page_excerpt"
+      }
+    ],
+    "observation": "WHO 回顾交通和医疗资源不足、跨境流动及服务失灵对早期控制的妨碍。",
+    "causal_chain": [
+      {
+        "cause": "运输通信薄弱",
+        "effect": "报告与就诊延误",
+        "status": "source_interpretation",
+        "source_index": 0,
+        "qualification": "基础设施并非唯一原因"
+      },
+      {
+        "cause": "跨境流动与协调不足",
+        "effect": "追踪与控制困难",
+        "status": "source_interpretation",
+        "source_index": 0,
+        "qualification": "有流动不等于每人具有同等风险"
+      },
+      {
+        "cause": "服务失灵",
+        "effect": "合作意愿下降",
+        "status": "source_interpretation",
+        "source_index": 0,
+        "qualification": "信任不能被简化成民众无知"
+      }
+    ],
+    "feedback_hypothesis": "感染与人员损失可能削弱医疗能力，服务不足再削弱合作。",
+    "monitoring_indicators": [
+      "报告时滞",
+      "接触者追踪完成度",
+      "医护感染",
+      "服务可及性"
+    ],
+    "comparison_task": "寻找同类暴露但未发生同等损失的主体，检查政策、缓冲和观测差异；本条不是对照研究。",
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "现有来源主要是机构回顾，尚不能识别每条边的独立因果效应或估计事件发生概率。"
+    ]
+  },
+  {
+    "id": "covid-2020",
+    "title": "新冠早期响应与医疗供应约束",
+    "period": "2020",
+    "geography": [
+      "全球"
+    ],
+    "features": {
+      "mechanisms": [
+        "capacity-feedback",
+        "supply-shock",
+        "coordination"
+      ],
+      "constraints": [
+        "weak-health-system",
+        "limited-buffer"
+      ],
+      "stage": [
+        "propagation",
+        "response"
+      ]
+    },
+    "required_conditions": {
+      "transmission_route": "respiratory"
+    },
+    "transfer_limits": [
+      "早期缺乏免疫与诊疗知识的条件不同；接触性传播疾病不能直接套用呼吸道传播模型。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.who.int/news-room/detail/29-06-2020-covidtimeline",
+        "locator": "2020 年 3 月 3 日、11 日、25 日条目",
+        "basis": "WHO 时间线记录防护用品缺口、研究协调及维持基本卫生服务的响应。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.709078+00:00",
+        "access_method": "opened_page_excerpt"
+      }
+    ],
+    "observation": "WHO 时间线记录防护用品缺口、研究协调及维持基本卫生服务的响应。",
+    "causal_chain": [
+      {
+        "cause": "病例与防护需求增加",
+        "effect": "医疗供应压力",
+        "status": "source_interpretation",
+        "source_index": 0,
+        "qualification": "时间线记录需求及应对，不能单独估计供给弹性"
+      },
+      {
+        "cause": "资源短缺",
+        "effect": "基本服务维持困难",
+        "status": "source_interpretation",
+        "source_index": 0,
+        "qualification": "政策文件表达风险，不是所有地区已发生的结果"
+      }
+    ],
+    "feedback_hypothesis": "医护暴露与资源紧张的相互作用需结合各地观测验证。",
+    "monitoring_indicators": [
+      "用品库存",
+      "医疗负荷",
+      "基本服务中断"
+    ],
+    "comparison_task": "寻找同类暴露但未发生同等损失的主体，检查政策、缓冲和观测差异；本条不是对照研究。",
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "现有来源主要是机构回顾，尚不能识别每条边的独立因果效应或估计事件发生概率。"
+    ]
+  },
+  {
+    "id": "energy-2022",
+    "title": "能源危机的跨市场传导",
+    "period": "2021–2022",
+    "geography": [
+      "欧洲",
+      "俄罗斯",
+      "全球能源贸易网络"
+    ],
+    "features": {
+      "mechanisms": [
+        "supply-shock",
+        "cost-pass-through",
+        "network-cascade"
+      ],
+      "constraints": [
+        "limited-substitution",
+        "import-dependency"
+      ],
+      "stage": [
+        "propagation",
+        "response"
+      ]
+    },
+    "required_conditions": {
+      "energy_exposure": "material"
+    },
+    "transfer_limits": [
+      "多燃料结构、LNG 网络与可再生能源使其不同于 1973 年；当时网页中的展望不能当作今天事实。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.iea.org/topics/2022-energy-crisis",
+        "locator": "What is causing it / What is being done",
+        "basis": "IEA 将危机置于疫后反弹、既有供给约束和战争升级背景，描述欧洲替代采购影响 LNG 与电价。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.709079+00:00",
+        "access_method": "opened_page_excerpt"
+      }
+    ],
+    "observation": "IEA 将危机置于疫后反弹、既有供给约束和战争升级背景，描述欧洲替代采购影响 LNG 与电价。",
+    "causal_chain": [
+      {
+        "cause": "管道供气减少",
+        "effect": "替代 LNG 需求上升",
+        "status": "source_interpretation",
+        "source_index": 0,
+        "qualification": "已有供需紧张叠加"
+      },
+      {
+        "cause": "天然气价格上升",
+        "effect": "部分电力市场及制造业成本上升",
+        "status": "source_interpretation",
+        "source_index": 0,
+        "qualification": "依赖电力定价与成本转嫁条件"
+      }
+    ],
+    "feedback_hypothesis": "短期替代竞争抬价，长期扩建与节能可能反向缓解约束。",
+    "monitoring_indicators": [
+      "储气与管道供应",
+      "LNG 运能",
+      "能源密集行业产出"
+    ],
+    "comparison_task": "寻找同类暴露但未发生同等损失的主体，检查政策、缓冲和观测差异；本条不是对照研究。",
+    "review_status": "source_excerpt_read_and_encoded",
+    "open_questions": [
+      "现有来源主要是机构回顾，尚不能识别每条边的独立因果效应或估计事件发生概率。"
+    ]
+  }
+]

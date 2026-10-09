@@ -18,3 +18,5 @@ python3 scripts/historical_figure_matcher.py --request /tmp/research-request.jso
 必要条件冲突、来源在截止后才可得或只有摘要的候选不进入排名，并给出原因；缺少必要条件或原始可得时间未知的候选只可暂列 `provisional`。完全不相交则返回 `no_analogue`，不硬配人物。保留被排除候选和无匹配结果；再检索对照对象，不依据成功结局调整标签。
 
 `as_of` 指证据截止时点，不是故事发生时间。今天阅读古代人物研究属于今天的决策研究；用今天材料模拟过去预测，仍需另行标为历史重建。
+
+默认目录位于 `catalog/crises.json` 与 `catalog/figures.json`。可省略 `--candidates` 使用随包目录；传入该参数则完全使用外部候选。先读条目和来源，再选择历史参照，不能把排序直接转成行动建议。

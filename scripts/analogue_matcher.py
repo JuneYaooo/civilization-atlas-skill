@@ -102,7 +102,7 @@ def rank(request, candidates, mode):
             continue
         accepted.append({
             'id': cid, 'title': c['title'], 'rank_score': round(score, 6),
-            'status': 'provisional' if unknown or availability_unknown else 'candidate',
+            'status': 'provisional' if unknown or availability_unknown or any(not f[d] for d in active) else 'candidate',
             'matches': matches, 'missing_dimensions': [d for d in active if not f[d]],
             'unknown_conditions': sorted(unknown),
             'source_availability_unknown': availability_unknown,
@@ -118,7 +118,7 @@ def rank(request, candidates, mode):
 def main(mode):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--request', type=Path, required=True)
-    parser.add_argument('--candidates', type=Path, required=True)
+    parser.add_argument('--candidates', type=Path, default=Path(__file__).resolve().parents[1] / 'catalog' / ('crises.json' if mode == 'event' else 'figures.json'))
     args = parser.parse_args()
     try:
         result = rank(json.loads(args.request.read_text()), json.loads(args.candidates.read_text()), mode)

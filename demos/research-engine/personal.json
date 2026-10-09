@@ -1,0 +1,647 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-09T02:00:34.009276+00:00",
+  "request": {
+    "question": "想转向长期感兴趣的领域，又需要维持生计，历史能提供哪些决策思路？",
+    "target": "识别可行的转型结构与待验证条件",
+    "geography": "一般性决策，不假定特定劳动市场",
+    "horizon": "下一阶段的小规模验证",
+    "goal": "兼顾生计、学习与可逆性",
+    "as_of": "2026-10-09T02:00:33.337421+00:00",
+    "mode": "personal",
+    "information_regime": "current",
+    "topics": [
+      "history",
+      "personal"
+    ],
+    "features": {
+      "decision_types": [
+        "career-transition",
+        "learning"
+      ],
+      "objectives": [
+        "livelihood",
+        "learning"
+      ],
+      "constraints": [
+        "income-needs"
+      ],
+      "reversibility": [
+        "partial"
+      ]
+    },
+    "conditions": {}
+  },
+  "analysis": {
+    "verdict": "conditional",
+    "answer": "历史能帮助拆掉“完全留下或一次性离开”的二选一。先寻找能同时承载收入和目标能力的相邻工作或有限项目，再用真实反馈判断是否加大投入；这仍取决于个人可支配时间、机会和承受能力。",
+    "claims": [
+      {
+        "kind": "observation",
+        "statement": "卡森在政府科学传播工作中结合专业知识与写作，并继续创作。",
+        "evidence_ids": [
+          "carson-adjacency-source-0"
+        ]
+      },
+      {
+        "kind": "source_interpretation",
+        "statement": "大学文章提示其离开研究道路可能涉及多种因素，不能压缩成主动追梦的单线故事。",
+        "evidence_ids": [
+          "jhu-nuance"
+        ]
+      },
+      {
+        "kind": "hypothesis",
+        "statement": "相邻岗位可能减少转型时收入与学习完全脱节的风险，但需当地机会与时间验证。",
+        "evidence_ids": [
+          "carson-adjacency-source-0"
+        ]
+      }
+    ],
+    "dominant_factors": [
+      {
+        "factor": "可用生计与学习时间的兼容性",
+        "mechanism": "收入来源若消耗全部学习时间，名义上的稳妥也可能阻断转型；相邻工作是否存在需要取证。",
+        "scope": "当前工作安排与目标领域可形成能力交集的人",
+        "timelag": "随工作周期而变，不预设固定月数",
+        "falsifier": "若相邻路径不可得或学习始终无法发生，此路径应修改。",
+        "evidence_ids": [
+          "carson-adjacency-source-0",
+          "jhu-nuance"
+        ]
+      }
+    ],
+    "selected_analogues": [
+      "carson-adjacency"
+    ],
+    "historical_increment": "历史提示知识和表达能力可以在不同制度渠道中重新组合，也提醒经济压力、组织机会与偶然联结共同作用。它不能证明兼业优于全职的普遍收益。",
+    "era_differences": [
+      "大萧条时期、女性科研就业限制与今天条件不同。",
+      "政府传播岗位和当年的出版市场不能等同今天的自由职业或平台流量。",
+      "卡森是后来成功的样本，缺少相同选择而未成功者的分母。"
+    ],
+    "counterevidence_search": "补读大学文章中的研究困难、指导资源和无明确下一步的离校经历；这些反驳从成功倒推其早已知道正确道路。仍缺可比较的失败者样本。",
+    "alternatives": "转型是否可行也可能主要取决于准入资格、市场需求或照护责任；不能把它们都归结为心态。",
+    "conflicts": [
+      {
+        "issue": "NPS 两页将渔业局职业起点分别写为 1935 和 1936 年。",
+        "evidence_ids": [
+          "carson-adjacency-source-0",
+          "nps-house"
+        ],
+        "handling": "暂不裁决是否因为岗位定义不同；分析仅使用 1930 年代及工作内容，不依赖精确入职年份。"
+      }
+    ],
+    "uncertainty": "没有当前个人约束或当地职位数据，因此不给是否离职的确定建议，也不给成功概率。",
+    "unknowns": [
+      "目标领域真实需求与准入门槛",
+      "生活开销、可用时间和支持条件",
+      "相邻路径失败者及退出成本"
+    ],
+    "actions": [
+      {
+        "option": "设计一个可交付的小项目，并记录外部反馈",
+        "condition": "目标领域允许低成本验证",
+        "cost": "时间与少量可承受支出",
+        "reversibility": "可终止并保留成果",
+        "stop_signal": "连续反馈显示无需求或挤压基本生计"
+      },
+      {
+        "option": "比较相邻岗位与分阶段学习的机会",
+        "condition": "存在技能交集，且工作安排允许学习",
+        "cost": "岗位搜寻和机会成本",
+        "reversibility": "取决于合同及再进入条件",
+        "stop_signal": "相邻岗位并未提供目标能力积累"
+      }
+    ],
+    "review_signals": [
+      {
+        "indicator": "真实交付与外部需求反馈",
+        "trigger": "出现持续需求或明确否定证据",
+        "decision_change": "决定扩大、调整或停止试验",
+        "check_after": "一个事先约定的交付周期结束后"
+      }
+    ],
+    "yijing_translation": "时：区分探索与扩大投入；位：确认生计、资格和资源；应：查看合作与市场反馈；变：让投入随证据变化。不给历史人物行为赋予命定意义。"
+  },
+  "validation": {
+    "eligible_evidence": [
+      "carson-adjacency-source-0",
+      "jhu-nuance",
+      "nps-house"
+    ],
+    "selected": [
+      "carson-adjacency"
+    ],
+    "limits": "Structural validation does not verify source truth, causal identification or forecast skill."
+  },
+  "matching": {
+    "mode": "figure",
+    "as_of": "2026-10-09T02:00:33.337421+00:00",
+    "status": "candidates_found",
+    "score_meaning": "Equal-weight request-tag coverage for reading priority; not probability or causal validity.",
+    "candidates": [
+      {
+        "id": "carson-adjacency",
+        "title": "蕾切尔·卡森：家庭生计与科学写作的结合",
+        "rank_score": 1.0,
+        "status": "provisional",
+        "matches": {
+          "decision_types": [
+            "career-transition",
+            "learning"
+          ],
+          "objectives": [
+            "learning",
+            "livelihood"
+          ],
+          "constraints": [
+            "income-needs"
+          ],
+          "reversibility": [
+            "partial"
+          ]
+        },
+        "missing_dimensions": [],
+        "unknown_conditions": [],
+        "source_availability_unknown": true,
+        "transfer_limits": [
+          "政府岗位、出版机会和收入结构须单独核对；畅销者样本不能估算转型成功率。",
+          "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+        ],
+        "sources": [
+          {
+            "url": "https://www.nps.gov/people/rachel-carson.htm",
+            "locator": "Early Life and Education / Early Career and Writing",
+            "basis": "NPS 记载家庭经济压力使其中止博士学习，随后在渔业局从事科学传播；早期与后来的著作销售表现不同。",
+            "access_scope": "excerpt",
+            "available_at": null,
+            "accessed_at": "2026-10-09T01:56:06.710863+00:00",
+            "access_method": "opened_page_excerpt"
+          }
+        ]
+      },
+      {
+        "id": "wang-exile",
+        "title": "王阳明：贬谪中的学习与后续复职",
+        "rank_score": 0.625,
+        "status": "provisional",
+        "matches": {
+          "decision_types": [
+            "career-transition",
+            "learning"
+          ],
+          "objectives": [
+            "learning"
+          ],
+          "constraints": [],
+          "reversibility": [
+            "partial"
+          ]
+        },
+        "missing_dimensions": [],
+        "unknown_conditions": [],
+        "source_availability_unknown": true,
+        "transfer_limits": [
+          "官僚制度与政治保护关系具有特定性；复职不能由修养直接解释。",
+          "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+        ],
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/wang-yangming/",
+            "locator": "1. Life",
+            "basis": "SEP 生平章节叙述其上疏后受刑贬谪、龙场期间的思想发展，以及政局改变后的复职。",
+            "access_scope": "excerpt",
+            "available_at": null,
+            "accessed_at": "2026-10-09T01:56:06.710855+00:00",
+            "access_method": "opened_page_excerpt"
+          }
+        ]
+      },
+      {
+        "id": "tao-405",
+        "title": "陶渊明：彭泽任职与离任",
+        "rank_score": 0.5,
+        "status": "provisional",
+        "matches": {
+          "decision_types": [
+            "career-transition"
+          ],
+          "objectives": [
+            "livelihood"
+          ],
+          "constraints": [
+            "income-needs"
+          ],
+          "reversibility": []
+        },
+        "missing_dimensions": [],
+        "unknown_conditions": [],
+        "source_availability_unknown": true,
+        "transfer_limits": [
+          "自述与后世节操叙事不同；士族资源、田产和再入仕条件不能等同现代劳动市场。",
+          "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+        ],
+        "sources": [
+          {
+            "url": "https://zh.wikisource.org/zh-hans/歸去來辭",
+            "locator": "序：余家贫至乙巳岁十一月",
+            "basis": "序文自述因家贫入仕，任职后感到违己，原拟等一季收成，又因妹丧离任；这是作者的回顾性自述。",
+            "access_scope": "excerpt",
+            "available_at": null,
+            "accessed_at": "2026-10-09T01:56:06.710850+00:00",
+            "access_method": "search_returned_page_excerpt"
+          }
+        ]
+      },
+      {
+        "id": "curie-continuity",
+        "title": "玛丽·居里：丧偶后的研究延续",
+        "rank_score": 0.375,
+        "status": "provisional",
+        "matches": {
+          "decision_types": [
+            "career-transition"
+          ],
+          "objectives": [],
+          "constraints": [],
+          "reversibility": [
+            "partial"
+          ]
+        },
+        "missing_dimensions": [],
+        "unknown_conditions": [],
+        "source_availability_unknown": true,
+        "transfer_limits": [
+          "机构接续机会是关键条件；不可将结果仅归因于个人毅力，也不据此要求他人忽略哀伤。",
+          "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+        ],
+        "sources": [
+          {
+            "url": "https://musee.curie.fr/decouvrir/documentation/les-fiches-images-de-l-ecole-du-louvre/marie-curie-faisant-la-une-de-l-illustration",
+            "locator": "1906 年首次授课与 1908 年教授任命",
+            "basis": "居里博物馆记载其在皮埃尔去世后负责实验室，1906 年开始授课，1908 年成为索邦教授。",
+            "access_scope": "excerpt",
+            "available_at": null,
+            "accessed_at": "2026-10-09T01:56:06.710858+00:00",
+            "access_method": "search_returned_page_excerpt"
+          }
+        ]
+      },
+      {
+        "id": "hopper-standardization",
+        "title": "格蕾丝·霍珀：从计算工作到语言标准协作",
+        "rank_score": 0.375,
+        "status": "provisional",
+        "matches": {
+          "decision_types": [
+            "career-transition"
+          ],
+          "objectives": [],
+          "constraints": [],
+          "reversibility": [
+            "partial"
+          ]
+        },
+        "missing_dimensions": [],
+        "unknown_conditions": [],
+        "source_availability_unknown": true,
+        "transfer_limits": [
+          "军方采购、组织资源和多人协作不能被简化成单人发明；标准化也可能增加转换成本。",
+          "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+        ],
+        "sources": [
+          {
+            "url": "https://www.history.navy.mil/content/history/nhhc/browse-by-topic/people/namesakes/grace-hopper.html",
+            "locator": "计算工作、CODASYL 与标准委员会段落",
+            "basis": "美国海军资料记述其数学教育、战时计算工作、参与 CODASYL 会议及后续标准委员会工作。",
+            "access_scope": "excerpt",
+            "available_at": null,
+            "accessed_at": "2026-10-09T01:56:06.710860+00:00",
+            "access_method": "search_returned_page_excerpt"
+          }
+        ]
+      },
+      {
+        "id": "dubois-organization",
+        "title": "杜波依斯：研究与公共组织相结合",
+        "rank_score": 0.25,
+        "status": "provisional",
+        "matches": {
+          "decision_types": [],
+          "objectives": [],
+          "constraints": [],
+          "reversibility": [
+            "partial"
+          ]
+        },
+        "missing_dimensions": [],
+        "unknown_conditions": [],
+        "source_availability_unknown": true,
+        "transfer_limits": [
+          "种族压迫、集体运动和法制变化不能约化为个人职业策略；来源其他生平细节需另行核对。",
+          "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+        ],
+        "sources": [
+          {
+            "url": "https://www.nps.gov/places/massachusetts-web-du-bois-boyhood-homesite-great-barrington.htm",
+            "locator": "尼亚加拉运动与 1909 年 NAACP 段落",
+            "basis": "NPS 生平介绍其参与尼亚加拉运动及 NAACP 的创建。",
+            "access_scope": "excerpt",
+            "available_at": null,
+            "accessed_at": "2026-10-09T01:56:06.710867+00:00",
+            "access_method": "opened_page_excerpt"
+          }
+        ]
+      },
+      {
+        "id": "tu-extraction",
+        "title": "屠呦呦团队：从古籍线索到提取实验",
+        "rank_score": 0.25,
+        "status": "provisional",
+        "matches": {
+          "decision_types": [
+            "learning"
+          ],
+          "objectives": [
+            "learning"
+          ],
+          "constraints": [],
+          "reversibility": []
+        },
+        "missing_dimensions": [],
+        "unknown_conditions": [],
+        "source_availability_unknown": true,
+        "transfer_limits": [
+          "团队、项目组织和实验条件不可省略；古籍启发不等于疗效证据，历史实验不构成今天的操作建议。",
+          "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+        ],
+        "sources": [
+          {
+            "url": "https://www.nobelprize.org/prizes/medicine/2015/tu/biographical/",
+            "locator": "Sample no. 191 与重新设计低温提取实验段落",
+            "basis": "屠呦呦自述由青蒿用法启发避免高温，重设计提取实验，报告 1971 年样品实验结果并继续分离验证。",
+            "access_scope": "excerpt",
+            "available_at": null,
+            "accessed_at": "2026-10-09T01:56:06.710857+00:00",
+            "access_method": "search_returned_page_excerpt"
+          }
+        ]
+      },
+      {
+        "id": "addams-hull-house",
+        "title": "简·亚当斯与同伴：社区服务的组织化",
+        "rank_score": 0.125,
+        "status": "provisional",
+        "matches": {
+          "decision_types": [],
+          "objectives": [
+            "learning"
+          ],
+          "constraints": [],
+          "reversibility": []
+        },
+        "missing_dimensions": [],
+        "unknown_conditions": [],
+        "source_availability_unknown": true,
+        "transfer_limits": [
+          "这是机构募资语境的自述，不是独立效果评估；创始人的资源与社区成员的权力并不对称。",
+          "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+        ],
+        "sources": [
+          {
+            "url": "https://digital.janeaddams.ramapo.edu/items/show/4914",
+            "locator": "Hull-House 1889–1909，第 2–3 页转录",
+            "basis": "1909 年机构回顾描述从部分住宅起步，随需求和捐赠扩展建筑；同时坦承经常性资金不足。",
+            "access_scope": "excerpt",
+            "available_at": null,
+            "accessed_at": "2026-10-09T01:56:06.710863+00:00",
+            "access_method": "search_returned_page_excerpt"
+          }
+        ]
+      },
+      {
+        "id": "confucius-teaching",
+        "title": "孔子：政治服务与教学的传记叙事",
+        "rank_score": 0.125,
+        "status": "provisional",
+        "matches": {
+          "decision_types": [
+            "career-transition"
+          ],
+          "objectives": [],
+          "constraints": [],
+          "reversibility": []
+        },
+        "missing_dimensions": [],
+        "unknown_conditions": [],
+        "source_availability_unknown": true,
+        "transfer_limits": [
+          "生平由后世材料重建，任职细节有争议；不能用后世声望证明当时选择最优。",
+          "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+        ],
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/confucius/",
+            "locator": "1. Confucius as Chinese Philosopher and Symbol of Traditional Culture",
+            "basis": "SEP 比较传世生平资料，指出司马迁叙事中的仕途、游历与教学，以及早期材料对官职记载的差异。",
+            "access_scope": "excerpt",
+            "available_at": null,
+            "accessed_at": "2026-10-09T01:56:06.710856+00:00",
+            "access_method": "opened_page_excerpt"
+          }
+        ]
+      },
+      {
+        "id": "franklin-library",
+        "title": "富兰克林：通过订阅共享知识资源",
+        "rank_score": 0.125,
+        "status": "provisional",
+        "matches": {
+          "decision_types": [],
+          "objectives": [
+            "learning"
+          ],
+          "constraints": [],
+          "reversibility": []
+        },
+        "missing_dimensions": [],
+        "unknown_conditions": [],
+        "source_availability_unknown": true,
+        "transfer_limits": [
+          "订阅资格和参与者社会地位影响受益范围；共享机构并不自动普惠。",
+          "人物样本按资料可得性选取，不能估计某种选择的成功率。"
+        ],
+        "sources": [
+          {
+            "url": "https://www.loc.gov/exhibits/franklin/franklin-printer.html",
+            "locator": "Public Education for Our Youth",
+            "basis": "国会图书馆展览介绍其公共教育倡议与订阅图书馆，并收录 1789 年回顾该计划的手稿说明。",
+            "access_scope": "excerpt",
+            "available_at": null,
+            "accessed_at": "2026-10-09T01:56:06.710866+00:00",
+            "access_method": "opened_page_excerpt"
+          }
+        ]
+      }
+    ],
+    "excluded": [
+      {
+        "id": "sima-writing",
+        "reasons": [
+          "no_structural_overlap"
+        ]
+      },
+      {
+        "id": "johnson-verification",
+        "reasons": [
+          "no_structural_overlap"
+        ]
+      },
+      {
+        "id": "darwin-publication",
+        "reasons": [
+          "no_structural_overlap"
+        ]
+      },
+      {
+        "id": "nightingale-reform",
+        "reasons": [
+          "no_structural_overlap"
+        ]
+      },
+      {
+        "id": "mandela-talks",
+        "reasons": [
+          "no_structural_overlap"
+        ]
+      },
+      {
+        "id": "douglass-press",
+        "reasons": [
+          "no_structural_overlap"
+        ]
+      }
+    ]
+  },
+  "searches": [
+    {
+      "id": "facts",
+      "stage": "facts",
+      "query": "site.nps.gov Rachel Carson doctoral studies family 1935 writing",
+      "provider": "web.search_query + web.open",
+      "searched_at": "2026-10-09T02:00:33.337421+00:00",
+      "status": "searched",
+      "result_urls": [
+        "https://www.nps.gov/people/rachel-carson.htm"
+      ],
+      "outcome": "阅读官方生平；提取生计约束与岗位内容。",
+      "time_precision": "recorded_after_retrieval_same_session"
+    },
+    {
+      "id": "historical_comparison",
+      "stage": "historical_comparison",
+      "query": "site.nps.gov Rachel Carson doctoral studies family 1935 writing",
+      "provider": "web.search_query",
+      "searched_at": "2026-10-09T02:00:33.337421+00:00",
+      "status": "searched",
+      "result_urls": [
+        "https://www.nps.gov/places/rachel-carson-house.htm",
+        "https://hub.jhu.edu/magazine/2013/summer/rachel-carson-at-hopkins/"
+      ],
+      "outcome": "同一次查询找到不同履历日期与更复杂的退出解释，随后打开原页。",
+      "time_precision": "recorded_after_retrieval_same_session"
+    },
+    {
+      "id": "mechanisms",
+      "stage": "mechanisms",
+      "query": "https://hub.jhu.edu/magazine/2013/summer/rachel-carson-at-hopkins/",
+      "provider": "web.open",
+      "searched_at": "2026-10-09T02:00:33.337421+00:00",
+      "status": "searched",
+      "result_urls": [
+        "https://hub.jhu.edu/magazine/2013/summer/rachel-carson-at-hopkins/"
+      ],
+      "outcome": "阅读引用书信与档案的大学文章；发现单因叙事过强。",
+      "time_precision": "recorded_after_retrieval_same_session"
+    },
+    {
+      "id": "update_check",
+      "stage": "update_check",
+      "query": "https://www.nps.gov/places/rachel-carson-house.htm",
+      "provider": "web.open",
+      "searched_at": "2026-10-09T02:00:33.337421+00:00",
+      "status": "searched",
+      "result_urls": [
+        "https://www.nps.gov/places/rachel-carson-house.htm"
+      ],
+      "outcome": "复核入职年份差异；保留争议，不影响本题的相邻能力结构。",
+      "time_precision": "recorded_after_retrieval_same_session"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "carson-adjacency-source-0",
+      "role": "history",
+      "source": {
+        "url": "https://www.nps.gov/people/rachel-carson.htm",
+        "locator": "Early Life and Education / Early Career and Writing",
+        "basis": "NPS 记载家庭经济压力使其中止博士学习，随后在渔业局从事科学传播；早期与后来的著作销售表现不同。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.710863+00:00",
+        "access_method": "opened_page_excerpt"
+      },
+      "observation": "NPS 记载家庭经济压力使其中止博士学习，随后在渔业局从事科学传播；早期与后来的著作销售表现不同。",
+      "limitations": "政府岗位、出版机会和收入结构须单独核对；畅销者样本不能估算转型成功率。；人物样本按资料可得性选取，不能估计某种选择的成功率。",
+      "upstream_id": "https://www.nps.gov/people/rachel-carson.htm",
+      "catalogue_id": "carson-adjacency"
+    },
+    {
+      "id": "jhu-nuance",
+      "role": "history",
+      "source": {
+        "url": "https://hub.jhu.edu/magazine/2013/summer/rachel-carson-at-hopkins/",
+        "locator": "关于 1934 年离校及职业机会的段落",
+        "basis": "大学文章基于书信及档案讨论经济压力、研究困难与导师支持，并明确离校原因难以单独确定。",
+        "access_method": "host_web_open_relevant_excerpt",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T02:00:33.337421+00:00"
+      },
+      "observation": "生计并非可独立确认的唯一离校原因。",
+      "limitations": "这是大学杂志的历史分析，本文未直接读取其全部档案。",
+      "upstream_id": "https://hub.jhu.edu/magazine/2013/summer/rachel-carson-at-hopkins/"
+    },
+    {
+      "id": "nps-house",
+      "role": "history",
+      "source": {
+        "url": "https://www.nps.gov/places/rachel-carson-house.htm",
+        "locator": "1936 年开始渔业局工作段落",
+        "basis": "此页将渔业局职业起点写为 1936 年，另一篇 NPS 生平写为 1935 年。",
+        "access_method": "host_web_open_relevant_excerpt",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T02:00:33.337421+00:00"
+      },
+      "observation": "两篇同机构页面对职业起点年份的表述不同。",
+      "limitations": "可能涉及临时与正式岗位定义，但本轮未核验，不能当作已解决。",
+      "upstream_id": "https://www.nps.gov/places/rachel-carson-house.htm"
+    }
+  ],
+  "local_queries": [
+    {
+      "query": "Carson",
+      "queried_at": "2026-10-09T02:00:34.002891+00:00",
+      "result": {
+        "total": 0,
+        "limit": 10,
+        "offset": 0,
+        "records": [],
+        "temporal_note": "Undated assertions excluded by date filters; dated records are source claims, not a complete timeline"
+      }
+    }
+  ],
+  "content_sha256": "d24700afbfadd6315c76e38cde4e603dc105f495f84c3f564ae603b7ecebbffe"
+}

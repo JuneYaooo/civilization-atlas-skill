@@ -1,0 +1,501 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-09T02:00:33.707337+00:00",
+  "request": {
+    "question": "近期跨境公共卫生事件，哪些社会传导机制值得优先观察？",
+    "target": "地区响应与社会影响的条件判断",
+    "geography": "刚果民主共和国及相关跨境网络",
+    "horizon": "未来数周的观察框架",
+    "goal": "区分局部暴露、响应能力与不必要的全球化外推",
+    "as_of": "2026-10-09T02:00:33.337421+00:00",
+    "mode": "event",
+    "information_regime": "current",
+    "topics": [
+      "health"
+    ],
+    "features": {
+      "mechanisms": [
+        "cross-border-transmission",
+        "capacity-feedback"
+      ],
+      "constraints": [
+        "mobility",
+        "weak-health-system"
+      ],
+      "stage": [
+        "propagation"
+      ]
+    },
+    "conditions": {
+      "transmission_route": "contact"
+    },
+    "max_current_age_days": 14
+  },
+  "analysis": {
+    "verdict": "conditional",
+    "answer": "应优先观察跨境发现与追踪、服务能力和合作意愿之间的关系；输入病例本身不足以推出全球性社会冲击。这里形成的是研究与资源准备的条件框架，不是规模预测。",
+    "claims": [
+      {
+        "kind": "observation",
+        "statement": "WHO 10 月 8 日公告记录肯尼亚输入病例，并说明针对肯尼亚的详细风险评估仍在进行。",
+        "evidence_ids": [
+          "who-current"
+        ]
+      },
+      {
+        "kind": "source_interpretation",
+        "statement": "西非回顾将响应延迟与基础设施、流动及合作条件联系起来。",
+        "evidence_ids": [
+          "ebola-2014-source-0"
+        ]
+      },
+      {
+        "kind": "source_interpretation",
+        "statement": "尼日利亚等地的不同结果说明输入病例不必然演变为同等扩散。",
+        "evidence_ids": [
+          "different-outcome"
+        ]
+      },
+      {
+        "kind": "hypothesis",
+        "statement": "若追踪与诊断速度持续落后于暴露网络扩展，局部资源压力可能自我强化。",
+        "evidence_ids": [
+          "who-current",
+          "ebola-2014-source-0"
+        ]
+      }
+    ],
+    "dominant_factors": [
+      {
+        "factor": "响应能力相对传播网络的滞后",
+        "mechanism": "新增暴露与处置延迟可能扩大未覆盖链条；这是假说而非已识别的本轮效应。",
+        "scope": "存在实际接触暴露的地区，不外推所有国家",
+        "timelag": "数日到数周，须用本轮数据确认",
+        "falsifier": "持续及时诊断追踪且无继发链时，扩散假说减弱。",
+        "evidence_ids": [
+          "who-current",
+          "ebola-2014-source-0",
+          "different-outcome"
+        ]
+      }
+    ],
+    "selected_analogues": [
+      "ebola-2014"
+    ],
+    "historical_increment": "历史增加了可检验的分叉：相近的输入冲击，在响应网络和服务能力不同的地区可能走向不同结果。它未提供本轮传播率或经济损失参数。",
+    "era_differences": [
+      "西非历史事件与当前事件的病毒种类、地域和响应资源不同。",
+      "2014 年对照是事后机构回顾；不能视为已控制所有混杂的政策实验。"
+    ],
+    "counterevidence_search": "检索并阅读尼日利亚、塞内加尔等地响应记录，反对“输入必然失控”的单一路径。",
+    "alternatives": "病例变化也可能来自检测、报告定义或发现能力改变，不能仅解释成传播速度改变。",
+    "conflicts": [],
+    "uncertainty": "未估计传播概率、经济损失或全球风险；本轮证据集中于 WHO 上游。",
+    "unknowns": [
+      "当前接触网络覆盖率与诊断时滞",
+      "原始国家报告与后续风险评估",
+      "行业暴露和供应链影响的独立数据"
+    ],
+    "actions": [
+      {
+        "option": "建立分地区证据看板与联络责任",
+        "condition": "机构确实存在相关地区业务或人员暴露",
+        "cost": "核查和协调时间",
+        "reversibility": "可逐步调整",
+        "stop_signal": "缺乏实际暴露时不升级资源投入"
+      },
+      {
+        "option": "保留关键流程的替代安排",
+        "condition": "确认当地服务或关键供应发生中断",
+        "cost": "备援准备成本",
+        "reversibility": "先准备后按触发执行",
+        "stop_signal": "中断证据被更正或替代方案代价明显过高"
+      }
+    ],
+    "review_signals": [
+      {
+        "indicator": "官方分地区风险与追踪信息",
+        "trigger": "新增评估改变暴露范围或出现无法追溯链条",
+        "decision_change": "重新界定范围和资源优先级",
+        "check_after": "下一份官方公告发布时，由用户或宿主再次发起核查"
+      }
+    ],
+    "yijing_translation": "时：辨明处在输入发现还是持续传播阶段；位：区分各机构权限和资源；应：检查跨境协同；变：用新证据切换准备强度。这些是提问方式，不是流行病预测模型。"
+  },
+  "validation": {
+    "eligible_evidence": [
+      "different-outcome",
+      "ebola-2014-source-0",
+      "who-current"
+    ],
+    "selected": [
+      "ebola-2014"
+    ],
+    "limits": "Structural validation does not verify source truth, causal identification or forecast skill."
+  },
+  "matching": {
+    "mode": "event",
+    "as_of": "2026-10-09T02:00:33.337421+00:00",
+    "status": "candidates_found",
+    "score_meaning": "Equal-weight request-tag coverage for reading priority; not probability or causal validity.",
+    "candidates": [
+      {
+        "id": "ebola-2014",
+        "title": "西非埃博拉的基础设施与信任约束",
+        "rank_score": 1.0,
+        "status": "provisional",
+        "matches": {
+          "mechanisms": [
+            "capacity-feedback",
+            "cross-border-transmission"
+          ],
+          "constraints": [
+            "mobility",
+            "weak-health-system"
+          ],
+          "stage": [
+            "propagation"
+          ]
+        },
+        "missing_dimensions": [],
+        "unknown_conditions": [],
+        "source_availability_unknown": true,
+        "transfer_limits": [
+          "病毒种类、接触结构、医疗资源与区域局势须逐项核对；不能套用病例数或致死比例。"
+        ],
+        "sources": [
+          {
+            "url": "https://www.who.int/news-room/spotlight/one-year-into-the-ebola-epidemic/factors-that-contributed-to-undetected-spread-of-the-ebola-virus-and-impeded-rapid-containment",
+            "locator": "Damaged infrastructures / mobility / community resistance",
+            "basis": "WHO 回顾交通和医疗资源不足、跨境流动及服务失灵对早期控制的妨碍。",
+            "access_scope": "excerpt",
+            "available_at": null,
+            "accessed_at": "2026-10-09T01:56:06.709077+00:00",
+            "access_method": "opened_page_excerpt"
+          }
+        ]
+      },
+      {
+        "id": "asia-1997",
+        "title": "亚洲金融危机的期限与币种错配",
+        "rank_score": 0.333333,
+        "status": "provisional",
+        "matches": {
+          "mechanisms": [],
+          "constraints": [],
+          "stage": [
+            "propagation"
+          ]
+        },
+        "missing_dimensions": [],
+        "unknown_conditions": [
+          "fx_mismatch"
+        ],
+        "source_availability_unknown": true,
+        "transfer_limits": [
+          "IMF 同时是危机应对参与者；其解释需与独立研究对照。"
+        ],
+        "sources": [
+          {
+            "url": "https://www.imf.org/external/pubs/ft/fandd/1999/09/lane.htm",
+            "locator": "金融结构脆弱性与危机传导",
+            "basis": "IMF 回顾讨论外币风险敞口、短借长投和监管薄弱如何加重资本流出后的调整。",
+            "access_scope": "excerpt",
+            "available_at": null,
+            "accessed_at": "2026-10-09T01:56:06.709074+00:00",
+            "access_method": "search_returned_page_excerpt"
+          }
+        ]
+      },
+      {
+        "id": "banking-1931",
+        "title": "美国银行恐慌与跨地区挤兑",
+        "rank_score": 0.333333,
+        "status": "provisional",
+        "matches": {
+          "mechanisms": [],
+          "constraints": [],
+          "stage": [
+            "propagation"
+          ]
+        },
+        "missing_dimensions": [],
+        "unknown_conditions": [
+          "financial_network"
+        ],
+        "source_availability_unknown": true,
+        "transfer_limits": [
+          "当时存款保险与最后贷款人安排不同；不能直接移植到现代银行体系。"
+        ],
+        "sources": [
+          {
+            "url": "https://www.federalreservehistory.org/essays/banking-panics-1931-33",
+            "locator": "1931 金本位压力、RFC 与银行假日",
+            "basis": "联储历史文章叙述金本位压力、存款提款、救助借款污名和州级银行假日如何加重紧张。",
+            "access_scope": "excerpt",
+            "available_at": null,
+            "accessed_at": "2026-10-09T01:56:06.708839+00:00",
+            "access_method": "opened_page_excerpt"
+          }
+        ]
+      },
+      {
+        "id": "energy-2022",
+        "title": "能源危机的跨市场传导",
+        "rank_score": 0.333333,
+        "status": "provisional",
+        "matches": {
+          "mechanisms": [],
+          "constraints": [],
+          "stage": [
+            "propagation"
+          ]
+        },
+        "missing_dimensions": [],
+        "unknown_conditions": [
+          "energy_exposure"
+        ],
+        "source_availability_unknown": true,
+        "transfer_limits": [
+          "多燃料结构、LNG 网络与可再生能源使其不同于 1973 年；当时网页中的展望不能当作今天事实。"
+        ],
+        "sources": [
+          {
+            "url": "https://www.iea.org/topics/2022-energy-crisis",
+            "locator": "What is causing it / What is being done",
+            "basis": "IEA 将危机置于疫后反弹、既有供给约束和战争升级背景，描述欧洲替代采购影响 LNG 与电价。",
+            "access_scope": "excerpt",
+            "available_at": null,
+            "accessed_at": "2026-10-09T01:56:06.709079+00:00",
+            "access_method": "opened_page_excerpt"
+          }
+        ]
+      },
+      {
+        "id": "finance-2008",
+        "title": "住房金融与融资网络压力",
+        "rank_score": 0.333333,
+        "status": "provisional",
+        "matches": {
+          "mechanisms": [],
+          "constraints": [],
+          "stage": [
+            "propagation"
+          ]
+        },
+        "missing_dimensions": [],
+        "unknown_conditions": [
+          "financial_network"
+        ],
+        "source_availability_unknown": true,
+        "transfer_limits": [
+          "事后总结不能用于无信息冻结的精确预言；政策作用与危机起因存在争论。"
+        ],
+        "sources": [
+          {
+            "url": "https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath",
+            "locator": "住房金融、衰退与政策响应",
+            "basis": "联储历史文章讨论住房市场逆转、金融机构风险与衰退，以及货币政策和救助响应。",
+            "access_scope": "excerpt",
+            "available_at": null,
+            "accessed_at": "2026-10-09T01:56:06.709075+00:00",
+            "access_method": "opened_page_excerpt"
+          }
+        ]
+      },
+      {
+        "id": "japan-2011",
+        "title": "东日本大地震的级联中断",
+        "rank_score": 0.333333,
+        "status": "provisional",
+        "matches": {
+          "mechanisms": [],
+          "constraints": [],
+          "stage": [
+            "propagation"
+          ]
+        },
+        "missing_dimensions": [],
+        "unknown_conditions": [
+          "supply_network"
+        ],
+        "source_availability_unknown": true,
+        "transfer_limits": [
+          "建筑标准、备援、保险及公共协调能力不同；不能将单次灾害损失率当普遍参数。"
+        ],
+        "sources": [
+          {
+            "url": "https://www.worldbank.org/en/news/feature/2021/03/11/learning-from-megadisasters-a-decade-of-lessons-from-the-great-east-japan-earthquake-drmhubtokyo",
+            "locator": "Financial protection、交通恢复与间接影响",
+            "basis": "世行回顾道路及关键设施中断、供应链间接损失，以及预先协议对恢复工作的作用。",
+            "access_scope": "excerpt",
+            "available_at": null,
+            "accessed_at": "2026-10-09T01:56:06.709076+00:00",
+            "access_method": "opened_page_excerpt"
+          }
+        ]
+      },
+      {
+        "id": "oil-1973",
+        "title": "石油供给冲击与政策取舍",
+        "rank_score": 0.333333,
+        "status": "provisional",
+        "matches": {
+          "mechanisms": [],
+          "constraints": [],
+          "stage": [
+            "propagation"
+          ]
+        },
+        "missing_dimensions": [],
+        "unknown_conditions": [
+          "energy_exposure"
+        ],
+        "source_availability_unknown": true,
+        "transfer_limits": [
+          "能源强度、定价机制及政策信誉与当代不同；禁运不是全部通胀的单因解释。"
+        ],
+        "sources": [
+          {
+            "url": "https://www.federalreservehistory.org/essays/oil-shock-of-1973-74",
+            "locator": "背景与 The Role of the Federal Reserve",
+            "basis": "联储文章将禁运和减产置于已有通胀、产能紧张与汇率变化之中。",
+            "access_scope": "excerpt",
+            "available_at": null,
+            "accessed_at": "2026-10-09T01:56:06.709072+00:00",
+            "access_method": "opened_page_excerpt"
+          }
+        ]
+      }
+    ],
+    "excluded": [
+      {
+        "id": "covid-2020",
+        "reasons": [
+          "condition_conflict:transmission_route"
+        ]
+      }
+    ]
+  },
+  "searches": [
+    {
+      "id": "facts",
+      "stage": "facts",
+      "query": "site.who.int 2026 October disease outbreak news",
+      "provider": "web.search_query",
+      "searched_at": "2026-10-09T02:00:33.337421+00:00",
+      "status": "searched",
+      "result_urls": [
+        "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619"
+      ],
+      "outcome": "定位 2026-10-08 公告并实际打开相关段落。",
+      "time_precision": "recorded_after_retrieval_same_session"
+    },
+    {
+      "id": "historical_comparison",
+      "stage": "historical_comparison",
+      "query": "site.who.int Nigeria Ebola free 2014 contact tracing 42 days",
+      "provider": "web.search_query + web.open",
+      "searched_at": "2026-10-09T02:00:33.337421+00:00",
+      "status": "searched",
+      "result_urls": [
+        "https://www.who.int/news-room/spotlight/one-year-into-the-ebola-epidemic/successful-ebola-responses-in-nigeria-senegal-and-mali"
+      ],
+      "outcome": "找到并阅读不同结局的响应记录；不是随机对照。",
+      "time_precision": "recorded_after_retrieval_same_session"
+    },
+    {
+      "id": "mechanisms",
+      "stage": "mechanisms",
+      "query": "https://www.who.int/news-room/spotlight/one-year-into-the-ebola-epidemic/factors-that-contributed-to-undetected-spread-of-the-ebola-virus-and-impeded-rapid-containment",
+      "provider": "web.open",
+      "searched_at": "2026-10-09T02:00:33.337421+00:00",
+      "status": "searched",
+      "result_urls": [
+        "https://www.who.int/news-room/spotlight/one-year-into-the-ebola-epidemic/factors-that-contributed-to-undetected-spread-of-the-ebola-virus-and-impeded-rapid-containment"
+      ],
+      "outcome": "阅读基础设施、跨境流动与信任相关段落。",
+      "time_precision": "recorded_after_retrieval_same_session"
+    },
+    {
+      "id": "update_check",
+      "stage": "update_check",
+      "query": "site.who.int \"2026-DON619\" \"October\"",
+      "provider": "web.search_query",
+      "searched_at": "2026-10-09T02:00:33.337421+00:00",
+      "status": "searched",
+      "result_urls": [
+        "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619"
+      ],
+      "outcome": "本轮更新检索仍返回该公告；不能据此宣称全网无更新。",
+      "time_precision": "recorded_after_retrieval_same_session"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "different-outcome",
+      "role": "history",
+      "source": {
+        "url": "https://www.who.int/news-room/spotlight/one-year-into-the-ebola-epidemic/successful-ebola-responses-in-nigeria-senegal-and-mali",
+        "locator": "Nigeria's response / Shared features",
+        "basis": "WHO 回顾尼日利亚等地及时诊断、追踪与协调应对后阻断传播的经历。",
+        "access_method": "host_web_open_relevant_excerpt",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T02:00:33.337421+00:00"
+      },
+      "observation": "相近传播风险并不必然产生相同规模的后果。",
+      "limitations": "同为 WHO 机构回顾，不能算与本轮 WHO 公告独立的监测来源。",
+      "upstream_id": "WHO"
+    },
+    {
+      "id": "ebola-2014-source-0",
+      "role": "history",
+      "source": {
+        "url": "https://www.who.int/news-room/spotlight/one-year-into-the-ebola-epidemic/factors-that-contributed-to-undetected-spread-of-the-ebola-virus-and-impeded-rapid-containment",
+        "locator": "Damaged infrastructures / mobility / community resistance",
+        "basis": "WHO 回顾交通和医疗资源不足、跨境流动及服务失灵对早期控制的妨碍。",
+        "access_scope": "excerpt",
+        "available_at": null,
+        "accessed_at": "2026-10-09T01:56:06.709077+00:00",
+        "access_method": "opened_page_excerpt"
+      },
+      "observation": "WHO 回顾交通和医疗资源不足、跨境流动及服务失灵对早期控制的妨碍。",
+      "limitations": "病毒种类、接触结构、医疗资源与区域局势须逐项核对；不能套用病例数或致死比例。",
+      "upstream_id": "https://www.who.int/news-room/spotlight/one-year-into-the-ebola-epidemic/factors-that-contributed-to-undetected-spread-of-the-ebola-virus-and-impeded-rapid-containment",
+      "catalogue_id": "ebola-2014"
+    },
+    {
+      "id": "who-current",
+      "role": "current",
+      "source": {
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619",
+        "locator": "Situation at a glance / WHO risk assessment",
+        "basis": "WHO 10 月 8 日公告记录肯尼亚输入病例，并说明针对肯尼亚的详细风险评估仍在进行。",
+        "access_method": "host_web_open_relevant_excerpt",
+        "access_scope": "excerpt",
+        "available_at": "2026-10-08T23:59:59Z",
+        "accessed_at": "2026-10-09T02:00:33.337421+00:00",
+        "publication_precision": "date_only_conservative_end_of_day_UTC",
+        "observation_as_of": "2026-10-06T23:59:59Z"
+      },
+      "observation": "WHO 10 月 8 日公告记录肯尼亚输入病例，并说明针对肯尼亚的详细风险评估仍在进行。",
+      "limitations": "本轮仅核实 WHO 公告，原始国家报告未独立复核；风险评估的时点不能与公告发布日期混同。",
+      "upstream_id": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619"
+    }
+  ],
+  "local_queries": [
+    {
+      "query": "Ebola",
+      "queried_at": "2026-10-09T02:00:33.700941+00:00",
+      "result": {
+        "total": 0,
+        "limit": 10,
+        "offset": 0,
+        "records": [],
+        "temporal_note": "Undated assertions excluded by date filters; dated records are source claims, not a complete timeline"
+      }
+    }
+  ],
+  "content_sha256": "985fa8eab6cd1f245d2a479c68377a530fab19ec2be26bc8499a31ff992753d3"
+}

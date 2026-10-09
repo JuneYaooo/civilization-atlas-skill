@@ -21,7 +21,9 @@ Civilization Atlas 将历史知识库、动态研究流程和预测评估工具�
 
 [事件响应](references/event-response-protocol.md) · [动态检索](references/online-search-strategy.md) · [个人决策镜鉴](references/personal-decision-historical-mirror.md) · [三层架构](references/knowledge-base-philosophy.md)
 
-`search_plan.py` 生成供宿主执行的检索计划；两个候选匹配工具按有出处的结构标签安排阅读，并报告冲突、未知及无匹配。它们不自带搜索服务，也不输出成功概率。[工具接口](references/analogue-matching.md)。
+`research_engine.py` 串联研究工作区、本地查询、实际搜索记录、证据、匹配、条件决策和冻结报告。两个匹配器默认读取 **16 个人物决策片段与 8 个现代危机**；来源冲突、未知条件和无匹配都保留在记录中。联网与推理由宿主 agent 执行，匹配分数不表示成功概率。
+
+[开始一次研究](references/research-engine.md) · [历史索引与来源](catalog/README.md) · [端到端验证](demos/research-engine/README.md)
 
 ## 知识版图
 
@@ -33,8 +35,9 @@ Civilization Atlas 将历史知识库、动态研究流程和预测评估工具�
 | 世界银行长期指标 | 87,450 条记录 · 5 项指标 | 人口、经济、寿命、城市化、互联网普及 |
 | NASA 全球温度序列 | 147 条记录 | 1880—2026 年温度资料；未完成年度保留缺测 |
 | 历史事件编纂 | 72 条 | 历史线索与机构来源追溯 |
+| 决策与危机索引 | 16 个人物片段 · 8 个危机 | 结构匹配、传导链、时代差异与反证入口 |
 
-**合计 146,099 条来源记录。** 数量包含缺测、元数据和作者编码，不等于独立史实数，也不表示全球历史已经完整覆盖。世界银行记录区分 217 个国家／经济体和 48 个聚合组。
+**数据库合计 146,099 条来源记录，另附 24 个研究索引条目。** 数量包含缺测、元数据和作者编码，不等于独立史实数，也不表示全球历史已经完整覆盖。世界银行记录区分 217 个国家／经济体和 48 个聚合组。
 
 进一步查看：[覆盖与缺口](knowledge-base/reports/coverage.md) · [地区—时期矩阵](knowledge-base/reports/region-period-coverage.csv) · [数据来源与许可](knowledge-base/ATTRIBUTION.md)。COW 战争与联盟资料提供官方入口，受其再分发条件限制，不包含在随包快照中。
 
@@ -52,7 +55,7 @@ python3 scripts/install_skill.py
 
 ### 下载或生成 Skill 安装包
 
-[下载含知识库的 ZIP 安装包](https://github.com/JuneYaooo/civilization-atlas-skill/releases/download/engine-2026-10-09/civilization-atlas-engine-20261009.zip) · [查看发布版本](https://github.com/JuneYaooo/civilization-atlas-skill/releases/tag/engine-2026-10-09)
+[下载含知识库的 ZIP 安装包](https://github.com/JuneYaooo/civilization-atlas-skill/releases/download/research-engine-2026-10-09/civilization-atlas-research-20261009.zip) · [查看发布版本](https://github.com/JuneYaooo/civilization-atlas-skill/releases/tag/research-engine-2026-10-09)
 
 也可在本地生成：
 
