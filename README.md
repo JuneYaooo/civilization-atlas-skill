@@ -55,7 +55,7 @@ python3 scripts/install_skill.py
 
 ### 下载或生成 Skill 安装包
 
-[下载含知识库的 ZIP 安装包](https://github.com/JuneYaooo/civilization-atlas-skill/releases/download/research-engine-2026-10-09/civilization-atlas-research-20261009.zip) · [查看发布版本](https://github.com/JuneYaooo/civilization-atlas-skill/releases/tag/research-engine-2026-10-09)
+[下载含知识库的 ZIP 安装包](https://github.com/JuneYaooo/civilization-atlas-skill/releases/download/yijing-scope-2026-10-09/civilization-atlas-yijing-20261009.zip) · [查看发布版本](https://github.com/JuneYaooo/civilization-atlas-skill/releases/tag/yijing-scope-2026-10-09)
 
 也可在本地生成：
 
@@ -100,7 +100,7 @@ flowchart LR
 | 现实迁移 | 哪些关系仍可能成立？哪些因技术、制度或主体变化而失效？ |
 | 决策与复盘 | 有哪些可行选项？什么信号会使判断需要修改？ |
 
-周易的时位、关系与变通思维用于提出研究问题；经验结论仍由史料、观测和检验支持。预测工具可以冻结二元任务、概率和结果，并比较同题 Brier 评分。
+涉及人性、合作冲突、权力信任与社会演进的问题，可借助周易理解处境、互动与秩序变化；按问题相关性使用，经验结论仍由史料、观测和检验支持。预测工具可以冻结二元任务、概率和结果，并比较同题 Brier 评分。
 
 ## 在 WorkBuddy 中实际使用
 

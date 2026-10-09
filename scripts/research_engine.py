@@ -185,8 +185,10 @@ def validate_analysis(work, a):
     good = {k for k, e in ev.items() if eligible(e, r)}
     require(isinstance(a, dict), 'analysis must be an object')
     require(a.get('verdict') in ('conditional', 'insufficient_evidence'), 'verdict must be conditional or insufficient_evidence')
-    for k in ('answer', 'historical_increment', 'counterevidence_search', 'alternatives', 'uncertainty', 'yijing_translation'):
+    for k in ('answer', 'historical_increment', 'counterevidence_search', 'alternatives', 'uncertainty'):
         require(nonempty(a.get(k)), k + ' required')
+    if 'yijing_translation' in a:
+        require(nonempty(a['yijing_translation']), 'yijing_translation must be nonempty when supplied; omit when unused')
     texts(a.get('era_differences'), 'era_differences')
     texts(a.get('unknowns'), 'unknowns')
     require(isinstance(a.get('conflicts'), list), 'conflicts list required, empty if none found')
@@ -242,8 +244,10 @@ def render(snapshot):
     out += ['', '## 主导因素与条件']
     for f in a['dominant_factors']:
         out += ['', '- ' + f['factor'] + '：' + f['mechanism'] + '。范围：' + f['scope'] + '；时滞：' + f['timelag'] + '；反证：' + f['falsifier']]
-    for heading, body in [('历史增加的认识', a['historical_increment']), ('时代差异', '\n'.join('- ' + x for x in a['era_differences'])), ('反证与替代解释', a['counterevidence_search'] + '\n\n' + a['alternatives']), ('周易思维转译', a['yijing_translation']), ('不确定性', a['uncertainty'] + '\n\n' + '\n'.join('- ' + x for x in a['unknowns']))]:
+    for heading, body in [('历史增加的认识', a['historical_increment']), ('时代差异', '\n'.join('- ' + x for x in a['era_differences'])), ('反证与替代解释', a['counterevidence_search'] + '\n\n' + a['alternatives']), ('不确定性', a['uncertainty'] + '\n\n' + '\n'.join('- ' + x for x in a['unknowns']))]:
         out += ['', '## ' + heading, '', body]
+    if a.get('yijing_translation'):
+        out += ['', '## 周易与人性社会', '', a['yijing_translation']]
     out += ['', '## 可行选项']
     for x in a['actions']:
         out += ['', '- ' + x['option'] + '；条件：' + x['condition'] + '；成本：' + x['cost'] + '；可逆性：' + x['reversibility'] + '；停止信号：' + x['stop_signal']]

@@ -38,7 +38,7 @@ python3 scripts/research_engine.py status --work ../research-work
 - **request**：`question`, `target`, `geography`, `horizon`, `goal`, `as_of`, `mode`（event/personal）, `information_regime`（current/historical_reconstruction）, `topics`, `features`, `conditions`，可选 `max_current_age_days`（正整数，默认 30）。近期证据按观测日（若有）或发布日期检查时效，超期不能支撑当前事实；这个阈值是任务约束，不代表 30 天内数据必然有效。标签和条件映射见 [匹配接口](analogue-matching.md)。
 - **search receipt**：唯一 `id`, `stage`（facts/mechanisms/historical_comparison/update_check）, `query`, `provider`, `searched_at`, `status`（searched/unavailable）, `result_urls`, `outcome`。空结果也是实际检索结果；未搜索不是空结果。
 - **evidence**：唯一 `id`, `role`（current/history/context）, `observation`, `limitations`, `upstream_id`, `source`。source 包含 `url`, `locator`, `basis`, `access_method`, `access_scope`（full_text/excerpt/snippet）, `available_at`, `accessed_at`，必要时加 `observation_as_of`。检索返回的长篇页文段可记录为 excerpt，但普通摘要只记 snippet，不能作为报告事实依据。
-- **analysis**：`verdict`（conditional/insufficient_evidence）, `answer`, `claims`, `dominant_factors`, `selected_analogues`, `historical_increment`, `era_differences`, `counterevidence_search`, `alternatives`, `conflicts`, `uncertainty`, `unknowns`, `actions`, `review_signals`, `yijing_translation`。没有参照时另填 `no_analogue_reason`。
+- **analysis**：`verdict`（conditional/insufficient_evidence）, `answer`, `claims`, `dominant_factors`, `selected_analogues`, `historical_increment`, `era_differences`, `counterevidence_search`, `alternatives`, `conflicts`, `uncertainty`, `unknowns`, `actions`, `review_signals`；可选 `yijing_translation`。没有参照时另填 `no_analogue_reason`。
 - **claim**：`kind`（observation/source_interpretation/hypothesis/decision_value）, `statement`, `evidence_ids`。假说不可包装成观测事实。
 - **dominant factor**：`factor`, `mechanism`, `scope`, `timelag`, `falsifier`, `evidence_ids`。主导性本身是待检验判断，不给无依据的权重。
 - **conflict**：`issue`, `evidence_ids`（至少两项）, `handling`。记录未解决争议；不以“多数来源”投票消除原始上游冲突。
@@ -46,6 +46,6 @@ python3 scripts/research_engine.py status --work ../research-work
 - **review signal**：`indicator`, `trigger`, `decision_change`, `check_after`。
 - **review**：唯一 `id`, `report`（冻结报告文件名，不含扩展名）, `reviewed_at`, `observed_change`, `decision_revision`, `remaining_unknowns`, `evidence_ids`。新资料可晚于原始截止；它们进入复盘，不倒灌原始预测。
 
-周易字段用于记录时（阶段与时滞）、位（资源和权限）、应（主体关系）、变（反馈和切换）的启发性问题；不适用时写明不适用，不能提供未经验证的预测系数。
+当问题涉及人性、社会关系或社会演进时，可用 `yijing_translation` 说明人的动机与处境、合作冲突、信任权力和秩序变化，再按相关性借助时、位、关系与变通展开。无需使用时省略该字段，报告也不输出相关章节；不必填写“不适用”。经典解释与现代社会机制假说须区分，不能提供未经验证的预测系数。
 
 字段齐全与摘要校验只能发现结构性问题。重要决策仍须复核论据是否真的支持主张、替代解释是否公平、历史是否提供增量。数值概率和结果结算使用独立的 forecast registry，不能由匹配分数生成。

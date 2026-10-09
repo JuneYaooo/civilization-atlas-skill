@@ -60,6 +60,19 @@ class EngineTests(unittest.TestCase):
         self.assertTrue(e.verify(frozen)['verified'])
         frozen['analysis']['answer']='modified'
         with self.assertRaises(ValueError):e.verify(frozen)
+    def test_yijing_optional_and_only_rendered_when_supplied(self):
+        self.complete();a=analysis();a.pop('yijing_translation')
+        out=e.finalize(self.work,a)
+        report=e.read(self.work/'reports'/(out['report']+'.json'))
+        self.assertNotIn('周易',e.render(report))
+        a['yijing_translation']='Interpret incentives and trust under different social positions.'
+        out=e.finalize(self.work,a)
+        report=e.read(self.work/'reports'/(out['report']+'.json'))
+        self.assertIn(a['yijing_translation'],e.render(report))
+        for invalid in ('', None, {}):
+            a['yijing_translation']=invalid
+            with self.assertRaises(ValueError):e.finalize(self.work,a)
+
     def test_ineligible_current_sources(self):
         for change in ({'access_scope':'snippet'},{'available_at':None},{'available_at':'2026-10-10T00:00:00Z'},{'available_at':'2020-01-01T00:00:00Z'}):
             item=evidence();item['source'].update(change)

@@ -1,6 +1,6 @@
 ---
 name: civilization-atlas
-description: 运用比较历史、复杂系统和制度分析研究社会变化、趋势与决策；结合周易的时位、关系和变通思维提出可检验问题。适用于近期事件影响、历史机制迁移、国家地区比较，以及借鉴历史经验的职业与个人决策。
+description: 运用比较历史、复杂系统和制度分析研究社会变化、趋势与决策；涉及人性、社会关系与社会演进时，按需借助周易理解动机、互动和秩序变化。适用于近期事件影响、历史机制迁移、国家地区比较，以及借鉴历史经验的职业与个人决策。
 ---
 
 # 历史与复杂社会研究
@@ -25,7 +25,7 @@ description: 运用比较历史、复杂系统和制度分析研究社会变化�
 - [历史与证据](references/history-and-evidence.md)：史料生成、比较设计、竞争机制及迁移边界。
 - [复杂系统](references/complex-systems.md)：状态、反馈、主导约束、结构变化与观察过程。
 - [预测与决策](references/forecast-and-decision.md)：基线、信息截止、干预识别、自适应策略与复盘。
-- [周易转译](references/yijing.md)：文本、启发、规范目标与经验假设的区别。
+- [周易与人性社会](references/yijing.md)：涉及行为动机、合作冲突、权力信任及社会秩序演进时按需使用；不要求其他分析附带周易解释。
 - [数据契约](references/data-contract.md)：采集设计、风险分母、动态单位与时点数据。
 - [系统设计](references/system-design.md)：持续研究架构、任务边界与升级验收。
 - [原始文献](references/sources.md)：方法来源及适用范围。
