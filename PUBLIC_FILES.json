@@ -3,6 +3,7 @@
   "files": [
     ".gitattributes",
     ".gitignore",
+    "INSTALL.md",
     "LICENSE",
     "PUBLIC_FILES.json",
     "README.md",
