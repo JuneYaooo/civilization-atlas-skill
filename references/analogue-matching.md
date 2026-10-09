@@ -20,3 +20,7 @@ python3 scripts/historical_figure_matcher.py --request /tmp/research-request.jso
 `as_of` 指证据截止时点，不是故事发生时间。今天阅读古代人物研究属于今天的决策研究；用今天材料模拟过去预测，仍需另行标为历史重建。
 
 默认目录位于 `catalog/crises.json` 与 `catalog/figures.json`。可省略 `--candidates` 使用随包目录；传入该参数则完全使用外部候选。先读条目和来源，再选择历史参照，不能把排序直接转成行动建议。
+
+## 迁移资格
+
+候选输出中的 `transfer_assessment: not_assessed` 表示标签重叠没有认证因果迁移。后续按[机制与时代条件迁移](mechanism-transfer.md)审查；已知必要条件冲突不可被高分抵消，未知条件只能支持待核验的条件判断。

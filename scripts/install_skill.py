@@ -14,7 +14,7 @@ NAME = 'civilization-atlas'
 PAYLOAD = ('SKILL.md', 'agents/openai.yaml', 'references', 'scripts/casebook.py',
            'scripts/forecast_registry.py', 'scripts/analogue_matcher.py',
            'scripts/event_matcher.py', 'scripts/historical_figure_matcher.py',
-           'scripts/search_plan.py', 'scripts/research_engine.py', 'catalog', 'knowledge-base', 'LICENSE')
+           'scripts/mechanism_transfer.py', 'scripts/search_plan.py', 'scripts/research_engine.py', 'catalog', 'knowledge-base', 'LICENSE')
 
 
 def copy_payload(source, target):

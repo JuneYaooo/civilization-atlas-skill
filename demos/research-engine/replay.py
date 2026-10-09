@@ -19,6 +19,18 @@ def main():
             engine.init(work,snapshot['request'])
             for item in snapshot['searches']:engine.add_search(work,item)
             for item in snapshot['evidence']:engine.add_evidence(work,item)
+            if snapshot['schema_version'] == 1 and not snapshot['analysis'].get('mechanism_comparisons'):
+                try:
+                    engine.validate_analysis(work,snapshot['analysis'])
+                except ValueError as exc:
+                    if 'mechanism_comparisons' not in str(exc):
+                        raise
+                else:
+                    raise AssertionError('legacy analysis silently accepted as current protocol')
+                outcomes.append({'mode':name,'original_hash_verified':True,
+                                 'pipeline_replayed':False,'upgrade_required':'mechanism_comparisons',
+                                 'live_search_repeated':False})
+                continue
             checked=engine.validate_analysis(work,snapshot['analysis'])
             for query in snapshot.get('local_queries',[]):
                 engine.write_new(work/'local_queries'/(engine.digest(query)[:16]+'.json'),query)

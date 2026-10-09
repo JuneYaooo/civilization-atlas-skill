@@ -27,8 +27,19 @@ def evidence():
                             available_at='2026-10-08T00:00:00Z',accessed_at='2026-10-09T01:00:00Z'))
 
 
+def comparison():
+    return dict(id='synthetic-mechanism', analogue_id=None, target_outcome='defined outcome',
+                mechanism='capacity changes feasible action', invariant_hypothesis='not established historically',
+                modifiers=[dict(variable='available capacity',source_state='No historical source selected',
+                target_state='Unknown',effect_on_mechanism='May limit response',status='unknown',
+                source_evidence_ids=[],target_evidence_ids=[])],
+                propagation_vs_response='Response delay and coverage unknown',phase_switch='Reassess on capacity change',
+                observation_process='Distinguish reporting from state change',falsifier='Capacity does not constrain action',
+                decision='conditional',conclusion='Collect target evidence before acting')
+
+
 def analysis():
-    return dict(verdict='conditional', answer='Synthetic conditional answer',
+    return dict(mechanism_comparisons=[comparison()],verdict='conditional', answer='Synthetic conditional answer',
                 claims=[dict(kind='observation',statement='Test only',evidence_ids=['synthetic-source'])],
                 dominant_factors=[dict(factor='capacity',mechanism='test link',scope='test',timelag='unknown',falsifier='test fails',evidence_ids=['synthetic-source'])],
                 selected_analogues=[], no_analogue_reason='Not established',historical_increment='None established',
@@ -114,6 +125,41 @@ class EngineTests(unittest.TestCase):
         result=subprocess.run([sys.executable,str(ROOT/'scripts/event_matcher.py'),'--request',str(q)],capture_output=True,text=True)
         self.assertEqual(result.returncode,0,result.stderr)
         self.assertTrue(json.loads(result.stdout)['candidates'])
+    def test_missing_comparison_blocked(self):
+        self.complete();a=analysis();a.pop('mechanism_comparisons')
+        with self.assertRaises(ValueError):e.finalize(self.work,a)
+    def test_unknown_cannot_be_upgraded_to_transfer(self):
+        from mechanism_transfer import check_comparisons
+        a=analysis();a['selected_analogues']=['fixture']
+        c=a['mechanism_comparisons'][0];c.update(analogue_id='fixture',decision='transfer')
+        with self.assertRaises(ValueError):check_comparisons(a,{'synthetic-source'},{'fixture'})
+    def test_broken_condition_requires_reject(self):
+        self.complete();a=analysis();m=a['mechanism_comparisons'][0]['modifiers'][0]
+        m.update(status='broken',target_evidence_ids=['synthetic-source'])
+        with self.assertRaises(ValueError):e.finalize(self.work,a)
+    def test_changed_requires_reassessment_and_target_evidence(self):
+        self.complete();a=analysis();m=a['mechanism_comparisons'][0]['modifiers'][0]
+        m.update(status='changed',target_evidence_ids=['synthetic-source'])
+        with self.assertRaises(ValueError):e.finalize(self.work,a)
+        m['reassessment']='Target parameter must be remeasured'
+        out=e.finalize(self.work,a)
+        snap=e.read(self.work/'reports'/(out['report']+'.json'))
+        self.assertEqual(snap['schema_version'],2)
+        self.assertIn(m['reassessment'],e.render(snap))
+        m['target_evidence_ids']=['absent']
+        with self.assertRaises(ValueError):e.finalize(self.work,a)
+    def test_selected_analogue_needs_own_comparison(self):
+        from mechanism_transfer import check_comparisons
+        a=analysis();a['selected_analogues']=['fixture']
+        with self.assertRaises(ValueError):check_comparisons(a,{'synthetic-source'},{'fixture'})
+    def test_rejected_path_can_coexist_with_current_hypothesis(self):
+        from mechanism_transfer import check_comparisons
+        a=analysis();row=copy.deepcopy(a['mechanism_comparisons'][0])
+        row.update(id='rejected',analogue_id='fixture',decision='reject')
+        row['modifiers'][0].update(status='broken',source_evidence_ids=['synthetic-source'],target_evidence_ids=['synthetic-source'])
+        a['mechanism_comparisons'].append(row)
+        check_comparisons(a,{'synthetic-source'},{'fixture'})
+
     def test_source_credentials_and_unverified_conflicts_rejected(self):
         item=evidence();item['source']['url']='file:///tmp/fixture'
         with self.assertRaises(ValueError):e.add_evidence(self.work,item)

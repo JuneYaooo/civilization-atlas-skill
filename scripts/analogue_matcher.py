@@ -107,6 +107,7 @@ def rank(request, candidates, mode):
             'unknown_conditions': sorted(unknown),
             'source_availability_unknown': availability_unknown,
             'transfer_limits': c['transfer_limits'], 'sources': sources,
+            'transfer_assessment': 'not_assessed',
         })
     accepted.sort(key=lambda x: (-x['rank_score'], x['id']))
     return {'mode': mode, 'as_of': request['as_of'],

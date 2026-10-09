@@ -55,7 +55,7 @@ python3 scripts/install_skill.py
 
 ### 下载或生成 Skill 安装包
 
-[下载含知识库的 ZIP 安装包](https://github.com/JuneYaooo/civilization-atlas-skill/releases/download/yijing-scope-2026-10-09/civilization-atlas-yijing-20261009.zip) · [查看发布版本](https://github.com/JuneYaooo/civilization-atlas-skill/releases/tag/yijing-scope-2026-10-09)
+[下载含知识库的 ZIP 安装包](https://github.com/JuneYaooo/civilization-atlas-skill/releases/download/mechanism-transfer-2026-10-09/civilization-atlas-mechanism-20261009.zip) · [查看发布版本](https://github.com/JuneYaooo/civilization-atlas-skill/releases/tag/mechanism-transfer-2026-10-09)
 
 也可在本地生成：
 
@@ -95,12 +95,14 @@ flowchart LR
 | 研究环节 | 要回答的问题 |
 |---|---|
 | 历史证据 | 资料由谁记录？当时的制度、技术和资源条件是什么？ |
-| 条件比较 | 相似情形为何产生不同结果？有哪些反例？ |
-| 复杂系统 | 哪些约束主导变化？反馈、时滞和外部冲击怎样作用？ |
+| 条件比较 | 哪段机制可迁移？网络、技术部署、制度和响应能力如何改变它？ |
+| 复杂系统 | 扩散与响应谁受何种延迟、覆盖和容量限制？主导约束何时切换？ |
 | 现实迁移 | 哪些关系仍可能成立？哪些因技术、制度或主体变化而失效？ |
 | 决策与复盘 | 有哪些可行选项？什么信号会使判断需要修改？ |
 
 涉及人性、合作冲突、权力信任与社会演进的问题，可借助周易理解处境、互动与秩序变化；按问题相关性使用，经验结论仍由史料、观测和检验支持。预测工具可以冻结二元任务、概率和结果，并比较同题 Brier 评分。
+
+趋势研究使用[机制与时代条件迁移](references/mechanism-transfer.md)：逐项记录历史与当前条件，区分不变关系、变化参数、未知和必要条件冲突。新报告会校验迁移记录与证据引用；标签匹配只用于检索，校验通过不代表因果或预测已获证明。
 
 ## 在 WorkBuddy 中实际使用
 

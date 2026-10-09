@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Evidence-led research workspaces. Search and interpretation are performed by the host agent."""
+from mechanism_transfer import check_comparisons
 import argparse
 from datetime import datetime, timezone
 import hashlib
@@ -230,6 +231,7 @@ def validate_analysis(work, a):
         if r['mode'] == 'event':
             used = {eid for c in a['claims'] for eid in c['evidence_ids']}
             require(any(ev[k]['role'] == 'current' for k in good & used), 'recent event needs cited eligible current evidence')
+    check_comparisons(a, good, {c['id'] for c in catalogue(r['mode'])})
     require('probability' not in a, 'register calibrated numeric forecasts separately')
     return {'eligible_evidence': sorted(good), 'selected': selected,
             'limits': 'Structural validation does not verify source truth, causal identification or forecast skill.'}
@@ -246,6 +248,16 @@ def render(snapshot):
         out += ['', '- ' + f['factor'] + '：' + f['mechanism'] + '。范围：' + f['scope'] + '；时滞：' + f['timelag'] + '；反证：' + f['falsifier']]
     for heading, body in [('历史增加的认识', a['historical_increment']), ('时代差异', '\n'.join('- ' + x for x in a['era_differences'])), ('反证与替代解释', a['counterevidence_search'] + '\n\n' + a['alternatives']), ('不确定性', a['uncertainty'] + '\n\n' + '\n'.join('- ' + x for x in a['unknowns']))]:
         out += ['', '## ' + heading, '', body]
+    for m in a.get('mechanism_comparisons', []):
+        out += ['', '## 机制与条件迁移：' + m['id'], '',
+                '目标：' + m['target_outcome'] + '；历史参照：' + str(m['analogue_id']) + '；判断：' + m['decision'],
+                '', m['mechanism'], '', '稳定关系假设：' + m['invariant_hypothesis']]
+        for x in m['modifiers']:
+            out += ['', '- ' + x['variable'] + ' [' + x['status'] + ']：历史 ' + x['source_state'] + '；目标 ' + x['target_state'] + '；影响 ' + x['effect_on_mechanism'] + '；依据 ' + ', '.join(x['source_evidence_ids'] + x['target_evidence_ids'])]
+            if x.get('reassessment'):
+                out += ['  重新判断：' + x['reassessment']]
+        out += ['', '传播与响应：' + m['propagation_vs_response'], '', '阶段切换：' + m['phase_switch'],
+                '', '观察过程：' + m['observation_process'], '', '反证：' + m['falsifier'], '', m['conclusion']]
     if a.get('yijing_translation'):
         out += ['', '## 周易与人性社会', '', a['yijing_translation']]
     out += ['', '## 可行选项']
@@ -265,7 +277,7 @@ def render(snapshot):
 
 def finalize(work, analysis):
     validation = validate_analysis(work, analysis)
-    snapshot = {'schema_version': 1, 'created_at': now(), 'request': read(work / 'request.json'),
+    snapshot = {'schema_version': 2, 'created_at': now(), 'request': read(work / 'request.json'),
                 'analysis': analysis, 'validation': validation, 'matching': matches(work),
                 'searches': records(work, 'searches'), 'evidence': records(work, 'evidence'),
                 'local_queries': records(work, 'local_queries')}

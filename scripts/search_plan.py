@@ -27,7 +27,7 @@ def plan(question, mode, topics, as_of):
         'source_routes': selected,
         'stages': [
             {'stage': 'facts', 'queries': facts, 'deliverable': 'Dated evidence with original upstream, locator and access scope'},
-            {'stage': 'mechanisms', 'queries': [q + ' 机制 研究 反证 替代解释'], 'deliverable': 'Evidence per causal link, not consensus counts'},
+            {'stage': 'mechanisms', 'queries': [q + ' 机制 研究 反证 替代解释', q + ' 条件变化 网络结构 扩散速度 响应延迟 实际覆盖 容量', q + ' 观测变化 阶段转换 竞争机制'], 'deliverable': 'Evidence per causal link, not consensus counts'},
             {'stage': 'historical_comparison', 'queries': [q + (' 历史 决策 书信 传记 约束' if mode == 'personal' else ' 历史 对照 相同冲击 不同结果'), q + ' 失败案例 幸存者偏差 不适用条件'], 'deliverable': 'Candidate episodes plus disanalogies or no analogue'},
             {'stage': 'update_check', 'queries': [q + ' 最新 更正 修订'], 'deliverable': 'Recheck decision-sensitive facts before answering; no background monitoring'},
         ],
