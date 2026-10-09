@@ -110,6 +110,10 @@ flowchart LR
 
 ## 在 WorkBuddy 中实际使用
 
+**2026-10-09 新一轮实测：取证、发现错误、追加修订。** WorkBuddy 实际研究欧洲电动车采用分化；首轮未通过内容审核，修订后补查原始来源、降低因果断言强度，并验证时间记录拦截。此次为有人指导的纠错演示，不是预测准确率验证。[查看过程、问题和改动](demos/workbuddy/review-20261009.md)。
+
+![WorkBuddy 实际研究中的来源复核与因果边界](assets/workbuddy/06-evidence-review.jpg)
+
 已在 WorkBuddy 5.6.2（GLM-5.3-Flash）验证技能识别、内嵌史料查询和数值回放程序执行。下面是安装、史料检索、回放指标与失败案例的真实截图步骤演示；GIF 为截图序列，非连续录屏。
 
 ![WorkBuddy 使用步骤](assets/workbuddy/walkthrough.gif)

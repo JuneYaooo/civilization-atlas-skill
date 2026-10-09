@@ -12,6 +12,8 @@
 6. 问题涉及突破、拐点或机会窗口时，先按[历史转折协议](historical-turning-points.md)建立候选转折与未转折对照，记录判定标准与信息截点。按[机制迁移协议](mechanism-transfer.md)完成 `mechanism_comparisons`：对关键条件给出源/目标证据，比较作用与响应、阶段切换和观测过程。输出 analysis，运行 `finalize`。条件判断须完成四层实际搜索并引用合格证据；近期事件至少引用一条有发布时间的当前事实。没有联网、无合适参照、时代条件冲突或证据不足时，交付 `insufficient_evidence` 与取证方案。不可悄悄补齐未知条件。
 7. 报告以内容摘要命名，同时冻结证据、检索、匹配和本地查询。后来使用 `review` 追加新证据及决策修订；原报告不覆盖。修订信号不等于已经启动持续监控。
 
+信息制度、截止日和时效窗口由研究问题决定，不得为让校验通过而切换制度、放宽窗口、把摘要改标正文或拼入无关近期证据。校验失败时修复真实输入问题；证据不满足则保留不足结论。需要改变任务时另立任务并解释理由，不能把新任务当作旧任务通过。
+
 ## 命令
 
 下列命令从 Skill 根目录运行。`research-work` 是安装目录外的用户研究目录，第一次初始化时必须不存在。
@@ -34,6 +36,8 @@ python3 scripts/research_engine.py status --work ../research-work
 ## 数据接口
 
 所有时间戳使用 ISO 8601 和时区；未知来源版本日期写 `null`，不要以访问时间替代。只有日期时，应注明时间未知，采用保守截止边界，不制造精确到秒的发布时间。
+
+搜索和访问时间从实际工具记录取得；若事后才补登记且原时刻不可恢复，记录当前登记时间并明确不是精确访问时刻，不能手填预计时间。来源只有日期时，在限制中保留原日期及所用截止边界约定，不宣称午夜就是发布时间。修正冻结报告时另建修订记录，旧记录保留；摘要相符只表示内容完整性，不表示取证正确。
 
 - **request**：`question`, `target`, `geography`, `horizon`, `goal`, `as_of`, `mode`（event/personal）, `information_regime`（current/historical_reconstruction）, `topics`, `features`, `conditions`，可选 `max_current_age_days`（正整数，默认 30）。近期证据按观测日（若有）或发布日期检查时效，超期不能支撑当前事实；这个阈值是任务约束，不代表 30 天内数据必然有效。标签和条件映射见 [匹配接口](analogue-matching.md)。
 - **search receipt**：唯一 `id`, `stage`（facts/mechanisms/historical_comparison/update_check）, `query`, `provider`, `searched_at`, `status`（searched/unavailable）, `result_urls`, `outcome`。空结果也是实际检索结果；未搜索不是空结果。

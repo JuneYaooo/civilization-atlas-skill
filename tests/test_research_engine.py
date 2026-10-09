@@ -51,6 +51,10 @@ def analysis():
 
 class EngineTests(unittest.TestCase):
     def setUp(self):
+        from unittest.mock import patch
+        clock_patch = patch.object(e, "now", return_value="2026-10-11T00:00:00Z")
+        clock_patch.start()
+        self.addCleanup(clock_patch.stop)
         self.tmp=tempfile.TemporaryDirectory();self.work=Path(self.tmp.name)/'work'
         e.init(self.work, request())
     def tearDown(self): self.tmp.cleanup()
@@ -58,6 +62,28 @@ class EngineTests(unittest.TestCase):
         e.add_evidence(self.work,evidence())
         for stage in e.STAGES:
             e.add_search(self.work,dict(id=stage,stage=stage,query='synthetic',provider='fixture',searched_at='2026-10-09T01:00:00Z',status='searched',result_urls=[],outcome='No results; synthetic test'))
+    def test_future_activity_timestamps_rejected(self):
+        from unittest.mock import patch
+        with patch.object(e, 'now', return_value='2026-10-09T07:00:00Z'):
+            item = evidence()
+            item['source']['accessed_at'] = '2026-10-09T07:01:00Z'
+            with self.assertRaisesRegex(ValueError, 'accessed_at cannot be in the future'):
+                e.add_evidence(self.work, item)
+            with self.assertRaisesRegex(ValueError, 'searched_at cannot be in the future'):
+                e.add_search(self.work, dict(id='future', stage='facts', query='test',
+                    provider='fixture', searched_at='2026-10-09T07:01:00Z',
+                    status='searched', result_urls=[], outcome='test'))
+            self.complete()
+            out = e.finalize(self.work, analysis())
+            with self.assertRaisesRegex(ValueError, 'reviewed_at cannot be in the future'):
+                e.review(self.work, dict(id='future', report=out['report'],
+                    reviewed_at='2026-10-09T07:01:00Z', observed_change='test',
+                    decision_revision='test', remaining_unknowns='test',
+                    evidence_ids=['synthetic-source']))
+            self.assertFalse((self.work/'searches'/'future.json').exists())
+            self.assertFalse((self.work/'reviews'/'future.json').exists())
+            e.occurred('2026-10-09T15:00:00+08:00', 'same instant')
+
     def test_plan_is_not_execution(self):
         self.assertEqual(len(e.status(self.work)['pending_search_stages']),4)
         with self.assertRaises(ValueError):e.finalize(self.work,analysis())

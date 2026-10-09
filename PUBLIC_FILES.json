@@ -13,6 +13,7 @@
     "assets/workbuddy/03-evidence.jpg",
     "assets/workbuddy/04-replay.jpg",
     "assets/workbuddy/05-cases.jpg",
+    "assets/workbuddy/06-evidence-review.jpg",
     "assets/workbuddy/results-browsing.mp4",
     "assets/workbuddy/walkthrough.gif",
     "catalog/README.md",
@@ -58,6 +59,8 @@
     "demos/three-question-rerun/results.json",
     "demos/three-question-rerun/sources.json",
     "demos/workbuddy/README.md",
+    "demos/workbuddy/review-20261009-receipt.json",
+    "demos/workbuddy/review-20261009.md",
     "demos/workbuddy/run-receipt.json",
     "knowledge-base/ATTRIBUTION.md",
     "knowledge-base/README.md",
@@ -144,6 +147,7 @@
     "assets/workbuddy/01-installed.jpg": "7d5bd5e4ae582dcb257f72ecad9e4f193c0a2b1d49fd48a29c4ad019fc6f081f",
     "assets/workbuddy/05-cases.jpg": "7d89dbadabecc7a1cadf6c0aa237e7d69f1d5d1b9bf8a2d9b734b658dd483d5b",
     "assets/workbuddy/04-replay.jpg": "ce76a3a3cba6d3861096ef005ee5dc439879044f5ccc90707d36cde10f0c8e50",
-    "assets/workbuddy/results-browsing.mp4": "a6384104683b6361dcb9fd5a2cfd44062c5045927e4578660c6311754684109f"
+    "assets/workbuddy/results-browsing.mp4": "a6384104683b6361dcb9fd5a2cfd44062c5045927e4578660c6311754684109f",
+    "assets/workbuddy/06-evidence-review.jpg": "abe9bfb0aab1b5a58d330c0550e4ec54ee1bb689197b8de22e9aab90cebb0b7d"
   }
 }

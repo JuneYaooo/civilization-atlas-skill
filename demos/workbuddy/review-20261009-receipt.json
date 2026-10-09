@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-09",
+  "client": "WorkBuddy 5.6.2",
+  "displayed_model": "Deepseek-V4.1-Flash",
+  "mode": "supervised_host_smoke_test",
+  "rounds": [
+    {
+      "name": "initial research",
+      "displayed_duration": "6m6s",
+      "verdict": "failed semantic review",
+      "issues": [
+        "Unsupported causal certainty in summary",
+        "Market share confused with regulatory compliance",
+        "Unverified precise access times"
+      ]
+    },
+    {
+      "name": "directed source audit after instruction update",
+      "displayed_duration": "4m",
+      "verdict": "partial improvement",
+      "issues": [
+        "Time metadata still unreliable",
+        "Historical causal effects not identified"
+      ]
+    },
+    {
+      "name": "timestamp withdrawal and engine check",
+      "displayed_duration": "55s",
+      "verdict": "targeted correction and runtime guard verified"
+    }
+  ],
+  "independent_blind_test": false,
+  "forecast_accuracy": null,
+  "evidence_files": 28,
+  "search_receipts": 13,
+  "artifacts": {
+    "reports/a90c45958b272d13.json": {
+      "sha256": "9990a6e833b87791253506c085896cee38fbe65efa26980e10bad31438236c8c"
+    },
+    "reviews/rev-2026-10-09-correction.json": {
+      "sha256": "a5cbf0c3ecc8f7685322b4bbb295f27a196bf71b453985227af33b1c8300ce3e"
+    },
+    "reviews/rev-2026-10-09-withdraw-timestamps.json": {
+      "sha256": "b170377a2f3399b42f41ff96017bb61c7802cdc534c30fc0cea03410a05b7a1e"
+    }
+  },
+  "screenshot": "assets/workbuddy/06-evidence-review.jpg"
+}

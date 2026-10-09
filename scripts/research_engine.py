@@ -21,6 +21,10 @@ def now():
     return datetime.now(timezone.utc).isoformat()
 
 
+def occurred(value, label):
+    require(instant(value) <= instant(now()), label + ' cannot be in the future; use actual event time or disclose retrospective registration')
+
+
 def read(path):
     return json.loads(Path(path).read_text(encoding='utf-8'))
 
@@ -100,7 +104,7 @@ def add_search(work, item):
     require(item.get('stage') in STAGES, 'unknown search stage')
     for k in ('query', 'provider', 'outcome'):
         require(nonempty(item.get(k)), 'search ' + k + ' required')
-    instant(item.get('searched_at'))
+    occurred(item.get('searched_at'), 'searched_at')
     require(item.get('status') in ('searched', 'unavailable'), 'search status required')
     require(isinstance(item.get('result_urls'), list), 'result_urls list required')
     for u in item['result_urls']:
@@ -128,6 +132,7 @@ def add_evidence(work, item):
         require(nonempty(item.get(k)), 'evidence ' + k + ' required')
     require(item.get('role') in ('current', 'history', 'context'), 'invalid evidence role')
     check_source(item.get('source'))
+    occurred(item['source']['accessed_at'], 'accessed_at')
     add_record(work, 'evidence', item)
 
 
@@ -346,7 +351,7 @@ def review(work, item):
     verify(read(work / 'reports' / (item['report'] + '.json')))
     for k in ('observed_change', 'decision_revision', 'remaining_unknowns'):
         require(nonempty(item.get(k)), k + ' required')
-    instant(item.get('reviewed_at'))
+    occurred(item.get('reviewed_at'), 'reviewed_at')
     require(isinstance(item.get('evidence_ids'), list) and item['evidence_ids'], 'review evidence required')
     ev = {e['id']: e for e in records(work, 'evidence')}
     require(set(item['evidence_ids']) <= set(ev), 'review evidence missing')
