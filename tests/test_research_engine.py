@@ -160,6 +160,50 @@ class EngineTests(unittest.TestCase):
         a['mechanism_comparisons'].append(row)
         check_comparisons(a,{'synthetic-source'},{'fixture'})
 
+    def extension(self):
+        keys = ('target', 'horizon', 'old_state', 'maintenance_conditions', 'candidate_change',
+                'causal_role', 'transition_criterion', 'conditions', 'timeline', 'behavior_and_feedback',
+                'counterfactual', 'nontransition_comparison', 'observation_process', 'falsifier', 'decision_effect')
+        row = {k: 'Synthetic unmeasured condition' for k in keys}
+        row.update(id='transition', status='unresolved', claim_kind='hypothesis', evidence_ids=[])
+        return row
+
+    def test_extensions_freeze_render_and_tamper(self):
+        self.complete(); a=analysis()
+        a['turning_points']=[self.extension()]
+        a['source_coverage']=[dict(id='coverage',question='Test question',actor_position='Affected group',
+            channel='Firsthand',upstream_assessment='Not found',gap_and_decision_effect='Cannot infer behavior',
+            status='not_searched',evidence_ids=[])]
+        out=e.finalize(self.work,a)
+        snap=e.read(self.work/'reports'/(out['report']+'.json'))
+        self.assertEqual(snap['schema_version'],3)
+        self.assertTrue(e.verify(snap)['verified'])
+        self.assertIn('Cannot infer behavior',e.render(snap))
+        snap['analysis']['turning_points'][0]['status']='observed_transition'
+        with self.assertRaises(ValueError):e.verify(snap)
+
+    def test_transition_requires_criterion_and_eligible_observations(self):
+        self.complete(); a=analysis(); row=self.extension();a['turning_points']=[row]
+        row.update(status='observed_transition',claim_kind='observation')
+        with self.assertRaises(ValueError):e.finalize(self.work,a)
+        later=evidence();later['id']='later';later['source']['available_at']='2026-10-10T00:00:00Z'
+        e.add_evidence(self.work,later);row['evidence_ids']=['later']
+        with self.assertRaises(ValueError):e.finalize(self.work,a)
+        row['evidence_ids']=['synthetic-source'];row['transition_criterion']=''
+        with self.assertRaises(ValueError):e.finalize(self.work,a)
+        row['transition_criterion']='Defined synthetic behavior change'
+        e.finalize(self.work,a)
+
+    def test_coverage_read_cannot_be_claimed_without_evidence(self):
+        self.complete();a=analysis()
+        row=dict(id='c',question='q',actor_position='a',channel='c',upstream_assessment='u',
+                 gap_and_decision_effect='g',status='read',evidence_ids=[])
+        a['source_coverage']=[row]
+        with self.assertRaises(ValueError):e.finalize(self.work,a)
+        row['evidence_ids']=['synthetic-source'];e.finalize(self.work,a)
+        a['source_coverage'].append(copy.deepcopy(row))
+        with self.assertRaises(ValueError):e.finalize(self.work,a)
+
     def test_source_credentials_and_unverified_conflicts_rejected(self):
         item=evidence();item['source']['url']='file:///tmp/fixture'
         with self.assertRaises(ValueError):e.add_evidence(self.work,item)

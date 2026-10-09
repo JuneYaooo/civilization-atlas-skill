@@ -60,7 +60,7 @@
 
 ## 程序记录
 
-`research_engine.py` 新冻结报告使用 schema version 2。条件判断或选择历史参照时填写 `mechanism_comparisons`；证据不足且不选参照时可省略。每个选中参照至少有一段未被拒绝的机制。未找到历史参照时使用 `analogue_id: null`，不声称历史迁移已成立。
+`research_engine.py` 基础报告使用 schema version 2，来源覆盖或转折扩展报告使用 version 3。条件判断或选择历史参照时填写 `mechanism_comparisons`；证据不足且不选参照时可省略。每个选中参照至少有一段未被拒绝的机制。未找到历史参照时使用 `analogue_id: null`，不声称历史迁移已成立。
 
 每条记录包含：
 

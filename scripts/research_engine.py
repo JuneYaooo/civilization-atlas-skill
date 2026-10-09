@@ -180,6 +180,43 @@ def import_analogue(work, cid):
                            'upstream_id': s['url'], 'catalogue_id': cid})
 
 
+def check_research_extensions(a, good):
+    """Check authored coverage/transition records, never their semantic truth."""
+    specs = {
+        'source_coverage': ('question', 'actor_position', 'channel', 'upstream_assessment', 'gap_and_decision_effect'),
+        'turning_points': ('target', 'horizon', 'old_state', 'maintenance_conditions', 'candidate_change',
+                          'causal_role', 'transition_criterion', 'conditions', 'timeline',
+                          'behavior_and_feedback', 'counterfactual', 'nontransition_comparison',
+                          'observation_process', 'falsifier', 'decision_effect'),
+    }
+    for field, keys in specs.items():
+        if field not in a:
+            continue
+        rows = a[field]
+        require(isinstance(rows, list) and rows, field + ' must be a nonempty list when supplied')
+        seen = set()
+        for row in rows:
+            require(isinstance(row, dict), field + ' row must be an object')
+            require(nonempty(row.get('id')) and row['id'] not in seen, field + ' unique id required')
+            seen.add(row['id'])
+            for key in keys:
+                require(nonempty(row.get(key)), field + ' ' + key + ' required')
+            refs = row.get('evidence_ids')
+            require(isinstance(refs, list) and all(isinstance(x, str) and x in good for x in refs), field + ' eligible evidence required')
+            if field == 'source_coverage':
+                require(row.get('status') in ('read', 'located_only', 'unavailable', 'not_searched', 'not_applicable'), 'invalid coverage status')
+                if row['status'] == 'read':
+                    require(refs, 'read coverage needs eligible evidence')
+            else:
+                require(row.get('status') in ('unresolved', 'candidate', 'observed_transition', 'reversal'), 'invalid turning point status')
+                require(row.get('claim_kind') in ('hypothesis', 'observation'), 'invalid turning point claim kind')
+                if row['status'] in ('observed_transition', 'reversal'):
+                    require(row['claim_kind'] == 'observation' and refs, 'observed transition needs observational evidence')
+                if row['claim_kind'] == 'observation':
+                    require(refs, 'observations need evidence')
+                require('probability' not in row, 'register numeric forecasts separately')
+
+
 def validate_analysis(work, a):
     r = read(work / 'request.json')
     ev = {e['id']: e for e in records(work, 'evidence')}
@@ -232,6 +269,7 @@ def validate_analysis(work, a):
             used = {eid for c in a['claims'] for eid in c['evidence_ids']}
             require(any(ev[k]['role'] == 'current' for k in good & used), 'recent event needs cited eligible current evidence')
     check_comparisons(a, good, {c['id'] for c in catalogue(r['mode'])})
+    check_research_extensions(a, good)
     require('probability' not in a, 'register calibrated numeric forecasts separately')
     return {'eligible_evidence': sorted(good), 'selected': selected,
             'limits': 'Structural validation does not verify source truth, causal identification or forecast skill.'}
@@ -258,6 +296,12 @@ def render(snapshot):
                 out += ['  重新判断：' + x['reassessment']]
         out += ['', '传播与响应：' + m['propagation_vs_response'], '', '阶段切换：' + m['phase_switch'],
                 '', '观察过程：' + m['observation_process'], '', '反证：' + m['falsifier'], '', m['conclusion']]
+    for field, heading in (('source_coverage', '来源覆盖'), ('turning_points', '候选转折')):
+        for row in a.get(field, []):
+            out += ['', '## ' + heading + '：' + row['id']]
+            for key, value in row.items():
+                if key != 'id':
+                    out += ['', '- ' + key + '：' + (', '.join(value) if isinstance(value, list) else str(value))]
     if a.get('yijing_translation'):
         out += ['', '## 周易与人性社会', '', a['yijing_translation']]
     out += ['', '## 可行选项']
@@ -277,7 +321,7 @@ def render(snapshot):
 
 def finalize(work, analysis):
     validation = validate_analysis(work, analysis)
-    snapshot = {'schema_version': 2, 'created_at': now(), 'request': read(work / 'request.json'),
+    snapshot = {'schema_version': 3 if any(k in analysis for k in ('source_coverage', 'turning_points')) else 2, 'created_at': now(), 'request': read(work / 'request.json'),
                 'analysis': analysis, 'validation': validation, 'matching': matches(work),
                 'searches': records(work, 'searches'), 'evidence': records(work, 'evidence'),
                 'local_queries': records(work, 'local_queries')}

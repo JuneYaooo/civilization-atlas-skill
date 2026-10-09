@@ -50,6 +50,16 @@ python3 scripts/research_engine.py status --work ../research-work
 
 字段齐全与摘要校验只能发现结构性问题。重要决策仍须复核论据是否真的支持主张、替代解释是否公平、历史是否提供增量。数值概率和结果结算使用独立的 forecast registry，不能由匹配分数生成。
 
-新冻结报告使用 schema version 2；旧报告仍可验真，但缺少机制比较的旧分析不能直接按新版重新冻结。保留原档，另建补充研究。
+未使用扩展记录的报告保持 schema version 2；包含 `source_coverage` 或 `turning_points` 的新报告使用 version 3；旧报告仍可验真，但缺少机制比较的旧分析不能直接按新版重新冻结。保留原档，另建补充研究。
 
 结构校验不能发现伪装成 preserved 的错误状态、无关引用或未列出的关键条件。冻结前须对照原文审查重要状态与结论，并检查遗漏因素是否能反转判断；多段文字和合格证据 ID 不构成语义核验。
+
+## 来源覆盖与转折记录
+
+两项均为可选非空列表；没有开展该类研究时省略，不应靠空表伪装完成。它们随原始 analysis 冻结并呈现在报告中。每行 `id` 唯一，`evidence_ids` 仅允许本次信息截点合格证据；无法纳入的材料在缺口说明中登记，后来证据进入追加复盘。
+
+- `source_coverage`：`id`, `question`, `actor_position`, `channel`, `upstream_assessment`, `gap_and_decision_effect`, `status`, `evidence_ids`。status 为 read / located_only / unavailable / not_searched / not_applicable；read 必须有合格引用，其余状态可无引用。不适用或没有缺口也说明理由；引用数量不代表独立来源数量。
+- `turning_points`：`id`, `target`, `horizon`, `old_state`, `maintenance_conditions`, `candidate_change`, `causal_role`, `transition_criterion`, `conditions`, `timeline`, `behavior_and_feedback`, `counterfactual`, `nontransition_comparison`, `observation_process`, `falsifier`, `decision_effect`, `status`, `claim_kind`, `evidence_ids`。除列表外均为非空文本；对照缺失应在对应字段说明缺口，不杜撰对象。
+- 转折 status 为 unresolved / candidate / observed_transition / reversal。claim_kind 为 hypothesis / observation；观察主张必须引用合格证据，observed_transition 与 reversal 必须标为 observation。未知候选可以保留为无引用的假说，不能写成已观察到转折。数值概率仍走独立登记工具。
+
+这些状态是作者的研究判断，不是程序推断。程序不能发现无关引用、未列出的候选转折、伪造的阅读声明，或以假说标签夹带的事实断言；字段检查与真实研究质量需分别审核。冻结摘要只能证明此文件之后未被修改，不证明内容最初写于事件之前。
