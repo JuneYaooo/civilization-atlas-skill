@@ -2,7 +2,7 @@
 
 以来源可追溯的历史记录、政体、国家／经济体和社会指标，支持跨时期检索与比较历史研究。COW 国家、战争和联盟资料目前仅提供来源入口，未包含在随包数据库中。
 
-当前包含 Seshat Polaris 2026、世界银行五项长期指标、NASA GISTEMP 全球温度序列，以及既有历史条目的迁移。实际规模和缺口以 [覆盖报告](reports/coverage.md) 为准。
+当前包含 Seshat Polaris 2026、世界银行五项长期指标、八项 WDI 历史镜像、NASA GISTEMP 全球温度序列，以及既有历史条目的迁移。2026-10-09 追加的镜像覆盖与限制见[扩充记录](reports/expansion-20261009.md)。实际规模和缺口以 [覆盖报告](reports/coverage.md) 为准。
 
 ## 浏览与检索
 
@@ -30,11 +30,12 @@ python3 scripts/serve.py
 
 ## 获取与重建
 
-`acquire.py`、`acquire_modern.py`、`acquire_climate.py` 分别获取历史结构、现代指标和全球温度快照。首次构建还使用已迁移的编纂快照。采集脚本完成后检查 manifest 的获取状态；来源发生结构变化时应先复核适配器。
+`acquire.py`、`acquire_modern.py`、`acquire_climate.py` 分别获取历史结构、现代指标和全球温度快照。`acquire_extended.py` 获取 `extended-indicators.json` 明确列出的历史镜像；它不代表获取当前指标版本。首次构建还使用已迁移的编纂快照。采集脚本完成后检查 manifest 的获取状态；来源发生结构变化时应先复核适配器。
 
 ```sh
 python3 scripts/build.py
 python3 scripts/report.py
+python3 scripts/package_database.py
 ```
 
 构建先校验来源摘要，再生成临时 SQLite 数据库，检查外键和完整性后替换查询库。原始快照保留；已有数据库不是历史所有版本的合并视图。当前重建使用后来发布或修订的资料，不可直接当作预测起点时可得的数据。

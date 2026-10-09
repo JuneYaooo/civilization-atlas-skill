@@ -1,12 +1,12 @@
 {
-  "built_at": "2026-09-25T11:54:39.523400+00:00",
+  "built_at": "2026-10-09T08:40:32.355939+00:00",
   "counts": {
-    "sources": 20,
-    "entities": 1050,
-    "records": 146099,
-    "observations": 145228,
+    "sources": 36,
+    "entities": 1051,
+    "records": 219964,
+    "observations": 219093,
     "relations": 82,
-    "variables": 179
+    "variables": 187
   },
   "collections": [
     {
@@ -113,6 +113,62 @@
       "rows": 17490,
       "start": 1960,
       "end": 2025
+    },
+    {
+      "source_id": "wdi-mirror-FP.CPI.TOTL.ZG",
+      "collection": "historical_indicator_mirror",
+      "rows": 11295,
+      "start": 1960,
+      "end": 2024
+    },
+    {
+      "source_id": "wdi-mirror-FS.AST.PRVT.GD.ZS",
+      "collection": "historical_indicator_mirror",
+      "rows": 9326,
+      "start": 1960,
+      "end": 2016
+    },
+    {
+      "source_id": "wdi-mirror-GB.XPD.RSDV.GD.ZS",
+      "collection": "historical_indicator_mirror",
+      "rows": 3064,
+      "start": 1996,
+      "end": 2023
+    },
+    {
+      "source_id": "wdi-mirror-NE.EXP.GNFS.ZS",
+      "collection": "historical_indicator_mirror",
+      "rows": 10643,
+      "start": 1960,
+      "end": 2016
+    },
+    {
+      "source_id": "wdi-mirror-SH.MED.BEDS.ZS",
+      "collection": "historical_indicator_mirror",
+      "rows": 5861,
+      "start": 1960,
+      "end": 2021
+    },
+    {
+      "source_id": "wdi-mirror-SL.UEM.TOTL.ZS",
+      "collection": "historical_indicator_mirror",
+      "rows": 6291,
+      "start": 1991,
+      "end": 2017
+    },
+    {
+      "source_id": "wdi-mirror-SP.DYN.TFRT.IN",
+      "collection": "historical_indicator_mirror",
+      "rows": 13770,
+      "start": 1960,
+      "end": 2016
+    },
+    {
+      "source_id": "wdi-mirror-SP.POP.65UP.TO.ZS",
+      "collection": "historical_indicator_mirror",
+      "rows": 13615,
+      "start": 1960,
+      "end": 2016
     }
   ],
   "scope": "Imported source claims; counts do not establish historical completeness",

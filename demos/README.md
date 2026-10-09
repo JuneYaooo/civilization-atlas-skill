@@ -10,6 +10,7 @@
 | 完整研究依据 | [三题研究](three-question-rerun/README.md)及[多渠道补证](three-question-rerun/multisource-supplement.md) | 已知结局后的历史重建；不是事前预测成绩 |
 | 简单预测会在哪里失败 | [数值回放](historical-replay/README.md) | 固定数值基线的误差，不能代表 Skill 的预测水平 |
 | 真实预测如何结算 | [电动车验证](ev-validation/README.md)及[第二轮核验](ev-validation/audit-2026-10-09.md) | 外部预测核对、历史反例，以及尚未提交预测的未来四题 |
+| 日常问题如何提问 | [买房、AI 学习与开店实测](workbuddy/user-cases-20261009.md) | 三个自然问题的真实客户端输出与人工纠错；不是预测成绩 |
 | AI 工具实际使用效果 | [WorkBuddy 记录](workbuddy/README.md)及[后续纠错实测](workbuddy/review-20261009.md) | 能执行哪些步骤、实际犯了什么错、哪些部分需要人工审核 |
 
 ## 早期与工程验证

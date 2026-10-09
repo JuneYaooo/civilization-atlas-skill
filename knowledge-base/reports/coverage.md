@@ -1,6 +1,6 @@
 # 随包知识库快照覆盖
 
-构建时间：2026-09-25T11:54:39.523400+00:00
+构建时间：2026-10-09T08:40:32.355939+00:00
 
 记录数是来源行数，含缺测和元数据；不等于独立史实数、事件总数或历史覆盖率。下表边界属于各来源集合，不代表对应主题的全球历史覆盖截止；随包目录索引与在线研究资料另行记录。
 
@@ -21,12 +21,20 @@
 | wb-SP.DYN.LE00.IN | country_year_indicator | 17,490 | 1960 至 2025 |
 | wb-SP.POP.TOTL | country_year_indicator | 17,490 | 1960 至 2025 |
 | wb-SP.URB.TOTL.IN.ZS | country_year_indicator | 17,490 | 1960 至 2025 |
+| wdi-mirror-FP.CPI.TOTL.ZG | historical_indicator_mirror | 11,295 | 1960 至 2024 |
+| wdi-mirror-FS.AST.PRVT.GD.ZS | historical_indicator_mirror | 9,326 | 1960 至 2016 |
+| wdi-mirror-GB.XPD.RSDV.GD.ZS | historical_indicator_mirror | 3,064 | 1996 至 2023 |
+| wdi-mirror-NE.EXP.GNFS.ZS | historical_indicator_mirror | 10,643 | 1960 至 2016 |
+| wdi-mirror-SH.MED.BEDS.ZS | historical_indicator_mirror | 5,861 | 1960 至 2021 |
+| wdi-mirror-SL.UEM.TOTL.ZS | historical_indicator_mirror | 6,291 | 1991 至 2017 |
+| wdi-mirror-SP.DYN.TFRT.IN | historical_indicator_mirror | 13,770 | 1960 至 2016 |
+| wdi-mirror-SP.POP.65UP.TO.ZS | historical_indicator_mirror | 13,615 | 1960 至 2016 |
 
 ## 数据质量与解释
 
 Seshat：626 个政体标识、42 个来源区域。区域并非现代国家。多数属性行未单列年代，不能把政体持续期当作该属性在每一年都有观察。
 
-观察状态：[{"status": "disputed", "n": 390}, {"status": "missing", "n": 15988}, {"status": "source_categorical_bundle", "n": 166}, {"status": "source_code_or_value", "n": 54756}, {"status": "source_value", "n": 73481}, {"status": "uncertain", "n": 447}]。代码值不等于独立核验的数值；SU、IP、IA 等保留来源编码，当前不转换成布尔或概率。
+观察状态：[{"status": "disputed", "n": 390}, {"status": "missing", "n": 15988}, {"status": "source_categorical_bundle", "n": 166}, {"status": "source_code_or_value", "n": 54756}, {"status": "source_value", "n": 147346}, {"status": "uncertain", "n": 447}]。代码值不等于独立核验的数值；SU、IP、IA 等保留来源编码，当前不转换成布尔或概率。
 
 倒置年代区间 0 条；年零记录 5 条。BCE 的年零规范尚需按源代码簿校准；不同资料的精确跨纪年联接尚未开展。
 

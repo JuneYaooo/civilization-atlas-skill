@@ -15,7 +15,7 @@ def integer(v):
 
 def main():
  manifests=[]
- for name in ['manifest.json','modern-manifest.json','legacy-manifest.json','climate-manifest.json']:
+ for name in ['manifest.json','modern-manifest.json','legacy-manifest.json','climate-manifest.json','extended-manifest.json']:
   p=ROOT/'data'/name
   if p.exists():manifests.extend(json.loads(p.read_text()))
  sources={s['id']:s for s in manifests if s['status']=='acquired'}
@@ -89,6 +89,26 @@ def main():
    year=int(row['date']);key=(eid,year);assert key not in seen;seen.add(key)
    rid=record(sid,'country_year_indicator','json[1]['+str(i)+']',row['country']['value']+' · '+label,row,eid,year,year,topic,'CE calendar year; source snapshot, revisions possible')
    value=row['value'];observation(rid,'wb:'+code,value,value,'missing' if value is None else 'source_value')
+ # Historical mirrors retain a separate source and variable namespace.
+ # Their retrieval date must not be confused with the last observation year.
+ indicator_path=ROOT/'data/extended-indicators.json'
+ for item in json.loads(indicator_path.read_text()) if indicator_path.exists() else []:
+  code=item['code'];sid='wdi-mirror-'+code
+  if sid not in sources:continue
+  metadata=json_source(sid+'-meta') if sid+'-meta' in sources else {}
+  vid='wdi-mirror:'+code
+  variable(vid,item['label'],item['unit'],metadata)
+  seen=set()
+  for loc,row in csv_source(sid):
+   country=row['Country Code'];eid='wb:'+country
+   if not db.execute('SELECT 1 FROM entities WHERE id=?',(eid,)).fetchone():
+    eid=entity('wdi-mirror:'+country,row['Country Name'],'country_or_aggregate_unresolved',sid,meta={'mapping_status':'not_in_bundled_country_metadata'})
+   year=int(row['Year']);key=(eid,year)
+   if key in seen:raise ValueError('Duplicate mirror country/year: '+sid+' '+str(key))
+   seen.add(key)
+   value=float(row['Value']) if row['Value'].strip() else None
+   rid=record(sid,'historical_indicator_mirror',loc,row['Country Name']+' · '+item['label'],row,eid,year,year,item['topic'],'CE year; historical mirror vintage not recovered; retrieval date is not observation date',status='mirror_source_assertion_not_independently_verified')
+   observation(rid,vid,value,value,'missing' if value is None else 'source_value')
  if 'cow-states' in sources:
   for loc,row in csv_source('cow-states','statelist2024.csv'):
    eid=entity('cow:'+row['ccode'],row['statenme'],'state_system_member','cow-states')

@@ -1,0 +1,50 @@
+[
+  {
+    "code": "SP.DYN.TFRT.IN",
+    "topic": "demography",
+    "label": "总和生育率",
+    "unit": "births per woman"
+  },
+  {
+    "code": "SP.POP.65UP.TO.ZS",
+    "topic": "demography",
+    "label": "65岁及以上人口占比",
+    "unit": "percent"
+  },
+  {
+    "code": "FS.AST.PRVT.GD.ZS",
+    "topic": "finance",
+    "label": "国内私人部门信贷占GDP比重",
+    "unit": "percent of GDP"
+  },
+  {
+    "code": "FP.CPI.TOTL.ZG",
+    "topic": "economy",
+    "label": "居民消费价格通胀率",
+    "unit": "annual percent"
+  },
+  {
+    "code": "SL.UEM.TOTL.ZS",
+    "topic": "employment",
+    "label": "失业率（ILO模型估计）",
+    "unit": "percent of total labor force"
+  },
+  {
+    "code": "GB.XPD.RSDV.GD.ZS",
+    "topic": "technology",
+    "label": "研发支出占GDP比重",
+    "unit": "percent of GDP"
+  },
+  {
+    "code": "SH.MED.BEDS.ZS",
+    "topic": "health",
+    "label": "医院床位",
+    "unit": "per 1000 people"
+  },
+  {
+    "code": "NE.EXP.GNFS.ZS",
+    "topic": "trade",
+    "label": "商品和服务出口占GDP比重",
+    "unit": "percent of GDP"
+  }
+]

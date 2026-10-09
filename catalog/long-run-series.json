@@ -26,6 +26,86 @@
       "query": "全球地表年均温度距平",
       "snapshot": "knowledge-base/data/climate-manifest.json",
       "limits": "全球平均距平不是地区灾害概率；未完成年度和缺测不填零。"
+    },
+    {
+      "id": "historical-sp.dyn.tfrt.in",
+      "indicator": "SP.DYN.TFRT.IN",
+      "source": "World Bank WDI via DataHub historical mirror",
+      "unit": "births per woman",
+      "query": "总和生育率",
+      "source_filter": "wdi-mirror-SP.DYN.TFRT.IN",
+      "snapshot": "knowledge-base/data/extended-manifest.json",
+      "limits": "不能当作家庭实际生育决定或当代生育率。 镜像观测截止见扩展清单；首次发布及修订链未知，不能作为当前事实。"
+    },
+    {
+      "id": "historical-sp.pop.65up.to.zs",
+      "indicator": "SP.POP.65UP.TO.ZS",
+      "source": "World Bank WDI via DataHub historical mirror",
+      "unit": "percent",
+      "query": "65岁及以上人口占比",
+      "source_filter": "wdi-mirror-SP.POP.65UP.TO.ZS",
+      "snapshot": "knowledge-base/data/extended-manifest.json",
+      "limits": "不等于抚养负担或某城市人口结构。 镜像观测截止见扩展清单；首次发布及修订链未知，不能作为当前事实。"
+    },
+    {
+      "id": "historical-fs.ast.prvt.gd.zs",
+      "indicator": "FS.AST.PRVT.GD.ZS",
+      "source": "World Bank WDI via DataHub historical mirror",
+      "unit": "percent of GDP",
+      "query": "国内私人部门信贷占GDP比重",
+      "source_filter": "wdi-mirror-FS.AST.PRVT.GD.ZS",
+      "snapshot": "knowledge-base/data/extended-manifest.json",
+      "limits": "不等于居民房贷余额或个人贷款资格。 镜像观测截止见扩展清单；首次发布及修订链未知，不能作为当前事实。"
+    },
+    {
+      "id": "historical-fp.cpi.totl.zg",
+      "indicator": "FP.CPI.TOTL.ZG",
+      "source": "World Bank WDI via DataHub historical mirror",
+      "unit": "annual percent",
+      "query": "居民消费价格通胀率",
+      "source_filter": "wdi-mirror-FP.CPI.TOTL.ZG",
+      "snapshot": "knowledge-base/data/extended-manifest.json",
+      "limits": "不同国家篮子与修订口径可能不同。 镜像观测截止见扩展清单；首次发布及修订链未知，不能作为当前事实。"
+    },
+    {
+      "id": "historical-sl.uem.totl.zs",
+      "indicator": "SL.UEM.TOTL.ZS",
+      "source": "World Bank WDI via DataHub historical mirror",
+      "unit": "percent of total labor force",
+      "query": "失业率（ILO模型估计）",
+      "source_filter": "wdi-mirror-SL.UEM.TOTL.ZS",
+      "snapshot": "knowledge-base/data/extended-manifest.json",
+      "limits": "模型估计不等于当地岗位需求或失业登记数。 镜像观测截止见扩展清单；首次发布及修订链未知，不能作为当前事实。"
+    },
+    {
+      "id": "historical-gb.xpd.rsdv.gd.zs",
+      "indicator": "GB.XPD.RSDV.GD.ZS",
+      "source": "World Bank WDI via DataHub historical mirror",
+      "unit": "percent of GDP",
+      "query": "研发支出占GDP比重",
+      "source_filter": "wdi-mirror-GB.XPD.RSDV.GD.ZS",
+      "snapshot": "knowledge-base/data/extended-manifest.json",
+      "limits": "研发投入不等于创新产出或突破速度。 镜像观测截止见扩展清单；首次发布及修订链未知，不能作为当前事实。"
+    },
+    {
+      "id": "historical-sh.med.beds.zs",
+      "indicator": "SH.MED.BEDS.ZS",
+      "source": "World Bank WDI via DataHub historical mirror",
+      "unit": "per 1000 people",
+      "query": "医院床位",
+      "source_filter": "wdi-mirror-SH.MED.BEDS.ZS",
+      "snapshot": "knowledge-base/data/extended-manifest.json",
+      "limits": "床位数不等于可部署的医护与疫情响应能力。 镜像观测截止见扩展清单；首次发布及修订链未知，不能作为当前事实。"
+    },
+    {
+      "id": "historical-ne.exp.gnfs.zs",
+      "indicator": "NE.EXP.GNFS.ZS",
+      "source": "World Bank WDI via DataHub historical mirror",
+      "unit": "percent of GDP",
+      "query": "商品和服务出口占GDP比重",
+      "source_filter": "wdi-mirror-NE.EXP.GNFS.ZS",
+      "snapshot": "knowledge-base/data/extended-manifest.json",
+      "limits": "出口比重不等于单个企业收入；不含进口，不能称作全部贸易依赖。 镜像观测截止见扩展清单；首次发布及修订链未知，不能作为当前事实。"
     }
   ]
 }
