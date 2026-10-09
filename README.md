@@ -41,7 +41,7 @@ Civilization Atlas 是一个用历史研究现实问题的 AI Skill。它把历�
 
 ## 案例与效果
 
-下面三题于 **2026 年 10 月在 WorkBuddy 实际运行**。展示的是经过追加复核的回答；初答发现的问题、追问与剩余限制见[实测记录](demos/workbuddy/user-cases-20261009.md)。它们展示分析与纠错过程，尚未产生可结算的预测成绩。
+下面三题于 **2026 年 10 月在 WorkBuddy 实际运行**。动图按顺序展示提问、初答与追加复核，由真实滚动截图组成；初答发现的问题、追问与剩余限制见[实测记录](demos/workbuddy/user-cases-20261009.md)。它们展示分析与纠错过程，尚未产生可结算的预测成绩。
 
 ### 「房价跌了几年，现在买还是再等等？」
 
@@ -49,7 +49,9 @@ Civilization Atlas 是一个用历史研究现实问题的 AI Skill。它把历�
 
 从住房与信贷周期里寻找风险机制，再分开比较买与租的现金流、总成本和退出代价。实测纠正了“缩短贷款期限会改善月供压力”的错误；没有城市和家庭收支信息，不能直接给出买入结论。
 
-![WorkBuddy 买房问题复核后的实际回答](assets/workbuddy/07-housing-reviewed.jpg)
+![买房：从提问到复核的真实对话动图](assets/workbuddy/dialogues/housing/dialogue.gif)
+
+[可暂停视频](assets/workbuddy/dialogues/housing/dialogue.mp4) · [逐页查看完整对话](demos/workbuddy/dialogue-gallery.md#买房)
 
 ### 「AI 越来越能干，我现在学的东西会不会很快没用了？」
 
@@ -57,7 +59,9 @@ Civilization Atlas 是一个用历史研究现实问题的 AI Skill。它把历�
 
 把技术替代任务、创造新任务和组织采用分开，落到自己工作中的小规模试验。实测也提醒：不能从某类招聘样本推出“所有人都不该学某种技能”，更不能承诺某个职业不会被替代。
 
-![WorkBuddy AI 学习方向复核后的实际回答](assets/workbuddy/08-ai-reviewed.jpg)
+![AI 学习：从提问到两轮复核的真实对话动图](assets/workbuddy/dialogues/ai/dialogue.gif)
+
+[可暂停视频](assets/workbuddy/dialogues/ai/dialogue.mp4) · [逐页查看完整对话](demos/workbuddy/dialogue-gallery.md#ai-学习)
 
 ### 「想开一家小餐馆，又怕遇到疫情那样的冲击，怎么办？」
 
@@ -65,7 +69,9 @@ Civilization Atlas 是一个用历史研究现实问题的 AI Skill。它把历�
 
 用历史危机检查固定承诺、资金时点和退出条件，再做收入下滑的压力比较。复核把会计利润、经营现金与退出回收分开，并撤回缺少依据的“止损红线”。这些计算依赖店铺的真实成本，不能从宏观危机类比推出一家店的成功率。
 
-![WorkBuddy 餐馆避险问题复核后的实际回答](assets/workbuddy/09-restaurant-reviewed.jpg)
+![开店：从提问到两轮纠错的真实对话动图](assets/workbuddy/dialogues/restaurant/dialogue.gif)
+
+[可暂停视频](assets/workbuddy/dialogues/restaurant/dialogue.mp4) · [逐页查看完整对话](demos/workbuddy/dialogue-gallery.md#开店)
 
 早期的[房地产、疫情与 AI 历史重建](demos/three-question-rerun/README.md)保留为研究材料；它们使用已知结局后的资料，不是当年作出的预测。
 
@@ -81,7 +87,7 @@ Civilization Atlas 是一个用历史研究现实问题的 AI Skill。它把历�
 
 ## 实际使用
 
-上面三组截图来自 WorkBuddy 5.6.2 的实际对话。初答都出现了需要审阅的地方，追加指令后的修订也不能替代独立核查。[完整实测记录](demos/workbuddy/user-cases-20261009.md) · [早期史料查询与回放演示](demos/workbuddy/README.md) · [安装使用](INSTALL.md)
+上面三组动图来自 WorkBuddy 5.6.2 的实际对话截图序列，不是模型生成过程的连续录屏。视频可暂停或拖动进度，逐页版保留原尺寸截图。初答都出现了需要审阅的地方，追加指令后的修订也不能替代独立核查。[完整实测记录](demos/workbuddy/user-cases-20261009.md) · [早期史料查询与回放演示](demos/workbuddy/README.md) · [安装使用](INSTALL.md)
 
 ## 使用前需要知道
 
