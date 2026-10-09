@@ -25,9 +25,9 @@ Civilization Atlas 是一个用历史研究现实问题的 AI Skill。它把历�
 
 **寻找反例，并比较多种解释。** 一个历史故事很容易支持一种观点。研究需要同时寻找不同结局，检查哪些条件改变了结果。资料包括统计、研究、历史记录、报道与个人见闻；具体经历提供线索，其代表性仍需核实。
 
-**把判断写成可以检查的预测。** 明确对象、期限和指标，留下原始判断，再与实际结果和简单预测方法比较。证据不足时，保留未知；条件改变时，说明为何修订。
+**判断要有成立条件，也要有推翻它的证据。** 说明哪些因素主导变化、哪些条件可能引发转折，以及接下来应观察什么。新证据出现后，回看原先的解释是否仍然成立，再修订判断。
 
-![研究流程：定义问题、取证、比较历史条件、形成判断、登记预测、核对结果](assets/research-flow.gif)
+![研究流程：定义问题、核实资料、比较条件、形成判断、观察信号、检验修订](assets/research-flow.gif)
 
 涉及人性、合作、冲突与社会演进时，也可借助周易的时位、进退与变化观念提出问题。它在这里是思考工具，经验判断仍需要证据，没有被证明能提高预测准确率。
 
@@ -41,7 +41,7 @@ Civilization Atlas 是一个用历史研究现实问题的 AI Skill。它把历�
 
 ## 案例与效果
 
-下面三题于 **2026 年 10 月在 WorkBuddy 实际运行**。动图按顺序展示提问、初答与追加复核，由真实滚动截图组成；初答发现的问题、追问与剩余限制见[实测记录](demos/workbuddy/user-cases-20261009.md)。它们展示分析与纠错过程，尚未产生可结算的预测成绩。
+以下是在 WorkBuddy 中的实际对话，展示如何从历史对照走到现实选择。点击动图可查看完整对话与复核记录。
 
 ### 「房价跌了几年，现在买还是再等等？」
 
@@ -49,9 +49,7 @@ Civilization Atlas 是一个用历史研究现实问题的 AI Skill。它把历�
 
 从住房与信贷周期里寻找风险机制，再分开比较买与租的现金流、总成本和退出代价。实测纠正了“缩短贷款期限会改善月供压力”的错误；没有城市和家庭收支信息，不能直接给出买入结论。
 
-![买房：从提问到复核的真实对话动图](assets/workbuddy/dialogues/housing/dialogue.gif)
-
-[可暂停视频](assets/workbuddy/dialogues/housing/dialogue.mp4) · [逐页查看完整对话](demos/workbuddy/dialogue-gallery.md#买房)
+[![买房：从提问到复核的真实对话动图](assets/workbuddy/dialogues/housing/dialogue.gif)](demos/workbuddy/dialogue-gallery.md#买房)
 
 ### 「AI 越来越能干，我现在学的东西会不会很快没用了？」
 
@@ -59,9 +57,7 @@ Civilization Atlas 是一个用历史研究现实问题的 AI Skill。它把历�
 
 把技术替代任务、创造新任务和组织采用分开，落到自己工作中的小规模试验。实测也提醒：不能从某类招聘样本推出“所有人都不该学某种技能”，更不能承诺某个职业不会被替代。
 
-![AI 学习：从提问到两轮复核的真实对话动图](assets/workbuddy/dialogues/ai/dialogue.gif)
-
-[可暂停视频](assets/workbuddy/dialogues/ai/dialogue.mp4) · [逐页查看完整对话](demos/workbuddy/dialogue-gallery.md#ai-学习)
+[![AI 学习：从提问到两轮复核的真实对话动图](assets/workbuddy/dialogues/ai/dialogue.gif)](demos/workbuddy/dialogue-gallery.md#ai-学习)
 
 ### 「想开一家小餐馆，又怕遇到疫情那样的冲击，怎么办？」
 
@@ -69,35 +65,17 @@ Civilization Atlas 是一个用历史研究现实问题的 AI Skill。它把历�
 
 用历史危机检查固定承诺、资金时点和退出条件，再做收入下滑的压力比较。复核把会计利润、经营现金与退出回收分开，并撤回缺少依据的“止损红线”。这些计算依赖店铺的真实成本，不能从宏观危机类比推出一家店的成功率。
 
-![开店：从提问到两轮纠错的真实对话动图](assets/workbuddy/dialogues/restaurant/dialogue.gif)
-
-[可暂停视频](assets/workbuddy/dialogues/restaurant/dialogue.mp4) · [逐页查看完整对话](demos/workbuddy/dialogue-gallery.md#开店)
-
-早期的[房地产、疫情与 AI 历史重建](demos/three-question-rerun/README.md)保留为研究材料；它们使用已知结局后的资料，不是当年作出的预测。
-
-### 目前验证到了哪一步
-
-以下状态核对于 2026 年 10 月，研究与测试记录按各自执行日期保留。[全部案例与验证记录](demos/README.md)。
-
-![数值回放：中国城市化方向相符，日本人口与巴西实际人均 GDP 方向失败](assets/prediction-results.gif)
-
-项目对 **5,425** 个国家—指标—时间点组合做了五年趋势外推，**4,766** 题有数据可核对，其余因缺测无法结算。简单线性趋势在部分指标上优于保持不变，但在实际人均 GDP 上误差反而更大。上图是固定展示题，数据使用后来修订的快照，**不能据此给出本 Skill 的预测准确率**。[完整结果与复现方法](demos/historical-replay/README.md)。
-
-另核对了一次真实的外部预测：SMMT 在 2023 年预计英国 2024 年纯电新车份额为 **22.3%**，实际为 **19.6%**，高估 **2.7 个百分点**。本项目也已登记四国 2027 年第一季度纯电新车份额的验证题，但尚未提交预测、尚无成绩。[预测与验证记录](demos/ev-validation/README.md)。
-
-## 实际使用
-
-上面三组动图来自 WorkBuddy 5.6.2 的实际对话截图序列，不是模型生成过程的连续录屏。视频可暂停或拖动进度，逐页版保留原尺寸截图。初答都出现了需要审阅的地方，追加指令后的修订也不能替代独立核查。[完整实测记录](demos/workbuddy/user-cases-20261009.md) · [早期史料查询与回放演示](demos/workbuddy/README.md) · [安装使用](INSTALL.md)
+[![开店：从提问到两轮纠错的真实对话动图](assets/workbuddy/dialogues/restaurant/dialogue.gif)](demos/workbuddy/dialogue-gallery.md#开店)
 
 ## 使用前需要知道
 
-- **尚未证明预测优势。** 历史重建、程序运行通过和真实事前预测是不同的验证；目前没有证据证明本项目能稳定胜过简单基线或改善决策收益。
+- **提供趋势研判，不承诺准确预言。** 项目没有经过验证的通用定量预测能力，不能仅凭历史类比给出可靠的涨跌幅、事件概率或发生日期。引用统计数据、在明确假设下做情景测算，不等于预测未来会出现这些数值。
 - **相似历史可能导向不同结局。** 技术、制度与人的行为会变化，类比成立的条件需要逐项检查，不能套用历史日期、涨幅或成功路径。
 - **资料与 AI 都会出错。** 知识库有缺口，在线资料可能冲突或过时，AI 可能误读来源。重要判断应回查原文，区分事实、推断和未知。
 - **判断方向不等于选对行动。** 行业增长不保证企业盈利，趋势成立不保证投资回报；实际决策还受成本、时机和个人约束影响。
 
 ## 进一步了解
 
-[Skill 指令](SKILL.md) · [研究方法](references/mechanism-transfer.md) · [知识库来源](knowledge-base/ATTRIBUTION.md) · [案例与验证索引](demos/README.md)
+[Skill 指令](SKILL.md) · [研究方法](references/mechanism-transfer.md) · [知识库来源](knowledge-base/ATTRIBUTION.md) · [研究与实测记录](demos/README.md)
 
 程序按 [MIT](LICENSE) 分发；原创方法说明采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)，署名 Civilization Atlas contributors。第三方数据适用各自来源条款。
