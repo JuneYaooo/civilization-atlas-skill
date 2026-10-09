@@ -78,4 +78,4 @@ Civilization Atlas 是一个用历史研究现实问题的 AI Skill。它把历�
 
 [Skill 指令](SKILL.md) · [研究方法](references/mechanism-transfer.md) · [知识库来源](knowledge-base/ATTRIBUTION.md) · [研究与实测记录](demos/README.md)
 
-程序按 [MIT](LICENSE) 分发；原创方法说明采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)，署名 Civilization Atlas contributors。第三方数据适用各自来源条款。
+程序按 [MIT](LICENSE) 分发。第三方数据适用各自来源条款。
