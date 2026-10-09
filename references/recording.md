@@ -4,7 +4,7 @@
 
 ## 对象
 
-顶层使用`schema_version`、`id`、`question`、`target_definition`、`geography`、`time_scope`、`as_of`、`information_regime`，以及`sources`、`evidence`、`claims`、`mechanisms`、`predictions`集合。当前`schema_version`为1。
+顶层使用`schema_version`、`id`、`question`、`target_definition`、`geography`、`time_scope`、`as_of`、`information_regime`，以及`sources`、`evidence`、`claims`、`mechanisms`、`predictions`集合。本协议的`schema_version`为1，仅对应 `casebook.py`。研究引擎报告使用自己的 version 2/3 格式，二元预测登记也有独立格式；版本号不跨工具通用，文件不能直接混用。
 
 来源记录标题、URL、版本、访问范围及可得时间；证据记录来源ID、定位和观察；命题区分观察、作者解释、项目假设与价值目标，并关联支持、挑战或背景证据及理由。机制记录过程、适用条件、区分观察和命题引用。预测记录目标、期限、明确条件、状态、结算规则和命题引用。
 

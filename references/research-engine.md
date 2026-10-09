@@ -66,4 +66,4 @@ python3 scripts/research_engine.py status --work ../research-work
 - `turning_points`：`id`, `target`, `horizon`, `old_state`, `maintenance_conditions`, `candidate_change`, `causal_role`, `transition_criterion`, `conditions`, `timeline`, `behavior_and_feedback`, `counterfactual`, `nontransition_comparison`, `observation_process`, `falsifier`, `decision_effect`, `status`, `claim_kind`, `evidence_ids`。除列表外均为非空文本；对照缺失应在对应字段说明缺口，不杜撰对象。
 - 转折 status 为 unresolved / candidate / observed_transition / reversal。claim_kind 为 hypothesis / observation；观察主张必须引用合格证据，observed_transition 与 reversal 必须标为 observation。未知候选可以保留为无引用的假说，不能写成已观察到转折。数值概率仍走独立登记工具。
 
-这些状态是作者的研究判断，不是程序推断。程序不能发现无关引用、未列出的候选转折、伪造的阅读声明，或以假说标签夹带的事实断言；字段检查与真实研究质量需分别审核。冻结摘要只能证明此文件之后未被修改，不证明内容最初写于事件之前。
+这些状态是作者的研究判断，不是程序推断。程序不能发现无关引用、未列出的候选转折、伪造的阅读声明，或以假说标签夹带的事实断言；字段检查与真实研究质量需分别审核。摘要与既有可信副本一致时，可核对内容是否变化；如果文件与摘要一并重写，本地校验无法识别。它不证明内容最初写于事件之前。

@@ -23,6 +23,7 @@
     "catalog/crises.json",
     "catalog/figures.json",
     "catalog/long-run-series.json",
+    "demos/README.md",
     "demos/ev-validation/README.md",
     "demos/ev-validation/audit-2026-10-09.md",
     "demos/ev-validation/check.py",

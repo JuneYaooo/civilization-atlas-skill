@@ -33,7 +33,7 @@ Civilization Atlas 是一个用历史研究现实问题的 AI Skill。它把历�
 
 ### 有哪些资料可用
 
-内置知识库提供 **146,099 条来源记录**，涵盖历史社会结构、人口、经济、城市化、互联网普及和气候资料。包括 Seshat 的 626 个政体、世界银行的 217 个国家／经济体及聚合组，另有历史事件与人物决策索引。记录保留出处，方便回查；近期问题还需要补充在线资料。
+随包知识库为 **2026-09-25 构建的快照**，提供 **146,099 条来源记录**，涵盖历史社会结构、人口、经济、城市化、互联网普及和气候资料。包括 Seshat 的 626 个政体、世界银行的 217 个国家／经济体及聚合组，另有历史事件与人物决策索引。记录保留出处，方便回查；近期问题还需要补充在线资料。
 
 这些记录包含缺测、元数据和作者编码，不等于同样数量的独立史实。疾病、灾害、科技突破和部分早期历史的覆盖仍不足。[查看覆盖范围与缺口](knowledge-base/reports/coverage.md)。
 
@@ -54,6 +54,8 @@ Civilization Atlas 是一个用历史研究现实问题的 AI Skill。它把历�
 **以上是已知结局后的历史重建，展示研究方法，不是当年作出的预测，也不计命中率。** [查看三题的推理步骤](demos/prediction-cases/README.md)。
 
 ### 目前验证到了哪一步
+
+以下状态核对于 2026-10-09，研究与测试记录按各自执行日期保留。[全部案例与验证记录](demos/README.md)。
 
 ![数值回放：中国城市化方向相符，日本人口与巴西实际人均 GDP 方向失败](assets/prediction-results.svg)
 
@@ -78,6 +80,6 @@ Civilization Atlas 是一个用历史研究现实问题的 AI Skill。它把历�
 
 ## 进一步了解
 
-[Skill 指令](SKILL.md) · [研究方法](references/mechanism-transfer.md) · [知识库来源](knowledge-base/ATTRIBUTION.md) · [验证记录](demos/mechanism-validation/README.md)
+[Skill 指令](SKILL.md) · [研究方法](references/mechanism-transfer.md) · [知识库来源](knowledge-base/ATTRIBUTION.md) · [案例与验证索引](demos/README.md)
 
 程序按 [MIT](LICENSE) 分发；原创方法说明采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)，署名 Civilization Atlas contributors。第三方数据适用各自来源条款。
