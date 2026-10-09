@@ -1,0 +1,35 @@
+{
+  "mode": "known_outcome_descriptive_check",
+  "skill_accuracy": null,
+  "rows": [
+    {
+      "country": "Germany",
+      "share2023": 18.4285,
+      "share2024": 13.5096,
+      "share_change_pp": -4.9189,
+      "bev_volume_change_percent": -27.395
+    },
+    {
+      "country": "France",
+      "share2023": 16.8037,
+      "share2024": 16.9118,
+      "share_change_pp": 0.1081,
+      "bev_volume_change_percent": -2.5501
+    },
+    {
+      "country": "United Kingdom",
+      "share2023": 16.5359,
+      "share2024": 19.5603,
+      "share_change_pp": 3.0244,
+      "bev_volume_change_percent": 21.3809
+    },
+    {
+      "country": "Norway",
+      "share2023": 82.3832,
+      "share2024": 88.8948,
+      "share_change_pp": 6.5115,
+      "bev_volume_change_percent": 9.3777
+    }
+  ],
+  "uk_external_forecast_error_pp": 2.7
+}

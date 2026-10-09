@@ -1,0 +1,46 @@
+{
+  "mode": "known_outcome_descriptive_check",
+  "selection": "Purposive four-country pilot, not representative or independent. Outcomes viewed during selection; not a Skill prediction backtest.",
+  "source_url": "https://www.acea.auto/files/Press_release_car_registrations_December_2024.pdf",
+  "source_date": "2025-01-21",
+  "locator": "Page 4 of 6; year-to-date country rows, BEV and TOTAL columns",
+  "accessed_on": "2026-10-09",
+  "rows": [
+    {
+      "country": "Germany",
+      "bev2023": 524219,
+      "total2023": 2844609,
+      "bev2024": 380609,
+      "total2024": 2817331
+    },
+    {
+      "country": "France",
+      "bev2023": 298219,
+      "total2023": 1774722,
+      "bev2024": 290614,
+      "total2024": 1718412
+    },
+    {
+      "country": "United Kingdom",
+      "bev2023": 314687,
+      "total2023": 1903054,
+      "bev2024": 381970,
+      "total2024": 1952778
+    },
+    {
+      "country": "Norway",
+      "bev2023": 104588,
+      "total2023": 126953,
+      "bev2024": 114396,
+      "total2024": 128687
+    }
+  ],
+  "uk_external_forecast": {
+    "source_url": "https://www.smmt.co.uk/wp-content/uploads/WEBSUM-SMMT-CAR-LCV-MARKET-OUTLOOK-Q4-06-11-2023-FINAL.pdf",
+    "version": "October 2023 outlook published November 2023",
+    "forecast_share_percent": 22.3,
+    "observed_share_percent": 19.6,
+    "observation_url": "https://www.smmt.co.uk/record-ev-market-share-but-weak-private-demand-frustrates-ambition/"
+  },
+  "source_conflict": "OFV current page (updated 2026-06-25) reports Norway 114400 BEV / 128691 total. ACEA January 2025 PDF gives 114396 / 128687. Keep ACEA fixed vintage for all four arithmetic rows; do not merge versions or assert reason for discrepancy."
+}

@@ -1,0 +1,58 @@
+{
+  "record_type": "frozen_binary_record",
+  "schema_version": 1,
+  "kind": "taskset",
+  "frozen_at": "2026-10-09T06:07:21.737856+00:00",
+  "payload": {
+    "schema_version": 1,
+    "id": "ev-adoption-four-markets-2027q1-v1",
+    "information_regime": "real_time",
+    "task_family": "One-quarter BEV adoption share changes in four purposefully selected European passenger-car markets; correlated tasks, not historical turning-point certification.",
+    "unit_definition": "Country-quarter, new passenger-car BEV share",
+    "risk_set_definition": "Exactly DE FR UK NO in 2027Q1; retain all four regardless of policy changes, direction, abstention or missing data. Not a representative country sample.",
+    "aggregation": "equal_task",
+    "tasks": [
+      {
+        "id": "DE-2027Q1-share-rise",
+        "unit_id": "DE",
+        "target_definition": "2027年第一季度新注册乘用车中BEV份额严格高于2026年第一季度同口径份额",
+        "forecast_due": "2026-12-31T00:00:00Z",
+        "event_start": "2027-01-01T00:00:00Z",
+        "event_end": "2027-04-01T00:00:00Z",
+        "resolve_after": "2027-05-15T00:00:00Z",
+        "resolution_rule": "Germany: 使用ACEA在2027-05-15前发布的2027年3月累计注册报告及截至该日的勘误，取Jan-Mar BEV与全部新乘用车整数注册量及同表2026同期量。比较BEV2027*TOTAL2026 > BEV2026*TOTAL2027则1，否则0，平手0；不含PHEV、HEV、货车或保有量。只能用同一可比口径，不能平均月份份额。若该报告没有两年完整整数数据或口径不可比则unresolved；到2027-06-30仍不能按此固定版本规则恢复则invalid，不能改用预测或另换统计口径。政策变化不删题。后续修订另存敏感性结果，不覆盖首结算。"
+      },
+      {
+        "id": "FR-2027Q1-share-rise",
+        "unit_id": "FR",
+        "target_definition": "2027年第一季度新注册乘用车中BEV份额严格高于2026年第一季度同口径份额",
+        "forecast_due": "2026-12-31T00:00:00Z",
+        "event_start": "2027-01-01T00:00:00Z",
+        "event_end": "2027-04-01T00:00:00Z",
+        "resolve_after": "2027-05-15T00:00:00Z",
+        "resolution_rule": "France: 使用ACEA在2027-05-15前发布的2027年3月累计注册报告及截至该日的勘误，取Jan-Mar BEV与全部新乘用车整数注册量及同表2026同期量。比较BEV2027*TOTAL2026 > BEV2026*TOTAL2027则1，否则0，平手0；不含PHEV、HEV、货车或保有量。只能用同一可比口径，不能平均月份份额。若该报告没有两年完整整数数据或口径不可比则unresolved；到2027-06-30仍不能按此固定版本规则恢复则invalid，不能改用预测或另换统计口径。政策变化不删题。后续修订另存敏感性结果，不覆盖首结算。"
+      },
+      {
+        "id": "UK-2027Q1-share-rise",
+        "unit_id": "UK",
+        "target_definition": "2027年第一季度新注册乘用车中BEV份额严格高于2026年第一季度同口径份额",
+        "forecast_due": "2026-12-31T00:00:00Z",
+        "event_start": "2027-01-01T00:00:00Z",
+        "event_end": "2027-04-01T00:00:00Z",
+        "resolve_after": "2027-05-15T00:00:00Z",
+        "resolution_rule": "United Kingdom: 使用ACEA在2027-05-15前发布的2027年3月累计注册报告及截至该日的勘误，取Jan-Mar BEV与全部新乘用车整数注册量及同表2026同期量。比较BEV2027*TOTAL2026 > BEV2026*TOTAL2027则1，否则0，平手0；不含PHEV、HEV、货车或保有量。只能用同一可比口径，不能平均月份份额。若该报告没有两年完整整数数据或口径不可比则unresolved；到2027-06-30仍不能按此固定版本规则恢复则invalid，不能改用预测或另换统计口径。政策变化不删题。后续修订另存敏感性结果，不覆盖首结算。"
+      },
+      {
+        "id": "NO-2027Q1-share-rise",
+        "unit_id": "NO",
+        "target_definition": "2027年第一季度新注册乘用车中BEV份额严格高于2026年第一季度同口径份额",
+        "forecast_due": "2026-12-31T00:00:00Z",
+        "event_start": "2027-01-01T00:00:00Z",
+        "event_end": "2027-04-01T00:00:00Z",
+        "resolve_after": "2027-05-15T00:00:00Z",
+        "resolution_rule": "Norway: 使用ACEA在2027-05-15前发布的2027年3月累计注册报告及截至该日的勘误，取Jan-Mar BEV与全部新乘用车整数注册量及同表2026同期量。比较BEV2027*TOTAL2026 > BEV2026*TOTAL2027则1，否则0，平手0；不含PHEV、HEV、货车或保有量。只能用同一可比口径，不能平均月份份额。若该报告没有两年完整整数数据或口径不可比则unresolved；到2027-06-30仍不能按此固定版本规则恢复则invalid，不能改用预测或另换统计口径。政策变化不删题。后续修订另存敏感性结果，不覆盖首结算。"
+      }
+    ]
+  },
+  "sha256": "0d27044b4a35abc0107bb9062e31b84a86946240bd4ab0382f6529567fb9e853"
+}
