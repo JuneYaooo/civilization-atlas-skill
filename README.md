@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/banner.svg" alt="Civilization Atlas · 博古通今" width="100%"></p>
+<p align="center"><img src="assets/banner.gif" alt="Civilization Atlas · 博古通今" width="100%"></p>
 
 <p align="center"><a href="#能做什么">能做什么</a> · <a href="#历史怎样帮助判断">研究方法</a> · <a href="#案例与效果">案例与效果</a> · <a href="#使用前需要知道">局限与风险</a> · <a href="INSTALL.md">安装使用</a></p>
 
@@ -27,7 +27,7 @@ Civilization Atlas 是一个用历史研究现实问题的 AI Skill。它把历�
 
 **把判断写成可以检查的预测。** 明确对象、期限和指标，留下原始判断，再与实际结果和简单预测方法比较。证据不足时，保留未知；条件改变时，说明为何修订。
 
-![研究流程：定义问题、取证、比较历史条件、形成判断、登记预测、核对结果](assets/research-flow.svg)
+![研究流程：定义问题、取证、比较历史条件、形成判断、登记预测、核对结果](assets/research-flow.gif)
 
 涉及人性、合作、冲突与社会演进时，也可借助周易的时位、进退与变化观念提出问题。它在这里是思考工具，经验判断仍需要证据，没有被证明能提高预测准确率。
 
@@ -57,7 +57,7 @@ Civilization Atlas 是一个用历史研究现实问题的 AI Skill。它把历�
 
 以下状态核对于 2026-10-09，研究与测试记录按各自执行日期保留。[全部案例与验证记录](demos/README.md)。
 
-![数值回放：中国城市化方向相符，日本人口与巴西实际人均 GDP 方向失败](assets/prediction-results.svg)
+![数值回放：中国城市化方向相符，日本人口与巴西实际人均 GDP 方向失败](assets/prediction-results.gif)
 
 项目对 **5,425** 个国家—指标—时间点组合做了五年趋势外推，**4,766** 题有数据可核对，其余因缺测无法结算。简单线性趋势在部分指标上优于保持不变，但在实际人均 GDP 上误差反而更大。上图是固定展示题，数据使用后来修订的快照，**不能据此给出本 Skill 的预测准确率**。[完整结果与复现方法](demos/historical-replay/README.md)。
 

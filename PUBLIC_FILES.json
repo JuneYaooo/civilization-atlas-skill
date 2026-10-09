@@ -9,8 +9,11 @@
     "README.md",
     "SKILL.md",
     "agents/openai.yaml",
+    "assets/banner.gif",
     "assets/banner.svg",
+    "assets/prediction-results.gif",
     "assets/prediction-results.svg",
+    "assets/research-flow.gif",
     "assets/research-flow.svg",
     "assets/workbuddy/01-installed.jpg",
     "assets/workbuddy/03-evidence.jpg",
@@ -142,7 +145,8 @@
     "scripts/research_engine.py",
     "scripts/search_plan.py",
     "tests/test_dynamic_research.py",
-    "tests/test_research_engine.py"
+    "tests/test_research_engine.py",
+    "tools/render_readme_motion.py"
   ],
   "binary_files": {
     "knowledge-base/data/history.sqlite.gz": "e77284bcae791c4158dd8b44f8e55b5c322713b4c8021723dd2804a7a77bf9bc",
@@ -153,6 +157,9 @@
     "assets/workbuddy/05-cases.jpg": "7d89dbadabecc7a1cadf6c0aa237e7d69f1d5d1b9bf8a2d9b734b658dd483d5b",
     "assets/workbuddy/04-replay.jpg": "ce76a3a3cba6d3861096ef005ee5dc439879044f5ccc90707d36cde10f0c8e50",
     "assets/workbuddy/results-browsing.mp4": "a6384104683b6361dcb9fd5a2cfd44062c5045927e4578660c6311754684109f",
-    "assets/workbuddy/06-evidence-review.jpg": "abe9bfb0aab1b5a58d330c0550e4ec54ee1bb689197b8de22e9aab90cebb0b7d"
+    "assets/workbuddy/06-evidence-review.jpg": "abe9bfb0aab1b5a58d330c0550e4ec54ee1bb689197b8de22e9aab90cebb0b7d",
+    "assets/banner.gif": "c20b7622359870c7e65099f2ab505b37d3f864e4befe1f94ced5a020c6838deb",
+    "assets/research-flow.gif": "b68e1ebd49d834e9d8fa74346de0ea60d6d5354227277c46df32bd39a76b2d91",
+    "assets/prediction-results.gif": "e36f695e0119ff1deaaf3af36a0984ca4e945a7faab4d96f83623807b95e0884"
   }
 }
