@@ -23,9 +23,15 @@ def check():
     allowed = set(manifest['files'])
     problems = []
     actual = set()
+    # Local-only files that git ignores (e.g. evaluation runs) are never published.
+    ignored = subprocess.run(['git', 'ls-files', '--others', '--ignored', '--exclude-standard', '-z'],
+                             cwd=ROOT, capture_output=True)
+    ignored = set(ignored.stdout.decode().split('\0')) if ignored.returncode == 0 else set()
     for path in ROOT.rglob('*'):
         rel = path.relative_to(ROOT)
         if any(part in ('.git', 'dist', '__pycache__') for part in rel.parts):
+            continue
+        if rel.as_posix() in ignored:
             continue
         if path.is_symlink():
             problems.append(f'Symlink not allowed: {rel}')

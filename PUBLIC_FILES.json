@@ -238,6 +238,7 @@
     "scripts/research_engine.py",
     "scripts/search_plan.py",
     "tests/test_dynamic_research.py",
+    "tests/test_kb_series.py",
     "tests/test_research_engine.py",
     "tools/render_readme_motion.py",
     "tools/render_workbuddy_dialogues.py"

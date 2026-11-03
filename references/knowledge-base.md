@@ -14,6 +14,10 @@
 | `entities` | 通过 `--q` 查询来源专属主体标识 |
 | `search` | 使用 `--q`、`--source`、`--topic`、`--entity`、`--start`、`--end`、`--limit`、`--offset` 筛选记录 |
 | `record ID` | ID 为位置参数（不是 `--id`），读取原始断言、来源摘要、定位和关联记录 |
+| `indicators` | 列出可按国家—年份取数的指标、年份范围与版本说明 |
+| `series` | `--indicator` 加 `--entity`（ISO3、`wb:` 标识或国名，逗号分隔），可选 `--start`、`--end`、`--years`、`--nearest`、`--compare-current`、`--format json`；一次取出带定位的年份—数值表 |
+
+数值比较优先用 `series`，不必逐条读取 `record`。`--compare-current` 需要联网，会对比世界银行 API 的现行版本并标出差异年份；取不到时如实显示不可用，只能使用历史版本。
 
 以上命令均通过知识库的 `scripts/query.py` 调用，`--help` 给出实际接口。查询程序只读；回答问题无需重新下载或重建全部数据。
 

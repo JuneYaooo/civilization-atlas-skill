@@ -16,3 +16,7 @@ cases/
 !knowledge-base/data/**
 knowledge-base/data/history.sqlite
 knowledge-base/data/history.building.sqlite
+
+# local evaluation runs (not published)
+evals/
+demos/skill-ab-eval/
